@@ -1,0 +1,30 @@
+@use "../variables" as *;
+@use "../mixin" as *;
+
+.experiences {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }    
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    &__title {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        h3 {
+            font-weight:600;
+        }
+        em  {
+            font-weight: 200;
+            font-style: italic;
+        }
+    }
+    &__description {
+        padding-left: 1rem;
+    }
+}

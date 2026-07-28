@@ -1,0 +1,133 @@
+@use "../variables" as *;
+@use "../mixin" as *;
+
+.dark {
+    .bloc {
+        box-shadow: $shadowDark;
+    }
+    .bloc.secondary {
+        background-color: $primaryDark;
+    }
+    .bloc.primary {
+        background-color: $secondaryDark;
+    }
+}
+
+.bloc {
+    padding :1.25rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    gap: 1rem;
+    box-shadow: $shadow;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+    &.tertiary {
+        background: none;
+        border-radius: 0;
+        padding: 0;
+        box-shadow: none;
+        .bloc__container {
+            align-items: flex-start;
+            gap: 2rem;
+        } 
+    }
+    &.primary {
+        background-color: $secondary;
+    }
+    &.secondary {
+        background-color: $primary;
+        color: $white;
+        p, h2, h3, em {
+            color: $white;
+        }
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        width: 100%;
+        margin:0.5rem 0 0 0;
+        img {
+            width: 35px;
+            height: auto;
+        }
+    }
+    &__container-cta {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.25rem;
+        align-items: flex-start;
+        @include mobile {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+    &__container-sword {
+        display: flex;
+        align-items: center;
+
+    }
+    &__intitule {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        img {
+            width: 100%;
+            max-width: 30px;
+        }
+        .intitule {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+    }
+    .lvl {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        @include mobile {
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+        }
+        img {
+            width: 100%;
+            max-width: 54px;
+            height: auto;
+        }
+        &__txt {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            justify-content: center;
+            .lvl__sstxt {
+                width: auto;
+                display: none;
+                @include mobile {
+                    display: block;
+                }
+            }
+        }
+        &__title {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        &__sstxt {
+            width: 100%;
+            text-align: center;
+            @include mobile {
+                display: none;
+            }
+        }
+    }
+}

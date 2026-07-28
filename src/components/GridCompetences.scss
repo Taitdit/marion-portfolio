@@ -1,0 +1,51 @@
+@use "../variables" as *;
+@use "../mixin" as *;
+
+.competences {
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+
+        &:not(.simple) {
+            @include mobile {
+                grid-template-columns: repeat(5, minmax(0, 1fr));
+            }
+            @include smallTablette {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+            }
+            @include tablette {
+                grid-template-columns: repeat(4, minmax(0, 1fr));
+            }
+            @include smallDesktop {
+                grid-template-columns: repeat(7, minmax(0, 1fr));
+            }
+            @include desktop {
+                grid-template-columns: repeat(7, minmax(0, 1fr));
+            }
+            @include bigDesktop {
+                grid-template-columns: repeat(9, minmax(0, 1fr));
+            }
+        }
+    }
+    &__elmt {
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        p {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            text-align: center;
+            @include desktop {
+                font-size: 13px;
+            }
+        }
+    }
+}

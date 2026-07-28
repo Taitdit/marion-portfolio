@@ -1,0 +1,69 @@
+@use "./variables" as *;
+
+
+@mixin bigDesktop {
+  @media (min-width: $bigDesktop) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
+@mixin smallDesktop {
+  @media (min-width: $smallDesktop) {
+    @content;
+  }
+}
+@mixin tablette {
+  @media (min-width: $tablette) {
+    @content;
+  }
+}
+@mixin smallTablette {
+  @media (min-width: $smallTablette) {
+    @content;
+  }
+}
+@mixin tabSpe {
+  @media (min-width: $tabSpe) {
+    @content;
+  }
+}
+@mixin bigMobile {
+  @media (min-width: $bigMobile) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (min-width: $mobile) {
+    @content;
+  }
+}
+@mixin smallMobile {
+  @media (min-width: $smallMobile) {
+    @content;
+  }
+}
+
+@mixin title {
+    font-family: $font-title;
+    font-weight: 400;
+    font-style: normal;
+}
+@mixin font {
+    font-family: $font;
+    font-weight: normal;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+@mixin hide {
+    display: none;
+    visibility: hidden;
+}
+@mixin show {
+    display: block;
+    visibility: visible;
+}

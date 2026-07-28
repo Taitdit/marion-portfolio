@@ -1,0 +1,206 @@
+@use "./variables" as *;
+@use "./mixin" as *;
+
+.open {
+  overflow: hidden;
+  @include smallDesktop {
+    overflow: scroll;
+  }
+}
+
+body {
+    background-color: $white;
+    font-size: 16px;
+    &.dark {
+      background-color: $whiteDark;
+    }
+}
+main {
+  padding: 1rem;
+}
+
+img {
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+    color: $text;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+    @include font;
+    line-height: 1.1;
+    font-size: 0.9rem;
+    font-weight: 400;
+    @include mobile {
+      font-size: 1rem;
+    }
+}
+.dark {
+  * {
+    color: $textDark;
+  }
+}
+
+.boxShadow {
+  box-shadow: $shadow;
+}
+
+h1 {
+  @include title;
+  font-size: 2.8rem;
+  @include mobile {
+    font-size: 3.5rem;
+  } 
+}
+
+h2 {
+  @include font;
+  font-size: 1.5rem; 
+  font-weight: 700;
+}
+
+ 
+.hidden {
+    @include hide
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+main {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  @include smallDesktop {
+    gap: 2rem;
+  }
+}
+section.container  {
+  width: 100%;
+  @include desktop {
+    width: 93%;
+  }
+  @include smallDesktop {
+    width: 90%;
+  }
+}
+.cta {
+  &__primaryWrong {
+    background-color: $primary;
+    padding: 0.25rem 0.8rem 0.25rem 0.8rem;
+    border-radius: 1rem;
+    line-height: 1.0;    
+    color: $white;
+    display: flex;
+    align-items: center;
+    gap: 0.40rem;
+    span {
+      color: $white;
+    }
+    img {
+      max-width: 13px;
+      height: auto;
+    }
+  }
+  &__primary {
+    background-color: $primary;
+    padding: 0.8rem 1.7rem 0.8rem 1rem;
+    border-radius: 1.5rem;
+    line-height: 1.1;    
+    color: $white;
+    display: flex;
+    align-items: center;
+    gap: 0.40rem;
+    position: relative;
+    overflow: hidden;
+    
+    text-decoration: none;
+    span {
+      color: $white;
+      z-index: 1;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    &::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      transform: translateX(100%);
+      background-color: $primaryDark;
+      transition: all ease 0.25s;
+    }
+    &:hover {
+      &::before {
+        transform: translateX(0);
+      }
+    }
+    img {
+      max-width: 13px;
+      height: auto;
+    }
+  }
+  &__secondary {
+    background-color: $secondary;
+    padding: 0.8rem 1rem 0.8rem 1.7rem;
+    border-radius: 1.5rem;
+    line-height: 1.1;    
+    color: $text;
+    display: flex;
+    align-items: center;
+    gap: 0.40rem;
+    position: relative;
+    overflow: hidden;
+    
+    text-decoration: none;
+    span {
+      color: $text;
+      z-index: 1;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    &::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      transform: translateX(-100%);
+      background-color: $hoverCtaSecondary;
+      transition: all ease 0.25s;
+    }
+    &:hover {
+      &::before {
+        transform: translateX(0);
+      }
+    }
+    img {
+      max-width: 13px;
+      height: auto;
+    }
+  }
+}
+.dark .cta {
+  &__primaryWrong {
+    background-color: $primaryDark;
+  }
+  &__primary {
+    background-color: $primaryDark;
+  }
+}
+*.bigFont {
+  p, em, span, h3 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+}
