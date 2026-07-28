@@ -327,13 +327,17 @@
             @include desktop {
                 flex-direction: row;
                 .intro__intro {
-                    width: calc(60% - 0.5rem);
+                    width: calc(50% - 0.5rem);
                 } 
                 .bloc {
                     flex: 1;
                 }
             }
-
+            @include bigXLDesktop {
+                .intro__intro {
+                    width: calc(60% - 0.5rem);
+                } 
+            }
             .intro__intro {
                 display: flex;
                 flex-direction: column;
