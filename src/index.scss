@@ -79,12 +79,11 @@ main {
 }
 section.container  {
   width: 100%;
-  @include desktop {
-    width: 93%;
-  }
+
   @include smallDesktop {
-    width: 90%;
+    width: 94%;
   }
+
 }
 .cta {
   &__primaryWrong {
@@ -115,7 +114,7 @@ section.container  {
     gap: 0.40rem;
     position: relative;
     overflow: hidden;
-    
+    cursor: pointer;
     text-decoration: none;
     span {
       color: $white;
@@ -197,7 +196,7 @@ section.container  {
 }
 *.bigFont {
   p, em, span, h3 {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     line-height: 1.2;
   }
   h2 {

@@ -67,7 +67,7 @@
         }
 
         @include desktop {
-            width: 35%;
+            width: 25%;
             display: flex;
             flex-direction: column;
         }
@@ -151,7 +151,7 @@
             }
         }
         @include desktop {
-            width: 65%;
+            width: 75%;
             .bloc__A { 
                 display: block;
                 width: 100%;
@@ -254,17 +254,12 @@
         &__img{
             width: 50%;
             height: auto;
-            max-width: 177px;
+            max-width: 237px;
             margin: 1rem 0;
             @include mobile {
-                width: 100%;
+                width: calc(100% - 132px);
             }
-            @include smallTablette {
-                width: calc(100% - 100px);
-            }
-            @include smallDesktop {
-                max-width: 207px;
-            }
+
             @include desktop {
                 max-width: 267px;
             }
@@ -275,9 +270,7 @@
             align-items: center;
             justify-content: center;
             gap: 1rem;
-            @include smallDesktop {
-                gap: 2rem;
-            }
+
             .arrow {
                 background: $secondary;
                 cursor: pointer;
@@ -288,9 +281,9 @@
                 padding: 0.5rem;
                 padding-right:0.3rem;
                 box-shadow: $shadow;
-                @include smallDesktop {
-                    width: 60px;
-                    height: 60px;
+                @include mobile {
+                    width: 50px;
+                    height: 50px;
                 }
                 &.right {
                     padding-right:0.5rem;

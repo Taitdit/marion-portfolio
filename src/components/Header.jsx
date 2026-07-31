@@ -25,7 +25,13 @@ const Header = () => {
             <div className={`header__container ${open ? 'active' : ''}`}>
                 <div className='header__nav'>
                     <div className='nav__img'>
-                    <img src='./img/marion-profile.png' alt='photo profile' />
+                    {location.pathname !== '/' ? 
+                         <Link role='link' to="/">
+                            <img src='./img/marion-profile.png' alt='photo profile' />
+                        </Link>
+                        : 
+                        <img src='./img/marion-profile.png' alt='photo profile' />
+                    }
                     <button className={`header__darkmode ${dark ? 'active' : ''}`}  role='button' aria-label='dark mode' onClick={() => toggleDarkMode()}>
                         <SunIcon className='picto' width='49' height='49' />
                     </button>

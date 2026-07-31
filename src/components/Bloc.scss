@@ -4,12 +4,27 @@
 .dark {
     .bloc {
         box-shadow: $shadowDark;
-    }
-    .bloc.secondary {
-        background-color: $primaryDark;
-    }
-    .bloc.primary {
-        background-color: $secondaryDark;
+        
+        &.secondary {
+            background-color: $primaryDark;
+            &.lvlNotHome {
+                background: none;
+                @include smallTablette {
+                    box-shadow: $shadowDark;
+                    background: $primaryDark;
+                }
+            }
+        }
+        &.primary {
+            background-color: $secondaryDark;
+            &.lvlNotHome {
+                background: none;
+                @include smallTablette {
+                    box-shadow: $shadowDark;
+                    background: $secondaryDark;
+                }
+            }
+        }
     }
 }
 
@@ -128,6 +143,22 @@
             @include mobile {
                 display: none;
             }
+        }
+    }
+    &.lvlNotHome {
+        background: none;
+        padding: 0;
+        box-shadow: none;
+        @include smallTablette {
+            padding :1.25rem;
+            box-shadow: $shadow;
+            &.primary {
+                background-color: $secondary;
+            }
+            &.secondary {
+                background-color: $primary;
+            }
+            
         }
     }
 }

@@ -63,13 +63,13 @@ const Home = () => {
             date: "2023 - Aujourd'hui",
             title: "Dike Déco - Alternance puis CDI",
             status: "Présentiel",
-            description: "Photomontages de décors de Noël, création de supports de communication Web et print, gestion du site web, des catalogues, des stocks et développement de produits."
+            description: "Photomontages de décors de Noël, création de supports Web et print, gestion du site, des catalogues, des stocks et des produits."
         },
         {
             date: "2021 - 2022",
             title: "Akatek - Alternance",
             status: "100% Télétravail",
-            description: "Conception de maquettes de sites web, UI,  intégration front-end et collaboration avec les équipes de développement sur des projets web."
+            description: "Conception de maquettes web, UI, intégration front-end et collaboration avec les développeurs."
         },
         {
             date: "2020 - 2021",
@@ -168,8 +168,9 @@ const Home = () => {
     const contenuAprime = () => {
         return ( 
         <>
-            <p>J’aime mon métier et ce qu’il me permet de créer au quotidien. Curieuse et toujours motivée pour apprendre, je cherche constamment à progresser, développer mes compétences et découvrir de nouvelles façons de faire. Je prends plaisir à explorer de nouvelles méthodes, optimiser ma façon de travailler et trouver des solutions pour gagner en efficacité.</p>
-            <p>Chaque projet est pour moi une nouvelle occasion de comprendre un besoin, d’explorer différentes pistes et de trouver la réponse la plus juste. J’aime chercher, tester et m’adapter afin de concevoir des réalisations créatives, cohérentes et abouties, qui répondent au mieux aux attentes de chaque demande.</p>
+            <p>J’aime mon métier et ce qu’il me permet de créer au quotidien. Curieuse et motivée, je cherche constamment à développer mes compétences, explorer de nouvelles méthodes et optimiser ma façon de travailler.</p>
+
+            <p>Chaque projet est pour moi l’occasion de comprendre un besoin et d’apporter une réponse créative, cohérente et adaptée. J’aime explorer différentes pistes afin de concevoir des réalisations qui répondent pleinement aux attentes.</p>
         </>
         )
     }
