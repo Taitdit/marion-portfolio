@@ -1,0 +1,118 @@
+@use "../variables" as *;
+@use "../mixin" as *;
+
+.dark {
+    .form {
+        background-color: $secondaryDark;
+        box-shadow: $shadowDark;
+        &__field {
+            input, textarea {
+                background-color: $whiteDark;
+                box-shadow: inset 2px 2px 5px rgb(120 120 120 / 16%), inset -2px -2px 5px rgb(112 112 112 / 45%)
+            }
+        }
+    }
+}
+.form {
+    background-color: $secondary;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 100%;
+    box-shadow: $shadow;
+    &__heading {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        img {
+            width: 100%;
+            max-width: 20px;
+        }
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    &__fields {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 4.5rem;
+        row-gap: 2rem;
+    }
+
+    &__field {
+        min-width: 0;
+
+        label {
+            display: block;
+            margin-bottom: 0.65rem;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        &--error {
+            color: $error;
+        }
+        input,
+        textarea {
+            display: block;
+            width: 100%;
+            border: 1px solid transparent;
+            background: $white;
+            color: #222;
+            font: inherit;
+            box-shadow:
+                inset 2px 2px 5px rgba(24, 19, 16, 0.14),
+                inset -2px -2px 5px rgba(24, 19, 16, 0.05);
+            transition:
+                border-color 150ms ease,
+                box-shadow 150ms ease;
+            box-sizing: border-box;
+
+            &:focus {
+                outline: none;
+                border-color: $primary;
+                box-shadow:
+                0 0 0 3px rgba(138, 113, 206, 0.2),
+                inset 2px 2px 5px rgba(24, 19, 16, 0.1);
+            }
+
+            &[aria-invalid="true"] {
+                border-color: $error;
+            }
+        }
+        input {
+            height: 2.5rem;
+            padding: 0 1rem;
+            border-radius: 0.5rem;
+        }
+
+        textarea {
+            min-height: 160px;
+            padding: 1rem;
+            border-radius: 1rem;
+            resize: vertical;
+        }
+    }
+    &__footer {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        @include mobile {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    &__submit-message {
+        font-size: 0.9rem;
+        &--error {
+            color: $error;
+        }
+        &--success {
+            color: $success;
+        }
+    }
+    &__required {
+        width: 50%;
+    }
+}

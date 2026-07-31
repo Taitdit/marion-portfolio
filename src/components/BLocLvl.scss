@@ -1,0 +1,59 @@
+@use "../variables" as *;
+@use "../mixin" as *;
+
+.lvlNotHome {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img  {
+        display: none;
+        max-width: 127px;
+        @include smallTablette {
+            display: block;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    &__info {
+        display: flex;
+        justify-content: flex-end;
+        text-align: right;
+        gap: 0.5rem;
+        @include smallTablette {
+            text-align: left;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+    }
+    &__lvl {
+        display: none;
+        align-items: center;
+        gap: 1rem;
+        @include smallTablette {
+            display: flex;
+        }
+
+        img {
+            width: 100%;
+            max-width: 56px;
+            height: auto;
+        }
+        &__txt {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        &__title {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        &__sstxt {
+            width: 100%;
+        }
+    }
+    
+}

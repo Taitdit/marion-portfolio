@@ -1,0 +1,61 @@
+@use "../variables" as *;
+@use "../mixin" as *;
+
+.dark {
+    .info {
+        background-color: $secondaryDark;
+        box-shadow: $shadowDark;
+
+    }
+}
+.info {
+    background-color: $secondary;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 100%;
+    box-shadow: $shadow;
+    &__heading {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        img {
+            width: 100%;
+            max-width: 20px;
+        }
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    &__container {
+        padding: 1rem 2rem 2rem;
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            li {
+                display: flex;
+                flex-direction: column;
+                gap: 0.25rem;
+                .title {
+                    img {
+                        max-width:30px;
+                    }
+                    display: flex;
+                    gap: 1rem;
+                    align-items: center;
+                    span {font-weight: bold;}
+                }
+                a {
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+}
