@@ -121,7 +121,7 @@ const Grid = () => {
                                     <h2>{item.title}</h2>
                                     <p>{item.smallDescription}</p>
                                 </div>
-                                <Link className="cta__primary" to={`/portfolio/projet-${item.id}-${normalizeLabel(item.title)}`} ><span>Voir le projet</span></Link>
+                                <Link className="cta__primary" to={`/portfolio/projet-${normalizeLabel(item.title)}`} ><span>Voir le projet</span></Link>
                             </div>
                         </div>
                     )
