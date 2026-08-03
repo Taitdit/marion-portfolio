@@ -1,0 +1,44 @@
+[
+    {
+        "id":"01",
+        "title":"Brieuc Pompes funèbres",
+        "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
+        "type": ["Identité visuelle", "Webdesign", "Infographie"]
+    },
+    {
+        "id":"02",
+        "title":"Ville de Paimpont",
+        "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
+        "type": ["Branding", "Webdesign"]
+    },
+    {
+        "id":"03",
+        "title":"Stallion",
+        "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
+        "type": ["Branding", "Webdesign"]
+    },
+    {
+        "id":"04",
+        "title":"Nextgen EdTech",
+        "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
+        "type": ["Webdesign", "Infographie", "Motion design"]
+    },
+    {
+        "id":"05",
+        "title":"The Light Side Band",
+        "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
+        "type": ["Webdesign", "Infographie"]
+    },
+    {
+        "id":"06",
+        "title":"Chez Lolotte",
+        "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
+        "type": ["Identité visuelle", "Webdesign", "Infographie"]
+    },
+    {
+        "id":"07",
+        "title":"Travelture",
+        "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
+        "type": ["Branding", "Webdesign"]
+    }
+]

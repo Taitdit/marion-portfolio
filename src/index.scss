@@ -148,6 +148,7 @@ section.container  {
     img {
       max-width: 13px;
       height: auto;
+      z-index: 1;
     }
   }
   &__secondary {
@@ -161,7 +162,7 @@ section.container  {
     gap: 0.40rem;
     position: relative;
     overflow: hidden;
-    
+    cursor: pointer;
     text-decoration: none;
     span {
       color: $text;
@@ -189,8 +190,57 @@ section.container  {
     img {
       max-width: 13px;
       height: auto;
+      z-index: 1;
     }
   }
+
+  &__filter {
+      background-color: $secondary;
+      padding: 0.8rem;
+      border-radius: 1.5rem;
+      line-height: 1.1;    
+      color: $text;
+      display: flex;
+      align-items: center;
+      gap: 0.40rem;
+      position: relative;
+      overflow: hidden;
+      box-shadow: $shadow;
+      border: 2px solid $secondary;
+      cursor: pointer;
+      text-decoration: none;
+        span {
+          color: $text;
+          z-index: 1;
+          text-decoration: none;
+          font-weight: 500;
+        }
+        
+        &:hover {
+          box-shadow: none;
+          border-color: $text;
+        }
+        img {
+          max-width: 13px;
+          height: auto;
+          z-index: 1;
+        }
+        &.active {
+          background-color: $tertiary;
+          border-color: $tertiary;
+          box-shadow: none;
+          &:hover {
+            border-color: $text;
+          }
+        }
+        &:disabled {
+          cursor: initial;
+          box-shadow: initial;
+          background-color: $tertiary;
+          border-color: $tertiary;
+        }
+  }
+
 }
 .dark .cta {
   &__primaryWrong {
@@ -198,6 +248,31 @@ section.container  {
   }
   &__primary {
     background-color: $primaryDark;
+  }
+  &__filter {
+    background-color: $secondaryDark;
+    border-color: $secondaryDark;
+    box-shadow: $shadowDark;
+    span {
+      color: $textDark;
+    }
+    &:hover {
+      box-shadow: none;
+      border-color: $textDark;
+    }
+    &.active {
+        background-color: $tertiaryDark;
+        border-color: $tertiaryDark;
+        box-shadow: none;
+        &:hover {
+          border-color: $textDark;
+        }
+    }
+    &:disabled {
+      box-shadow: initial;
+      background-color: $tertiaryDark;
+      border-color: $tertiaryDark;
+    }
   }
 }
 *.bigFont {
@@ -208,4 +283,7 @@ section.container  {
   h2 {
     font-size: 1.8rem;
   }
+}
+.portfolio__container {
+    margin-top: 2rem;
 }
