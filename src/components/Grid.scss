@@ -1,0 +1,65 @@
+@use "../variables" as *;
+@use "../mixin" as *;
+
+.dark {
+    .grid {
+        &__filter {
+            background-color: $secondaryDark;
+            box-shadow: $shadowDark; 
+        }
+    }
+}
+.grid {
+    display: flex;
+    flex-direction: column;
+    &__filter {
+        background-color: $secondary;
+        border-radius: 1rem;
+        padding: 1rem;
+        width: 100%;
+        box-shadow: $shadow;
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+        justify-content: space-between;
+        @include smallTablette {
+            justify-content: flex-start;
+        }
+        &--withoutall {
+            display: none;
+            gap: 1rem;
+            &.active {
+                display: flex;
+            }
+            @include smallTablette {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-wrap: wrap;
+            }
+            &--container {
+                flex: 1;
+
+                .cta__burgerFilter {
+                    @include smallTablette {
+                        display: none;    
+                    }
+                }
+            }
+        }
+    }
+    .allFilter {
+        &__desk {
+            display: none;
+            @include smallTablette {
+                display: block;
+            }
+        }
+        &__mob {
+            display: block;
+            @include smallTablette {
+                display: none;
+            }
+        }   
+    }
+}
