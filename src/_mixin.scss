@@ -1,5 +1,11 @@
 @use "./variables" as *;
 
+@mixin bigBigXLDesktop {
+  @media (min-width: $bigBigXLDesktop) {
+    @content;
+  }
+}
+
 @mixin bigXLDesktop {
   @media (min-width: $bigXLDesktop) {
     @content;

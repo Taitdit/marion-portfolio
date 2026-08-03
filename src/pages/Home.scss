@@ -40,6 +40,10 @@
             width: calc(50% - 1rem);
             display: flex;
             flex-direction: column;
+            align-items: center;    
+            .bloc__B {
+                width: 70%;
+            }
         }
         @include smallDesktop {
             display: flex;
@@ -59,11 +63,9 @@
             flex-wrap: wrap;
             align-items: center;
         }
-        @include tabSpe {
-            align-items: flex-start;
-        }
         @include smallDesktop {
             display: none;
+            align-items: center;
         }
 
         @include desktop {
@@ -80,10 +82,10 @@
             }
             @include smallTablette {
                 &__A {
-                    width: 40%;
+                    width: 55%;
                 }
                 &__B {
-                    width: calc(60% - 2rem);
+                    width: calc(45% - 2rem);
                 }
                 &__C {
                     width: 100%;
@@ -91,10 +93,10 @@
             }
             @include tabSpe {
                 &__A {
-                    width: 60%;
+                    width: 65%;
                 }
                 &__B {
-                    width: calc(40% - 2rem);
+                    width: calc(35% - 2rem);
                 }
             }
             @include smallDesktop {
@@ -126,7 +128,7 @@
                     order: 1;
                 }
                 &__B {
-                    width: 100%;
+                    width: 80%;
                     order: 2;
                 }
                 &__Aprime {
