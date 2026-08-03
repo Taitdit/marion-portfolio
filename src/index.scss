@@ -83,6 +83,12 @@ section.container  {
   @include smallDesktop {
     width: 94%;
   }
+  @include bigDesktop {
+      width: 95%;
+  }
+  @include bigBigXLDesktop {
+      width: 96%;
+  }
 
 }
 .cta {

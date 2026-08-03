@@ -53,7 +53,12 @@
         flex-direction: column;
         
     }
-
+    @include bigDesktop {
+        width: 5%;
+    }
+    @include bigBigXLDesktop {
+        width: 4%;
+    }
     &__container {
         display: flex;
         position: fixed;
@@ -218,7 +223,7 @@
             cursor: pointer;
             border: 0;
             box-shadow: $shadow;
-            padding: 1.2rem;
+            padding: 1rem;
             @include mobile {
                 display: block;
             }
@@ -229,7 +234,7 @@
             }
             @include desktop {
                 width: 70%;
-                padding: 1rem;
+                padding: 0.8rem;
             }
             }
             &.active {
