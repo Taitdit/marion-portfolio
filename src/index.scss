@@ -94,6 +94,11 @@ section.container  {
   }
 
 }
+.project:hover .cta__primary {
+      &::before {
+        transform: translateX(0);
+      }
+}
 .cta {
   &__primaryWrong {
     background-color: $primary;
@@ -143,7 +148,7 @@ section.container  {
       background-color: $primaryDark;
       transition: all ease 0.25s;
     }
-    &:hover {
+    &:not(.specialCard):hover {
       &::before {
         transform: translateX(0);
       }
@@ -251,6 +256,9 @@ section.container  {
   }
   &__primary {
     background-color: $primaryDark;
+    &::before {
+      background-color: $primary;
+    }
   }
   &__filter {
     background-color: $secondaryDark;
