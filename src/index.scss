@@ -215,6 +215,7 @@ section.container  {
       overflow: hidden;
       box-shadow: $shadow;
       border: 2px solid $secondary;
+      min-height: 47px;
       cursor: pointer;
       text-decoration: none;
         span {
@@ -248,7 +249,45 @@ section.container  {
           border-color: $tertiary;
         }
   }
-
+  &__burgerFilter {
+    padding: 0.1rem 1.5rem 0;
+    background-color: $secondary;
+    border: 2px solid $text;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    span, svg {
+      color: $text;
+      z-index: 1;
+      text-decoration: none;
+      font-weight: 500;
+      position: relative;
+    }
+    &::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      transform: translateX(-100%);
+      background-color: $hoverCtaSecondary;
+      transition: all ease 0.25s;
+    }
+    &:hover {
+      &::before {
+        transform: translateX(0);
+      }
+    }
+    svg, img {
+      width: 100%;
+      max-width: 35px;
+      height: auto;
+    }
+  }
 }
 .dark .cta {
   &__primaryWrong {
@@ -260,29 +299,13 @@ section.container  {
       background-color: $primary;
     }
   }
-  &__filter {
+
+  &__burgerFilter {
     background-color: $secondaryDark;
-    border-color: $secondaryDark;
-    box-shadow: $shadowDark;
-    span {
+    border-color: $textDark;
+    
+    svg, img {
       color: $textDark;
-    }
-    &:hover {
-      box-shadow: none;
-      border-color: $textDark;
-    }
-    &.active {
-        background-color: $tertiaryDark;
-        border-color: $tertiaryDark;
-        box-shadow: none;
-        &:hover {
-          border-color: $textDark;
-        }
-    }
-    &:disabled {
-      box-shadow: initial;
-      background-color: $tertiaryDark;
-      border-color: $tertiaryDark;
     }
   }
 }

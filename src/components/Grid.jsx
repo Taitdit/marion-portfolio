@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from 'react-router-dom'
 import './Grid.scss'
+import FilterIcon from "./svg/FilterIcon";
 
 
 const Grid = () => {
@@ -76,10 +77,12 @@ const Grid = () => {
                 <button className='cta__filter allFilter__mob' disabled={!filterActif.length} onClick={() => filter('all')} type="button">
                     <span>Tous les projets</span>
                 </button>
-                
-                <div className='grid__filter--withoutall--container'>
+                <button className={`cta__burgerFilter ${burgerFilterState ? 'active' : ''}`} onClick={() => setBurgerFilterState(!burgerFilterState)} role="button">
+                       <FilterIcon /> 
+                </button>
+                <div className={`grid__filter--withoutall--container ${burgerFilterState ? 'active' : ''}`}>
 
-                    <button className={`cta__burgerFilter ${burgerFilterState ? 'active' : ''}`} onClick={() => setBurgerFilterState(!burgerFilterState)} role="button">r</button>
+                    
                     <div className={`grid__filter--withoutall ${burgerFilterState ? 'active' : ''}`}>
                     <button className='cta__filter allFilter__desk' disabled={!filterActif.length} onClick={() => filter('all')} type="button">
                         <span>Tous les projets</span>
@@ -95,7 +98,7 @@ const Grid = () => {
                             className={`cta__filter ${filterActif.includes(labelShort) ? 'active' : ''}`} 
                             onClick={() => filter(labelShort)}  
                             type="button">
-                                <img src={`/img/filter-${labelShort}.png`} alt={filterName} /> 
+                                <img src={`/img/filter-${labelShort}.webp`} alt={filterName} /> 
                                 <span>{filterName}</span>
                             </button>
                         )
@@ -110,7 +113,7 @@ const Grid = () => {
                     return (
                         <Link to={`/portfolio/projet-${normalizeLabel(item.title)}`} className="project">
                             <div className="project__img">
-                                <img src={`./img/${normalizeLabel(item.title)}.png`} alt={item.title}/>
+                                <img src={`./img/${normalizeLabel(item.title)}.webp`} alt={item.title}/>
                                 <div className="project__type">
                                     {arrayType.map((type) => 
                                         <div key={type} className={`project__type--button ${filterActif.includes(normalizeLabel(type)) ? 'active' : ''}`}>{type}</div>
