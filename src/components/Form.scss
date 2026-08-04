@@ -8,7 +8,22 @@
         &__field {
             input, textarea {
                 background-color: $whiteDark;
-                box-shadow: inset 2px 2px 5px rgb(120 120 120 / 16%), inset -2px -2px 5px rgb(112 112 112 / 45%)
+                box-shadow: inset 2px 2px 5px rgb(120 120 120 / 16%), inset -2px -2px 5px rgb(112 112 112 / 45%);
+                color: $textDark;
+                &[aria-invalid="true"] {
+                    border-color: $errorDark;
+                }
+            }
+            &-error {
+                color: $errorDark;
+            }
+        }
+        &__submit-message {
+            &--error {
+                color: $errorDark;
+            }
+            &--success {
+                color: $successDark;
             }
         }
     }
@@ -48,6 +63,7 @@
     &__field {
         min-width: 0;
         width: 100%;
+        position: relative;
         @include mobile {
             width: calc(50% - 1rem);
         }
@@ -57,7 +73,9 @@
             font-size: 1rem;
             font-weight: 600;
         }
-        &--error {
+        &-error {
+            position: absolute;
+            top: calc(100% + 0.25rem);
             color: $error;
         }
         input,
@@ -66,7 +84,7 @@
             width: 100%;
             border: 1px solid transparent;
             background: $white;
-            color: #222;
+            color: $text;
             font: inherit;
             box-shadow:
                 inset 2px 2px 5px rgba(24, 19, 16, 0.14),
@@ -91,7 +109,7 @@
         input {
             height: 2.5rem;
             padding: 0 1rem;
-            border-radius: 0.5rem;
+            border-radius: 0.8rem;
         }
 
         textarea {
@@ -120,6 +138,7 @@
     }
     &__submit-message {
         font-size: 0.9rem;
+        margin-top: 0.25rem;
         &--error {
             color: $error;
         }

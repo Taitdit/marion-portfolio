@@ -273,7 +273,6 @@ const Home = () => {
                             <Bloc wichBloc='H' 
                             titleContenu='Extras'
                             contenu={contenuDorH('h')} />
-                            <Bloc wichBloc='I' contenu={contenuI()} type='secondary' />
                         </div>
                     </div>
                 </div>

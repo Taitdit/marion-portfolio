@@ -10,21 +10,25 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/Contact"
 import Header from "./components/Header";
+import Footer from './components/Footer';
 import { DarkModeProvider } from "./contexts/DarkModeContext";
 import {MenuHeaderProvider } from "./contexts/MenuHeaderContext";
-
+import ScrollToTop from "./components/ScrollToTop";
 
 const MainLayout = () => {
+
 
   return (
     <MenuHeaderProvider>
     <DarkModeProvider>
+    <ScrollToTop />
     <main> 
       <Header />
         <section className="container hp">
           <Outlet />
         </section>
     </main>
+    <Footer />
     </DarkModeProvider>
     </MenuHeaderProvider>
   ); 
