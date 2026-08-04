@@ -9,7 +9,7 @@ const Contact = () => {
         <>
         <Bloctitle title="Contactez-moi" intro={introContenu()} />
         <div className='contact__container'>
-            <div className='contact__form'>
+            <div id='contact-form' className='contact__form'>
                 <Form />
             </div>
             <div className='contact__info'>

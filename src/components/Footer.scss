@@ -1,0 +1,107 @@
+@use "../variables" as *;
+@use "../mixin" as *;
+
+.footer {
+    &.dark {
+        background-color: $primaryDark;
+        form input {
+            background-color: $whiteDark;
+            box-shadow: inset 2px 2px 5px rgb(120 120 120 / 16%), inset -2px -2px 5px rgb(112 112 112 / 45%);
+            color: $textDark;
+            &[aria-invalid="true"] {
+                border-color: $errorDark;
+            }
+        }
+        .footer {
+            &__error {
+                color: $errorDark;
+            }
+            &__success {
+                color: $successDark;
+            }
+            &__more {
+                color: $textDark;
+                a, button {
+                    color: $textDark;
+                }
+            }
+        }
+    }
+    background-color: $primary;
+    width: 100%;
+    padding: 3rem 2rem;
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    &__container {
+        width: 100%;
+        max-width: 1260px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        
+    }
+    h2 {
+        color: $white;
+    }
+    &__intro {
+        color: $white;
+    }
+    form {
+        display: flex;
+        margin: 0.8rem 0 1.8rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+        position: relative;
+        input {
+            height: 2.5rem;
+            padding: 0 1rem;
+            border-radius: 0.8rem;
+            box-shadow:
+            inset 2px 2px 5px rgba(24, 19, 16, 0.14),
+            inset -2px -2px 5px rgba(24, 19, 16, 0.05);
+            display: block;
+            border: 1px solid transparent;
+            background: $white;
+            color: $text;
+            font: inherit;
+           transition:
+            border-color 150ms ease,
+            box-shadow 150ms ease;
+            box-sizing: border-box;
+            &:focus {
+                outline: none;
+                border-color: $primary;
+                box-shadow:
+                0 0 0 3px rgba(138, 113, 206, 0.2),
+                inset 2px 2px 5px rgba(24, 19, 16, 0.1);
+            }
+
+            &[aria-invalid="true"] {
+                border-color: $error;
+            }
+        }
+    }
+    &__msgAlert {
+        position: absolute;
+        top: calc(100% + 0.25rem);
+    }
+    &__error {
+        color: $error;
+    }
+    &__success {
+        color: $success;
+    }
+    &__more {
+        color: $text;
+        a, button {
+            color: $text;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
