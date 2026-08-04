@@ -37,7 +37,7 @@ const Grid = () => {
                     ? item.type
                     : [item.type];
                     const normalizedTypes = projectTypes.map((type) => normalizeLabel(type))
-                    return filterActif.some((activeFilter) => normalizedTypes.includes(activeFilter))
+                    return filterActif.every((activeFilter) => normalizedTypes.includes(activeFilter))
                     
                 })
                 setProject(filteredProjects);
@@ -103,31 +103,37 @@ const Grid = () => {
                     </div>
                 </div>
             </div>
+            {project.length ?
             <div className="grid__container">
-                {project.map((item) => {
+                 {project.map((item) => {
                     const arrayType = item.type
                     return (
-                        <div className="project">
+                        <Link to={`/portfolio/projet-${normalizeLabel(item.title)}`} className="project">
                             <div className="project__img">
                                 <img src={`./img/${normalizeLabel(item.title)}.png`} alt={item.title}/>
-                                {arrayType.map((type) => 
-                                    <div key={type} className={`project__type ${filterActif.includes(normalizeLabel(type)) ? 'active' : ''}`}>{type}</div>
-                                )
-                                
-                                }
+                                <div className="project__type">
+                                    {arrayType.map((type) => 
+                                        <div key={type} className={`project__type--button ${filterActif.includes(normalizeLabel(type)) ? 'active' : ''}`}>{type}</div>
+                                    )
+                                    
+                                    }
+                                </div>
                             </div>
                             <div className="project__infos">
                                 <div className="project__infos--txt">
                                     <h2>{item.title}</h2>
                                     <p>{item.smallDescription}</p>
                                 </div>
-                                <Link className="cta__primary" to={`/portfolio/projet-${normalizeLabel(item.title)}`} ><span>Voir le projet</span></Link>
+                                <div className="cta__primary specialCard"><span>Voir le projet</span></div>
                             </div>
-                        </div>
+                        </Link>
                     )
                 })}
-            </div>
-
+            </div> : 
+            <div className="noproject">
+                <h2>Aucun projet ne correspond à cette combinaison de filtres... pour le moment ! 😉</h2>
+                <p>N'hésitez pas à <button onClick={() => filter('all')} role="button">réinitialiser les filtres</button> pour découvrir l'ensemble de mes réalisations ou à me <Link to='/contact'>contacter</Link> si votre projet sort des sentiers battus.</p>
+            </div> }
         </div>
   )
 }
