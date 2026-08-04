@@ -56,9 +56,13 @@
         gap: 1rem;
         align-items: center;
         position: relative;
+        label {
+            color: $white;
+        }
         input {
             height: 2.5rem;
             padding: 0 1rem;
+            min-width: 250px;
             border-radius: 0.8rem;
             box-shadow:
             inset 2px 2px 5px rgba(24, 19, 16, 0.14),
@@ -72,6 +76,9 @@
             border-color 150ms ease,
             box-shadow 150ms ease;
             box-sizing: border-box;
+            @include mobile {
+                min-width: 300px;
+            }
             &:focus {
                 outline: none;
                 border-color: $primary;
@@ -96,9 +103,9 @@
         color: $success;
     }
     &__more {
-        color: $text;
+        color: $white;
         a, button {
-            color: $text;
+            color: $white;
             &:hover {
                 text-decoration: none;
             }

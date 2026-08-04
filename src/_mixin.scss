@@ -52,6 +52,12 @@
     @content;
   }
 }
+@mixin mobileSpe {
+  @media (min-width: $mobileSpe) {
+    @content;
+  }
+}
+
 @mixin smallMobile {
   @media (min-width: $smallMobile) {
     @content;

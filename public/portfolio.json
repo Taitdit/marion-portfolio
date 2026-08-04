@@ -3,42 +3,108 @@
         "id":"01",
         "title":"Brieuc Pompes funèbres",
         "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
-        "type": ["Identité visuelle", "Webdesign", "Infographie"]
+        "type": ["Identité visuelle", "Webdesign", "Infographie"],
+        "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
+        "date": "Février 2022",
+        "cadre": "Projet étudiant",
+        "longDescription": "Paimpont est un village breton, dans la forêt de Brocéliande. C'est un endroit touristique de par sa localisation. Autour de  lui, de nombreux endroits remplis de magie et d'histoire sont à visiter, comme : l'arbre d'or, le château de Comper, le rocher de Merlin ou les forges de Paimpont.",
+        "deroule-projet": {
+            "part01": {
+                "imgLeft": "rectangle",
+                "txtLeft": "",
+                "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
+                "imgRight": "rectangle"
+            },
+            "part02": {
+                "imgLeft": "rectangle",
+                "txtLeft": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
+                "txtRight":"",
+                "imgRight": "rectangle"
+            },
+            "part03": {
+                "imgLeft": "rectangle",
+                "txtLeft": "",
+                "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
+                "imgRight": "rectangle"
+            },
+            "part04": {
+                "imgLeft": "",
+                "txtLeft": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
+                "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
+                "imgRight": ""
+            }
+            
+
+
+        }
+ 
+
+        
     },
     {
         "id":"02",
         "title":"Ville de Paimpont",
         "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
-        "type": ["Branding", "Webdesign"]
+        "type": ["Branding", "Webdesign"],
+        "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
+        "date": "Février 2022",
+        "cadre": "Projet étudiant",
+        "longDescription": "Paimpont est un village breton, dans la forêt de Brocéliande. C'est un endroit touristique de par sa localisation. Autour de lui, de nombreux endroits remplis de magie et d'histoire sont à visiter, comme : l'arbre d'or, le château de Comper, le rocher de Merlin ou les forges de Paimpont.",
+        "deroule-projet": {}
     },
     {
         "id":"03",
         "title":"Stallion",
         "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
-        "type": ["Branding", "Webdesign"]
+        "type": ["Branding", "Webdesign"],
+        "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
+        "date": "Février 2022",
+        "cadre": "Projet étudiant",
+        "longDescription": "Paimpont est un village breton, dans la forêt de Brocéliande. C'est un endroit touristique de par sa localisation. Autour de lui, de nombreux endroits remplis de magie et d'histoire sont à visiter, comme : l'arbre d'or, le château de Comper, le rocher de Merlin ou les forges de Paimpont.",
+        "deroule-projet": {}
     },
     {
         "id":"04",
         "title":"Nextgen EdTech",
         "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
-        "type": ["Webdesign", "Infographie", "Motion design"]
+        "type": ["Webdesign", "Infographie", "Motion design"],
+        "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
+        "date": "Février 2022",
+        "cadre": "Projet étudiant",
+        "longDescription": "Paimpont est un village breton, dans la forêt de Brocéliande. C'est un endroit touristique de par sa localisation. Autour de lui, de nombreux endroits remplis de magie et d'histoire sont à visiter, comme : l'arbre d'or, le château de Comper, le rocher de Merlin ou les forges de Paimpont.",
+        "deroule-projet": {}
     },
     {
         "id":"05",
         "title":"The Light Side Band",
         "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
-        "type": ["Webdesign", "Infographie"]
+        "type": ["Webdesign", "Infographie"],
+        "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
+        "date": "Février 2022",
+        "cadre": "Projet étudiant",
+        "longDescription": "Paimpont est un village breton, dans la forêt de Brocéliande. C'est un endroit touristique de par sa localisation. Autour de lui, de nombreux endroits remplis de magie et d'histoire sont à visiter, comme : l'arbre d'or, le château de Comper, le rocher de Merlin ou les forges de Paimpont.",
+        "deroule-projet": {}
     },
     {
         "id":"06",
         "title":"Chez Lolotte",
         "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
-        "type": ["Identité visuelle", "Webdesign", "Infographie"]
+        "type": ["Identité visuelle", "Webdesign", "Infographie"],
+        "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
+        "date": "Février 2022",
+        "cadre": "Projet étudiant",
+        "longDescription": "Paimpont est un village breton, dans la forêt de Brocéliande. C'est un endroit touristique de par sa localisation. Autour de lui, de nombreux endroits remplis de magie et d'histoire sont à visiter, comme : l'arbre d'or, le château de Comper, le rocher de Merlin ou les forges de Paimpont.",
+        "deroule-projet": {}
     },
     {
         "id":"07",
         "title":"Travelture",
         "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
-        "type": ["Branding", "Webdesign"]
+        "type": ["Branding", "Webdesign"],
+        "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
+        "date": "Février 2022",
+        "cadre": "Projet étudiant",
+        "longDescription": "Paimpont est un village breton, dans la forêt de Brocéliande. C'est un endroit touristique de par sa localisation. Autour de lui, de nombreux endroits remplis de magie et d'histoire sont à visiter, comme : l'arbre d'or, le château de Comper, le rocher de Merlin ou les forges de Paimpont.",
+        "deroule-projet": {}
     }
 ]

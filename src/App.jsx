@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 import { DarkModeProvider } from "./contexts/DarkModeContext";
 import {MenuHeaderProvider } from "./contexts/MenuHeaderContext";
 import ScrollToTop from "./components/ScrollToTop";
+import Projet from "./pages/Projet";
 
 const MainLayout = () => {
 
@@ -45,7 +46,7 @@ const App = () => {
               <Route path="/" element={<Home />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/contact" element={<Contact />} />
-            
+              <Route path="/portfolio/:url" element={<Projet />} />
             </Route>
 
           </Routes>

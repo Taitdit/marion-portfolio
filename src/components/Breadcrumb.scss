@@ -1,0 +1,26 @@
+@use "../variables" as *;
+@use "../mixin" as *;
+
+.dark {
+    .breadcrumb {
+        color: $textDark;
+        svg {
+            color: $textDark;
+        }
+    }
+
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: $text;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    svg {
+        transform: rotate(-90deg);
+        color: $text;
+        margin-right: 0.5rem;
+    }
+}

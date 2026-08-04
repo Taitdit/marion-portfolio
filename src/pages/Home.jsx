@@ -15,7 +15,7 @@ const Home = () => {
     useEffect(() => {
     for (let i = 1; i <= 5; i++) {
         const image = new Image()
-        image.src = `./img/marion_0${i}.webp`
+        image.src = `/img/marion_0${i}.webp`
     }
 }, [])
 
@@ -139,7 +139,7 @@ const Home = () => {
     const lvl = () => {
         return (
         <div className='lvl'>
-            <img src='./img/epee.webp' alt="Epée" />
+            <img src='/img/epee.webp' alt="Epée" />
             <div className='lvl__txt'><p className='lvl__title'>Lvl 30</p><p className='lvl__sstxt'>Prête pour de nouvelles aventures</p></div>
             <p className='lvl__sstxt'>Prête pour de nouvelles aventures</p>
         </div>
@@ -153,7 +153,7 @@ const Home = () => {
             <div className='intro__intro'>
             <h1>Marion Charbonnier</h1>
             <div className='bloc__intitule'>
-                <img src='./img/no-picture.webp' alt='graphiste - webdesigner'/>
+                <img src='/img/no-picture.webp' alt='graphiste - webdesigner'/>
                 <div className='intitule'>
                     <h2>Graphiste - Webdesigner</h2>
                     <p>Vannes et alentours - Mobile (permis B) - Disponible sous 1 mois</p>
@@ -188,7 +188,7 @@ const Home = () => {
     const contenuI = () => {
         return (
         <div className='contact__container'>
-            <img src="./img/rectangle.webp" alt='travaillons enssemble' />
+            <img src="/img/rectangle.webp" alt='travaillons enssemble' />
             <Cta url='/contact' label='Travaillons enssemble' type="secondary" targetBlank={false} /> 
         </div>
         )
