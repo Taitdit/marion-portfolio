@@ -7,7 +7,7 @@ const Bloc = ({wichBloc, type, picto, titleContenu, contenu, classSuplementaire}
     const classSuplementaireBloc = classSuplementaire ? classSuplementaire : ''
     return (
         <div className={`bloc ${wichType} ${classNameBloc} ${classSuplementaireBloc}`} >
-            {titleContenu ? <h2 className='bloc__title'>{picto !== 'empty' ? <img src={`./img/${wichPicto}.png`} /> : ''}{titleContenu}</h2> : ''}
+            {titleContenu ? <h2 className='bloc__title'>{picto !== 'empty' ? <img src={`./img/${wichPicto}.webp`} /> : ''}{titleContenu}</h2> : ''}
             <div className="bloc__container">{contenu}</div>
         </div>
     )

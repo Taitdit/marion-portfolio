@@ -8,7 +8,7 @@ const BLocLvl = () => {
         
         <div className='lvlNotHome__container'>
             <div className="lvlNotHome__img">
-                <img src="./img/marion.png" alt="Illustration Marion Charbonnier" />
+                <img src="./img/marion.webp" alt="Illustration Marion Charbonnier" />
             </div>
             <div className="lvlNotHome__info">
                 <div className="lvlNotHome__title">
@@ -16,7 +16,7 @@ const BLocLvl = () => {
                         <p>Graphiste - Webdesigner</p>
                 </div>
                 <div className="lvlNotHome__lvl">
-                    <img src='./img/epee.png' alt="Epée" />
+                    <img src='./img/epee.webp' alt="Epée" />
                     <div className='lvl__txt'><p className='lvl__title'>Lvl 30</p><p className=' '>Prête pour de nouvelles aventures</p></div>
                 </div>
             </div>

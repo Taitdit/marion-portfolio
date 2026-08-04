@@ -27,10 +27,10 @@ const Header = () => {
                     <div className='nav__img'>
                     {location.pathname !== '/' ? 
                          <Link role='link' to="/">
-                            <img src='./img/marion-profile.png' alt='photo profile' />
+                            <img src='./img/marion-profile.webp' alt='photo profile' />
                         </Link>
                         : 
-                        <img src='./img/marion-profile.png' alt='photo profile' />
+                        <img src='./img/marion-profile.webp' alt='photo profile' />
                     }
                     <button className={`header__darkmode ${dark ? 'active' : ''}`}  role='button' aria-label='dark mode' onClick={() => toggleDarkMode()}>
                         <SunIcon className='picto' width='49' height='49' />
