@@ -111,9 +111,9 @@ const Grid = () => {
                  {project.map((item) => {
                     const arrayType = item.type
                     return (
-                        <Link to={`/portfolio/projet-${normalizeLabel(item.title)}`} className="project">
+                        <Link key={item.title} to={`/portfolio/projet-${normalizeLabel(item.title)}`} className="project">
                             <div className="project__img">
-                                <img src={`./img/${normalizeLabel(item.title)}.webp`} alt={item.title}/>
+                                <img src={`/img/${normalizeLabel(item.title)}.webp`} alt={item.title}/>
                                 <div className="project__type">
                                     {arrayType.map((type) => 
                                         <div key={type} className={`project__type--button ${filterActif.includes(normalizeLabel(type)) ? 'active' : ''}`}>{type}</div>

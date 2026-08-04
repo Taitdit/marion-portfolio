@@ -1,6 +1,21 @@
 @use "../variables" as *;
 @use "../mixin" as *;
 
+
+.dark {
+    .title {
+        &__right {
+            color: $textDark;
+        }
+        &__type {
+            &--item {
+                background-color: $secondaryDark;
+                box-shadow: $shadowDark;
+            }
+        }
+    }
+}
+
 .title {
     &__container {
          display: flex;
@@ -22,11 +37,40 @@
     }
     &__right {
         order: 2;
+        text-decoration: none;
+        color: $text;
         display: flex;
         justify-content: flex-end;
         padding-left: 102px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        @include mobileSpe {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        @include smallTablette {
+            padding-bottom: 0;
+            padding-top: 0;
+        }
         @include smallDesktop {
             padding-left: 0;
         }
     }
+    &__type {
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        &--item {
+            font-size: 13px;
+            background-color: $secondary;
+            box-shadow: $shadow;
+            padding: 0.2rem 0.3rem;
+            border-radius: 1rem;
+        }
+        @include smallTablette {
+            gap: 2rem;
+        }
+    }
 }
+

@@ -32,7 +32,7 @@ const Info = () => {
     return (
         <div className='info'>
             <div className="info__heading">
-                <img src="./img/no-picture.webp" alt="Informations utilles" />
+                <img src="/img/no-picture.webp" alt="Informations utilles" />
 
                 <h2 className="form__title">
                 Informations utilles
@@ -44,7 +44,7 @@ const Info = () => {
                     {infoUtiles.length ? infoUtiles.map((item) => (
                         (
                             <li key={item.title}>
-                                <span className='title'><img src={`./img/${item.img}.webp`} alt={item.title} /> <span>{item.title}</span></span>
+                                <span className='title'><img src={`/img/${item.img}.webp`} alt={item.title} /> <span>{item.title}</span></span>
                                 {item.linkDetail ? <a href={item.linkDetail} target='_blank'>{item.detail}</a> : <span>{item.detail}</span>}
                             </li>
                         )
