@@ -263,7 +263,11 @@
             }
 
             @include desktop {
-                max-width: 267px;
+                max-width: 197px;
+                width: calc(100% - 115px);
+            }
+            @include bigBigXLDesktop {
+                max-width:187px;
             }
         }
         .caroussel {

@@ -88,6 +88,10 @@
                 height: 100%;
                 width: auto;
             }
+            @include bigBigXLDesktop {
+                width: 100%;
+                height: auto;
+            }
         }
     }
     &__deroule, &__situation {
@@ -211,7 +215,7 @@
         &--btn {
             background-color: $secondary;
             box-shadow: $shadow;
-            border-radius: 3rem;
+            border-radius: 1.5rem;
             padding: 1rem;
             display: flex;
             align-items: center;
@@ -236,6 +240,8 @@
                 z-index: 1;
                 position: relative;
                 text-decoration: none;
+                font-family: $font-title;
+                font-size: 1.4rem;
                 display: none;
                 @include smallTablette {
                     display: inline-block;
@@ -262,15 +268,14 @@
                     }
                     @include smallDesktop {
                         svg {
-                            transform: rotate(90deg) translateY(-0.3rem);
+                            transform: translateX(0.3rem);
                         }
                     }
                 }
                 svg {
-                    transform: rotate(90deg);
-                    right: 0.25rem;
+                    left: 0.25rem;
                     @include smallTablette {
-                        right: 0;
+                        left: 0;
                     }
                 }
             }
@@ -284,15 +289,15 @@
                     }
                     @include smallDesktop {
                         svg {
-                            transform: rotate(-90deg) translateY(-0.3rem);
+                            transform: rotate(-180deg) translateX(0.3rem);
                         }
                     }
                 }
                 svg {
-                    transform: rotate(-90deg);
-                    left: 0.25rem;
+                    transform: rotate(-180deg);
+                    right: 0.25rem;
                     @include smallTablette {
-                        left: 0;
+                        right: 0;
                     }
                 }
             }
