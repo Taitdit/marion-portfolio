@@ -15,7 +15,7 @@ const BlocProjetMain = ({projet}) => {
             <div className='projet__colLeft'>
                 <p>{projet.smallDescription}</p>
                 <div className='projet__info'>
-                    <img src='/img/no-picture.webp' alt='information' />
+                    <img src='/img/no-picture.webp' alt='picto information - Marion Charbonnier' />
                     <div className='projet__info--txt'>
                         <h2>Informations</h2>
                         <ul>
@@ -24,9 +24,9 @@ const BlocProjetMain = ({projet}) => {
                                 <span className='txt'>{projet.technoOutils.length ? 
                                     <>{projet.technoOutils.map((t,i) => {
                                         if(i + 1  >= projet.technoOutils.length) {
-                                            return <>{t}</>
+                                            return <span key={`${t}-${i}`}>{t}</span>
                                         } else {
-                                            return <>{t},</>
+                                            return <span key={`${t}-${i}`}>{t},</span>
                                         }
                                     })}</>
                                 : ''}</span>
@@ -45,7 +45,7 @@ const BlocProjetMain = ({projet}) => {
                 <p>{projet.longDescription}</p>
             </div>
             <div className='projet__colRight'>
-                <img src={`/img/${normalizeLabel(projet.title)}.webp`} alt={projet.title} />
+                <img src={`/img/${normalizeLabel(projet.title)}.webp`} alt={`${projet.title} - Marion Charbonnier`} />
             </div>
         </section>
     )

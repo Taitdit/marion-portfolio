@@ -151,7 +151,7 @@ const Form = () => {
   return (
     <section className="form">
       <div className="form__heading">
-        <img src="/img/no-picture.webp" alt="contact" />
+        <img src="/img/no-picture.webp" alt="picto contact - Marion Charbonnier" />
 
         <h2 className="form__title">
          Envoyez-moi un message

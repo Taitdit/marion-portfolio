@@ -113,7 +113,7 @@ const Grid = () => {
                     return (
                         <Link key={item.title} to={`/portfolio/projet-${normalizeLabel(item.title)}`} className="project">
                             <div className="project__img">
-                                <img src={`/img/${normalizeLabel(item.title)}.webp`} alt={item.title}/>
+                                <img src={`/img/${normalizeLabel(item.title)}.webp`} alt={`${item.title} - Marion Charbonnier`}/>
                                 <div className="project__type">
                                     {arrayType.map((type) => 
                                         <div key={type} className={`project__type--button ${filterActif.includes(normalizeLabel(type)) ? 'active' : ''}`}>{type}</div>
