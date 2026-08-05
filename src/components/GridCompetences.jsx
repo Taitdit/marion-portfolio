@@ -5,7 +5,7 @@ const GridCompetences = ({allComp, layout}) => {
         <div className={`competences__container ${layout}`}>
             {allComp.length ? allComp.map((item) => (
                 <div className='competences__elmt' key={item}>
-                    <img src={`/img/${item.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/\s+/g, "").replace('/', '')}.webp`} alt={item} />
+                    <img src={`/img/${item.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/\s+/g, "").replace('/', '')}.webp`} alt={`compétence ${item} de Marion Charbonnier`} />
                     <p>{item}</p>
                 </div>
             )) : '' }

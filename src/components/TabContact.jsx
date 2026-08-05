@@ -18,13 +18,13 @@ const TabContact = () => {
             details:'Vous pouvez m’envoyer un premier message via le formulaire, puis nous pourrons convenir d’un rendez-vous en face à face, par téléphone ou en visio.'
         },
         {
-            id:'02',
+            id:'03',
             title:'Quelles missions puis-je remplir ?',
             img: 'no-picture',
             details:'Vous pouvez m’envoyer un premier message via le formulaire, puis nous pourrons convenir d’un rendez-vous en face à face, par téléphone ou en visio.'
         },
         {
-            id:'02',
+            id:'04',
             title:'Suis-je freelance ?',
             img: 'no-picture',
             details:'Je recherche vraiment un contrat en CDI mais je peux aussi répondre à des missions occasionnelles comme auto entrepreneur.'

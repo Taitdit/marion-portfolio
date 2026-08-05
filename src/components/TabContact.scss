@@ -39,6 +39,9 @@
             position: relative;
             z-index: 1;
             cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
             img {
                 max-width: 30px;
                 height: auto;
