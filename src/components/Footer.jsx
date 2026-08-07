@@ -70,6 +70,7 @@ const Footer = () => {
                 <p className="footer__intro">
                     Laissez-moi simplement votre adresse e-mail et je vous recontacterai rapidement.
                 </p>
+                <div className='footer__form'>
                 <form onSubmit={handleSubmit} noValidate>
                     <label htmlFor="footer-email">
                         Votre adresse e-mail :
@@ -84,13 +85,7 @@ const Footer = () => {
                         onChange={(e) => setEmail(e.target.value)}
                     />
 
-                    {error && (
-                        <p className="footer__msgAlert footer__error">{error}</p>
-                    )}
-
-                    {success && (
-                        <p className="footer__msgAlert footer__success">{success}</p>
-                    )}
+                    
 
                     <button type="submit" className="cta__secondary" disabled={loading}>
                         <span>
@@ -98,7 +93,14 @@ const Footer = () => {
                         </span>
                     </button>
                 </form>
+                {error && (
+                        <p className="footer__msgAlert footer__error">{error}</p>
+                    )}
 
+                    {success && (
+                        <p className="footer__msgAlert footer__success">{success}</p>
+                    )}
+                </div>
 
                 <p className="footer__more">
                     Plus de choses à me dire ?{" "}
