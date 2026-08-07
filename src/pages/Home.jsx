@@ -60,25 +60,25 @@ const Home = () => {
 
     const allXp = [
         {
-            date: "2023 - Aujourd'hui",
+            date: "2023 - Aujourd'hui - INTITULE",
             title: "Dike Déco - Alternance puis CDI",
             status: "Présentiel",
             description: "Photomontages de décors de Noël, création de supports Web et print, gestion du site, des catalogues, des stocks et des produits."
-        },
+        }, 
         {
-            date: "2021 - 2022",
+            date: "2021 - 2022 - INTITULE",
             title: "Akatek - Alternance",
             status: "100% Télétravail",
             description: "Conception de maquettes web, UI, intégration front-end et collaboration avec les développeurs."
         },
         {
-            date: "2020 - 2021",
+            date: "2020 - 2021 - INTITULE",
             title: "Stages",
             status: "Présentiel et télétravail",
             description: "Réalisation de projets en graphisme print et web, design d'interfaces et développement web."
         },
         {
-            date: "2015 - 2019",
+            date: "2015 - 2019 - INTITULE",
             title: "NANTES / LORIENT - CDI/CDD",
             status: "Présentiel",
             description: "Vente, conseil client et préparation de commandes en fleuristerie et en boulangerie."
@@ -120,6 +120,7 @@ const Home = () => {
         },
         {
             title: "Sens du détail",
+            img: "cristal",
             description: "J'accorde une grande importance à la cohérence, aux finitions et à la qualité du résultat."
         },
         {
@@ -127,11 +128,13 @@ const Home = () => {
             description: "J'aime que les idées soient réalisables, utiles et efficaces, pas seulement esthétiques."
         },
         {
-            title: "Polyvalence créative",
-            description: "Je sais passer d'un univers coloré et expressif à une approche plus sobre selon le projet."
+            title: "Versatilité graphique",
+            img: "cube",
+            description: "Je sais passer d'un univers hyper coloré à une approche plus sobre selon le projet."
         },
         {
-            title: "Curiosité intellectuelle",
+            title: "Esprit curieux",
+            img: "boite",
             description: "J'aime comprendre, apprendre et tester de nouvelles méthodes."
         }
     ]
@@ -195,7 +198,7 @@ const Home = () => {
     const contenuEOrF = (status) => {
         const witchTab = status === 'e' ? allXp : status === 'f' ? allFormation : ''
         return (
-            <GridXp allComp={allXp} />        
+            <GridXp allComp={witchTab} status={status} />        
         )
     }
     
@@ -215,6 +218,7 @@ const Home = () => {
                     type="tertiary"
                     contenu={contenuA()} />
                     <Bloc wichBloc='Aprime' 
+                    picto='cible'
                     titleContenu='Mes motivations'
                     contenu={contenuAprime()} />
                     {blocB()}
@@ -229,6 +233,7 @@ const Home = () => {
                     </div>
                     <div className='col__B col'>
                         <Bloc wichBloc='Aprime' 
+                        picto='cible'
                         titleContenu='Mes motivations'
                         contenu={contenuAprime()} />
                         <Bloc wichBloc='A' 
@@ -257,7 +262,8 @@ const Home = () => {
                          titleContenu='Quêtes validées'
                         contenu={contenuEOrF('f')} classSuplementaire='bigFont' picto='badge' />
                     </div>
-                    <Bloc wichBloc='Aprime' 
+                    <Bloc wichBloc='Aprime'
+                    picto='cible'
                     titleContenu='Mes motivations'
                     contenu={contenuAprime()} />
                     <div className='bloc__G-container'>
