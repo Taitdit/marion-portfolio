@@ -156,9 +156,8 @@ const Home = () => {
             <div className='intro__intro'>
             <h1>Marion Charbonnier</h1>
             <div className='bloc__intitule'>
-                <img src='/img/no-picture.webp' alt='graphiste - webdesigner'/>
                 <div className='intitule'>
-                    <h2>Graphiste - Webdesigner</h2>
+                    <h2><img src='/img/potions.webp' alt='graphiste - webdesigner'/> Graphiste - Webdesigner</h2>
                     <p>Vannes et alentours - Mobile (permis B) - Disponible sous 1 mois</p>
                 </div>
             </div>
@@ -242,7 +241,8 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="home__info-secondaire">
-                    <Bloc wichBloc='D' 
+                    <Bloc wichBloc='D'
+                    picto='coffre'
                     titleContenu='Compétences'
                     contenu={contenuDorH('d')} />
                     <Bloc wichBloc='E' 
@@ -255,7 +255,8 @@ const Home = () => {
                         <Bloc wichBloc='E' 
                          titleContenu='Journal de bord'
                         contenu={contenuEOrF('e')} classSuplementaire='bigFont' picto='journal' type="secondary" />
-                        <Bloc wichBloc='D' 
+                        <Bloc wichBloc='D'
+                        picto='coffre'
                         titleContenu='Compétences'
                         contenu={contenuDorH('d')} />
                         <Bloc wichBloc='F' 
