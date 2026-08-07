@@ -41,6 +41,7 @@
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+        align-items: flex-start;
         
     }
     h2 {
@@ -49,9 +50,18 @@
     &__intro {
         color: $white;
     }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        margin: 0.8rem 0 2.5rem;
+        @include mobile {
+            margin-bottom: 1.8rem;
+        }
+    }
     form {
         display: flex;
-        margin: 0.8rem 0 1.8rem;
         flex-wrap: wrap;
         gap: 1rem;
         align-items: center;
@@ -94,7 +104,12 @@
     }
     &__msgAlert {
         position: absolute;
-        top: calc(100% + 0.25rem);
+        padding: 0.25rem 0.5rem;
+        background-color: $white;
+        top: calc(100% + 6px);
+        text-align: center;
+        width: 100%;
+        border-radius: 1rem;
     }
     &__error {
         color: $error;
