@@ -2,13 +2,16 @@ import { Link, useLocation } from 'react-router-dom'
 import './Footer.scss'
 import { useState } from 'react';
 import { useDarkMode } from "../contexts/DarkModeContext";
+import emailjs from '@emailjs/browser';
 
-
-
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID_FOOTER;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const Footer = () => {
      const [email, setEmail] = useState("");
     const [error, setError] = useState("");
+    const [loading, setLoading] = useState(false);
     const [success, setSuccess] = useState("");
     const { dark } = useDarkMode();
 
@@ -16,7 +19,7 @@ const Footer = () => {
 
     const isContact = location.pathname === '/contact'
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
     e.preventDefault();
 
     setError("");
@@ -34,9 +37,30 @@ const Footer = () => {
         return;
     }
 
+    setLoading(true);
 
-    setSuccess("Merci ! Je vous recontacterai dès que possible.");
-    setEmail("");
+    try {
+        await emailjs.send(
+            SERVICE_ID,
+            TEMPLATE_ID,
+            {
+                email
+            },
+            {
+                publicKey: PUBLIC_KEY
+            }
+        );
+        setSuccess("Merci ! Je vous recontacterai dès que possible.");
+        setEmail("");
+    }
+    catch (error) {
+        console.error("Erreur EmailJS :", error);
+        setError("Une erreur est survenue lors de l'envoi. Veuillez réessayer.");
+    }
+    finally {
+        setLoading(false);
+    }
+
     };
     return (
         <div className={`footer ${dark ? 'dark' : ''}`}>
@@ -68,8 +92,10 @@ const Footer = () => {
                         <p className="footer__msgAlert footer__success">{success}</p>
                     )}
 
-                    <button type="submit" className="cta__secondary">
-                        <span>Être recontacté</span>
+                    <button type="submit" className="cta__secondary" disabled={loading}>
+                        <span>
+                            {loading ? "Envoi..." : "Être recontacté"}
+                        </span>
                     </button>
                 </form>
 

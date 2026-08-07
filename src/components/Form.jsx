@@ -1,4 +1,5 @@
 import { useState } from "react";
+import emailjs from '@emailjs/browser';
 import './Form.scss'
 
 const initialFormData = {
@@ -9,6 +10,10 @@ const initialFormData = {
   subject: "",
   message: "",
 };
+
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID_CONTACT;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const Form = () => {
   const [formData, setFormData] = useState(initialFormData);
@@ -87,7 +92,6 @@ const Form = () => {
         message: "Veuillez remplir correctement les champs obligatoires.",
       });
 
-      // Place le focus sur le premier champ invalide.
       const firstInvalidField = Object.keys(newErrors)[0];
       document.getElementById(firstInvalidField)?.focus();
 
@@ -102,21 +106,21 @@ const Form = () => {
     setIsSending(true);
 
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      await emailjs.send(
+        SERVICE_ID,
+        TEMPLATE_ID,
+        {
+          lastName: formData.lastName,
+          firstName: formData.firstName,
+          email: formData.email,
+          company: formData.company || "Non renseignée",
+          subject: formData.subject,
+          message: formData.message,
         },
-        body: JSON.stringify(formData),
-      });
-
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(
-          data.message || "Une erreur est survenue pendant l’envoi."
-        );
-      }
+        {
+          publicKey: PUBLIC_KEY,
+        }
+      );
 
       setFormData(initialFormData);
 
@@ -125,11 +129,11 @@ const Form = () => {
         message: "Votre message a bien été envoyé.",
       });
     } catch (error) {
+      console.error("Erreur EmailJS :", error);
+
       setSubmitStatus({
         type: "error",
-        message:
-          error.message ||
-          "Impossible d’envoyer le message. Veuillez réessayer.",
+        message: "Impossible d’envoyer le message. Veuillez réessayer.",
       });
     } finally {
       setIsSending(false);
