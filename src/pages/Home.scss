@@ -82,16 +82,24 @@
             }
             @include smallTablette {
                 &__A {
-                    width: 55%;
+                    width: 45%;
                 }
                 &__B {
-                    width: calc(45% - 2rem);
+                    width: calc(55% - 2rem);
                 }
                 &__C {
                     width: 100%;
                 }
             }
             @include tabSpe {
+                &__A {
+                    width: 55%;
+                }
+                &__B {
+                    width: calc(45% - 2rem);
+                }
+            }
+            @include tablette {
                 &__A {
                     width: 65%;
                 }
@@ -128,12 +136,22 @@
                     order: 1;
                 }
                 &__B {
-                    width: 80%;
+                    width: 100%;
                     order: 2;
                 }
                 &__Aprime {
                     width: 100%;
                     order: 3;
+                }
+            }
+            @include bigXLDesktop {
+                &__B {
+                    width: 75%;
+                }
+            }
+            @include bigBigXLDesktop {
+                &__B {
+                    width: 68%;
                 }
             }
         }
@@ -257,17 +275,17 @@
             width: 50%;
             height: auto;
             max-width: 237px;
-            margin: 1rem 0;
             @include mobile {
                 width: calc(100% - 132px);
             }
 
             @include desktop {
-                max-width: 197px;
+                max-width: 184px;
                 width: calc(100% - 115px);
             }
+
             @include bigBigXLDesktop {
-                max-width:187px;
+                max-width:148px;
             }
         }
         .caroussel {

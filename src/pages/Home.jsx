@@ -181,9 +181,9 @@ const Home = () => {
         return (
             <><p>À la recherche d’un environnement humain où l’échange, la créativité et l’esprit d’équipe sont au cœur des projets, je souhaite m’investir pleinement dans des missions porteuses de sens et continuer à développer mon savoir-faire.</p>
             <div className='bloc__container-cta'>
-            <WrongCta label='CDI' withPicto={true} />
-            <WrongCta label='Présentiel ou Hybride' withPicto={true} />
-            <WrongCta label='Vannes' withPicto={true} />
+            <WrongCta label='CDI' picto='cdi' withPicto={true} />
+            <WrongCta label='Présentiel ou Hybride' picto='presentiel' withPicto={true} />
+            <WrongCta label='Vannes' picto='vannes' withPicto={true} />
             </div>
             </>
         )
@@ -271,6 +271,7 @@ const Home = () => {
                         <div className='bloc__H-container'>
                             <Bloc wichBloc='H' 
                             titleContenu='Extras'
+                            picto='empty'
                             contenu={contenuDorH('h')} />
                         </div>
                     </div>

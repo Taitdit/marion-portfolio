@@ -102,7 +102,7 @@ section.container  {
 .cta {
   &__primaryWrong {
     background-color: $primary;
-    padding: 0.25rem 0.8rem 0.25rem 0.8rem;
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
     border-radius: 1rem;
     line-height: 1.0;    
     color: $white;
@@ -113,7 +113,7 @@ section.container  {
       color: $white;
     }
     img {
-      max-width: 13px;
+      max-width: 24px;
       height: auto;
     }
   }
