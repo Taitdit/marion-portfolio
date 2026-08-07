@@ -61,28 +61,28 @@ const Home = () => {
     const allXp = [
         {
             date: "2023 - Aujourd'hui",
-            intitule: "INTITULE",
+            intitule: "Graphiste Webdesigner",
             title: "Dike Déco - Alternance puis CDI",
             status: "Présentiel",
             description: "Photomontages de décors de Noël, création de supports Web et print, gestion du site, des catalogues, des stocks et des produits."
         }, 
         {
             date: "2021 - 2022",
-            intitule: "INTITULE",
+            intitule: "Webdesigner",
             title: "Akatek - Alternance",
             status: "100% Télétravail",
             description: "Conception de maquettes web, UI, intégration front-end et collaboration avec les développeurs."
         },
         {
             date: "2020 - 2021",
-            intitule: "INTITULE",
+            intitule: "Graphiste Webdesigner",
             title: "Stages",
             status: "Présentiel et télétravail",
             description: "Réalisation de projets en graphisme print et web, design d'interfaces et développement web."
         },
         {
             date: "2015 - 2019",
-            intitule: "INTITULE",
+            intitule: "Vendeuse conseil",
             title: "NANTES / LORIENT - CDI/CDD",
             status: "Présentiel",
             description: "Vente, conseil client et préparation de commandes en fleuristerie et en boulangerie."
