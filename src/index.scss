@@ -229,7 +229,7 @@ section.container  {
           box-shadow: none;
           border-color: $text;
         }
-        img {
+        img, svg {
           max-width: 13px;
           height: auto;
           z-index: 1;

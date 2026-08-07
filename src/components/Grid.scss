@@ -92,11 +92,11 @@
         &__desk {
             display: none;
             @include smallTablette {
-                display: block;
+                display: flex;
             }
         }
         &__mob {
-            display: block;
+            display: flex;
             @include smallTablette {
                 display: none;
             }

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from 'react-router-dom'
 import './Grid.scss'
 import FilterIcon from "./svg/FilterIcon";
+import GridIcon from "./svg/GridIcon";
 
 
 const Grid = () => {
@@ -75,6 +76,7 @@ const Grid = () => {
         <div className="grid">
             <div className="grid__filter">
                 <button className='cta__filter allFilter__mob' disabled={!filterActif.length} onClick={() => filter('all')} type="button">
+                    <GridIcon />
                     <span>Tous les projets</span>
                 </button>
                 <button className={`cta__burgerFilter ${burgerFilterState ? 'active' : ''}`} onClick={() => setBurgerFilterState(!burgerFilterState)} role="button">
@@ -85,6 +87,7 @@ const Grid = () => {
                     
                     <div className={`grid__filter--withoutall ${burgerFilterState ? 'active' : ''}`}>
                     <button className='cta__filter allFilter__desk' disabled={!filterActif.length} onClick={() => filter('all')} type="button">
+                        <GridIcon />
                         <span>Tous les projets</span>
                     </button>
                     {arrayFilter.map((filterName) => {
