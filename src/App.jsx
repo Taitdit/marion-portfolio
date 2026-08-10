@@ -9,6 +9,8 @@ import {
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/Contact"
+import Mentions from "./pages/Mentions"
+import Politique from "./pages/Politique"
 import Header from "./components/Header";
 import Footer from './components/Footer';
 import { DarkModeProvider } from "./contexts/DarkModeContext";
@@ -47,6 +49,8 @@ const App = () => {
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/portfolio/:url" element={<Projet />} />
+              <Route path="/mentions" element={<Mentions />} />
+              <Route path="/politique" element={<Politique />} />
             </Route>
 
           </Routes>

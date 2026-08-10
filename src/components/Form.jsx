@@ -1,6 +1,7 @@
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
 import './Form.scss'
+import { Link } from "react-router-dom";
 
 const initialFormData = {
   lastName: "",
@@ -317,6 +318,7 @@ const Form = () => {
           </div>
         </div>
       </form>
+      <p className="mention">En envoyant ce formulaire, vous acceptez que les informations renseignées soient utilisées uniquement pour répondre à votre demande, conformément à notre <Link to='/politique'>Politique de confidentialité.</Link></p>
     </section>
   );
 };
