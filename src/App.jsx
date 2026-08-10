@@ -17,9 +17,11 @@ import { DarkModeProvider } from "./contexts/DarkModeContext";
 import {MenuHeaderProvider } from "./contexts/MenuHeaderContext";
 import ScrollToTop from "./components/ScrollToTop";
 import Projet from "./pages/Projet";
+import { useLocation } from "react-router-dom";
+  
 
 const MainLayout = () => {
-
+  const location = useLocation();
 
   return (
     <MenuHeaderProvider>
@@ -27,7 +29,7 @@ const MainLayout = () => {
     <ScrollToTop />
     <main> 
       <Header />
-        <section className="container hp">
+        <section className={`container ${location.pathname === '/mentions' || location.pathname === '/politique' ? 'ml' : ''}`}>
           <Outlet />
         </section>
     </main>
