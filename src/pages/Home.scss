@@ -42,7 +42,7 @@
             flex-direction: column;
             align-items: center;    
             .bloc__B {
-                width: 70%;
+                width: 80%;
             }
         }
         @include smallDesktop {
@@ -101,10 +101,10 @@
             }
             @include tablette {
                 &__A {
-                    width: 65%;
+                    width: 60%;
                 }
                 &__B {
-                    width: calc(35% - 2rem);
+                    width: calc(40% - 2rem);
                 }
             }
             @include smallDesktop {
@@ -151,7 +151,7 @@
             }
             @include bigBigXLDesktop {
                 &__B {
-                    width: 68%;
+                    width: 72%;
                 }
             }
         }
@@ -274,18 +274,18 @@
         &__img{
             width: 50%;
             height: auto;
-            max-width: 237px;
+            max-width: 267px;
             @include mobile {
                 width: calc(100% - 132px);
             }
 
             @include desktop {
-                max-width: 184px;
-                width: calc(100% - 115px);
+                max-width: 214px;
+                width: calc(100% - 132px);
             }
 
             @include bigBigXLDesktop {
-                max-width:148px;
+                max-width:200px;
             }
         }
         .caroussel {
@@ -294,7 +294,11 @@
             align-items: center;
             justify-content: center;
             gap: 1rem;
-
+            padding: 1rem 0 1.5rem;
+            background: url(./img/bg-caroussel.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
             .arrow {
                 background: $secondary;
                 cursor: pointer;
@@ -305,6 +309,7 @@
                 padding: 0.5rem;
                 padding-right:0.3rem;
                 box-shadow: $shadow;
+                aspect-ratio:1;
                 @include mobile {
                     width: 50px;
                     height: 50px;

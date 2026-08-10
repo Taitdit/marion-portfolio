@@ -6,23 +6,23 @@ const Info = () => {
 
     const infoUtiles = [
         {
-            img: 'no-picture',
+            img: 'email',
             title: 'E-mail',
             detail: 'charbonnier.marion@outlook.fr',
             linkDetail: 'mailto:charbonnier.marion@outlook.fr'
         },
         {
-            img: 'no-picture',
+            img: 'localisation',
             title: 'Localisation',
             detail: 'Disponible sur VANNES (56) et alentours'
         },
         {
-            img: 'no-picture',
+            img: 'mobilite',
             title: 'Mobilité',
             detail: 'Permis B • Déplacements possibles'
         },
         {
-            img: 'no-picture',
+            img: 'disponibilite',
             title: 'Disponibilité',
             detail: 'Sous  1 mois'
         }
