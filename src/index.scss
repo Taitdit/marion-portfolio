@@ -105,7 +105,12 @@ main {
 }
 section.container  {
   width: 100%;
-
+  &.ml {
+    padding-top: 5.5rem;
+    @include smallDesktop {
+      padding-top: 0;
+    }
+  }
   @include smallDesktop {
     width: 94%;
   }
