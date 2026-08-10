@@ -40,25 +40,32 @@
         max-width: 1260px;
         display: flex;
         flex-direction: column;
-        gap: 0.5rem;
-        align-items: flex-start;
-        
+        @include tablette {
+            flex-direction: row;
+        }
     }
     h2 {
         color: $white;
     }
     &__intro {
         color: $white;
+        &--container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.7rem;
+            align-items: flex-start;
+            width: 100%;
+            @include tablette {
+                width: 50%;
+            }
+        }
     }
     &__form {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         position: relative;
-        margin: 0.8rem 0 2.5rem;
-        @include mobile {
-            margin-bottom: 1.8rem;
-        }
+        margin-bottom: 2.5rem;
     }
     form {
         display: flex;
@@ -68,6 +75,7 @@
         position: relative;
         label {
             color: $white;
+            width: 100%;
         }
         input {
             height: 2.5rem;
@@ -106,7 +114,7 @@
         position: absolute;
         padding: 0.25rem 0.5rem;
         background-color: $white;
-        top: calc(100% + 6px);
+        top: calc(100% + 8px);
         text-align: center;
         width: 100%;
         border-radius: 1rem;
@@ -118,12 +126,31 @@
         color: $success;
     }
     &__more {
+        &--container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 0.5rem;
+            @include tablette {
+                margin-top: 0.5rem;
+                width: 50%;
+            }
+            h2 {
+                color: $white;
+                margin-bottom: 0.5rem;
+            }
+            ul {
+                padding-left: 1rem;
+            }
+        }
         color: $white;
-        a, button {
+        margin-top: 0.25rem;
+        a, button, span {
             color: $white;
             &:hover {
                 text-decoration: none;
             }
         }
+
     }
 }

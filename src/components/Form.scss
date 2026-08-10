@@ -33,6 +33,7 @@
     border-radius: 1rem;
     padding: 2rem;
     width: 100%;
+    height: 100%;
     box-shadow: $shadow;
     &__heading {
         display: flex;
@@ -148,5 +149,8 @@
     }
     &__required {
         width: 50%;
+    }
+    .mention {
+        margin-top: 1rem;
     }
 }

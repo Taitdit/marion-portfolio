@@ -17,7 +17,6 @@ const Footer = () => {
 
     const location = useLocation();
 
-    const isContact = location.pathname === '/contact'
 
     const handleSubmit = async (e) => {
     e.preventDefault();
@@ -65,6 +64,7 @@ const Footer = () => {
     return (
         <div className={`footer ${dark ? 'dark' : ''}`}>
             <div className='footer__container'>
+                <div className='footer__intro--container'>
                  <h2>Un projet en tête ?</h2>
 
                 <p className="footer__intro">
@@ -100,19 +100,41 @@ const Footer = () => {
                     {success && (
                         <p className="footer__msgAlert footer__success">{success}</p>
                     )}
-                </div>
 
-                <p className="footer__more">
-                    Plus de choses à me dire ?{" "}
-                    {!isContact ?
-                    <Link to="/contact">
-                        Passez par la page contact.
-                    </Link> :
+                </div>
+                <p className='mention'>En cliquant sur "Être recontacté", vous acceptez que votre adresse e-mail soit utilisée uniquement afin de répondre à votre demande, conformément à notre <Link to='/politique'>Politique de confidentialité.</Link></p>
+                </div>
+                <div className='footer__more--container'>
+                    <h2>Liens rapides :</h2>
+                    <ul>
+                    <li className="footer__more">
+                        Plus de choses à me dire ?{" "}
+                        {location.pathname !== '/contact' ?
+                        <Link to="/contact">
+                            Passez par la page contact.
+                        </Link> :
                         <a href="#contact-form">
-                            Accéder au formulaire
+                                Accéder au formulaire
                         </a>
-                    }
-                </p>
+                        }
+                    </li>
+                    <li className="footer__more">
+                        {location.pathname !== '/politique' ?
+                            <Link to='/politique'>Politique de confidentialité</Link>
+                            : 
+                            <span>Politique de confidentialité</span>
+                        }
+                    </li>
+                    <li className="footer__more">
+                        {location.pathname !== '/mentions' ?
+                            <Link to='/mentions'>Mentions légales</Link>
+                            :
+                            <span>Mentions légales</span>
+                        }
+                    </li>
+                    </ul>
+                </div>
+                
             </div>
         </div>
     )
