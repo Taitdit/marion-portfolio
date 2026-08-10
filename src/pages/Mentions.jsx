@@ -38,9 +38,12 @@ const Mentions =  () => {
                 <p>Pour exercer ces droits, vous pouvez contacter Marion Charbonnier via le formulaire de contact du site.</p>
             </section>
             <section className="mention__part">
-                <h2>Cookies</h2>
-                <p>Ce site utilise uniquement les cookies strictement nécessaires à son bon fonctionnement.</p>
-                <p>Si des services nécessitant votre consentement (mesure d'audience, statistiques, services tiers, etc.) sont ajoutés ultérieurement, une bannière d'information ainsi qu'un système de gestion du consentement seront mis en place conformément à la réglementation en vigueur.</p>
+                <h2>Cookies et stockage local</h2>
+                <p>Ce site utilise uniquement les technologies nécessaires à son bon fonctionnement.</p>
+                <p>Afin d'améliorer votre expérience de navigation, votre préférence d'affichage (mode clair ou mode sombre) est enregistrée localement sur votre appareil à l'aide du localStorage de votre navigateur.</p>
+                <p>Cette information est utilisée uniquement pour mémoriser votre préférence lors de vos prochaines visites. Elle n'est ni transmise à des tiers, ni utilisée à des fins publicitaires ou statistiques.</p>
+                <p>Le site n'utilise pas de cookies de suivi, de publicité ou d'analyse nécessitant votre consentement.</p>
+                <p>Si des services de mesure d'audience ou des services tiers sont ajoutés ultérieurement, cette politique sera mise à jour et un mécanisme de recueil du consentement sera mis en place lorsque la réglementation l'exigera.</p>
             </section>
             <section className="mention__part">
                 <h2>Responsabilité</h2>
