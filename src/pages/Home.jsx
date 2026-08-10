@@ -27,7 +27,7 @@ const Home = () => {
                         className='arrow'
                         onClick={() =>
                             setValueCaroussel((currentValue) =>
-                                currentValue === 1 ? 5 : currentValue - 1
+                                currentValue === 1 ? 4 : currentValue - 1
                             )
                         }
                     >
@@ -44,7 +44,7 @@ const Home = () => {
                         className='arrow right'
                         onClick={() =>
                             setValueCaroussel((currentValue) =>
-                                currentValue === 5 ? 1 : currentValue + 1
+                                currentValue === 4 ? 1 : currentValue + 1
                             )
                         }
                     >

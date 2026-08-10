@@ -75,7 +75,7 @@ const Grid = () => {
     return (
         <div className="grid">
             <div className="grid__filter">
-                <button className='cta__filter allFilter__mob' disabled={!filterActif.length} onClick={() => filter('all')} type="button">
+                <button className='cta__filter allFilter mob' disabled={!filterActif.length} onClick={() => filter('all')} type="button">
                     <GridIcon />
                     <span>Tous les projets</span>
                 </button>
@@ -86,12 +86,12 @@ const Grid = () => {
 
                     
                     <div className={`grid__filter--withoutall ${burgerFilterState ? 'active' : ''}`}>
-                    <button className='cta__filter allFilter__desk' disabled={!filterActif.length} onClick={() => filter('all')} type="button">
+                    <button className='cta__filter allFilter desk' disabled={!filterActif.length} onClick={() => filter('all')} type="button">
                         <GridIcon />
                         <span>Tous les projets</span>
                     </button>
-                    {arrayFilter.map((filterName) => {
-                        
+                    {arrayFilter.map((filterName, index) => {
+                        const imageNumber = (index % 4) + 1;
                         const labelShort = normalizeLabel(filterName);
                         
                         return ( 
@@ -101,7 +101,7 @@ const Grid = () => {
                             className={`cta__filter ${filterActif.includes(labelShort) ? 'active' : ''}`} 
                             onClick={() => filter(labelShort)}  
                             type="button">
-                                <img src={`/img/filter-${labelShort}.webp`} alt={filterName} /> 
+                                <img src={`/img/potion-${imageNumber}.webp`} alt={filterName} /> 
                                 <span>{filterName}</span>
                             </button>
                         )

@@ -89,13 +89,14 @@
         }
     }
     .allFilter {
-        &__desk {
+        padding:10px 0.8rem;
+        &.desk {
             display: none;
             @include smallTablette {
                 display: flex;
             }
         }
-        &__mob {
+        &.mob {
             display: flex;
             @include smallTablette {
                 display: none;
