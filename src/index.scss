@@ -348,9 +348,13 @@ section.container  {
   }
 }
 *.bigFont {
-  p, em, span, h3 {
+  p, em, span, h3.spe {
     font-size: 1.0rem;
     line-height: 1.2;
+  }
+  h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
   }
   h2 {
     font-size: 1.8rem;

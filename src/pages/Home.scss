@@ -18,7 +18,7 @@
 .home {
     .bloc {
         &__Aprime {
-            * {
+            .bloc__container * {
                 @include desktop {
                 line-height: 1.3;
                 font-size: 1rem;
