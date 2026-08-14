@@ -36,7 +36,7 @@ const Header = () => {
                         <SunIcon className='picto' width='49' height='49' />
                     </button>
                     </div>
-                    <nav className='nav__container'>
+                    <nav  aria-label="Navigation principale" className='nav__container'>
                         <ul>
                             <li className={`${location.pathname === '/' ? 'active' : ''}`}>
                                 <Link role='button' onClick={(e) => {if (location.pathname === '/') e.preventDefault() }} className={`nav__item ${location.pathname === '/' ? 'active' : ''}`} aria-disabled={location.pathname === '/'} to='/'><HomePicto width='43' height='43' className='picto' /></Link>

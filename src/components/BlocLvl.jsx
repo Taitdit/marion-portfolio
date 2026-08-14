@@ -1,11 +1,11 @@
 import Bloc from './Bloc'
 import './BLocLvl.scss'
-
+import BlocNavSecondary from './BlocNavSecondary'
 
 const BLocLvl = () => {
     const lvlNotHome = () => {
         return (
-        
+        <div className='lvlNotHome'>
         <div className='lvlNotHome__container'>
             <div className="lvlNotHome__img">
                 <img src="/img/marion.webp" alt="Illustration Marion Charbonnier" />
@@ -20,7 +20,8 @@ const BLocLvl = () => {
                     <div className='lvl__txt'><p className='lvl__title'>Lvl 30</p><p className=' '>Prête pour de nouvelles aventures</p></div>
                 </div>
             </div>
-
+            </div>
+            <BlocNavSecondary />
         </div>
         )
     }

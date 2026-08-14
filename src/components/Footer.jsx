@@ -104,7 +104,7 @@ const Footer = () => {
                 </div>
                 <p className='mention'>En cliquant sur "Être recontacté", vous acceptez que votre adresse e-mail soit utilisée uniquement afin de répondre à votre demande, conformément à notre <Link to='/politique'>Politique de confidentialité.</Link></p>
                 </div>
-                <div className='footer__more--container'>
+                <nav aria-label="Navigation pied de page" className='footer__more--container'>
                     <h2>Liens rapides :</h2>
                     <ul>
                     <li className="footer__more">
@@ -133,7 +133,7 @@ const Footer = () => {
                         }
                     </li>
                     </ul>
-                </div>
+                </nav>
                 
             </div>
         </div>

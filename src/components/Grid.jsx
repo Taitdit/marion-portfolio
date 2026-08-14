@@ -130,7 +130,7 @@ const Grid = () => {
                                     <h2>{item.title}</h2>
                                     <p>{item.smallDescription}</p>
                                 </div>
-                                <div className="cta__primary specialCard"><span>Voir le projet</span></div>
+                                <div className="cta__primary specialCard"><span>Voir le projet</span><img src="/img/btnArrow.webp" alt="fleche bouton" /></div>
                             </div>
                         </Link>
                     )

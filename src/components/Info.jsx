@@ -32,7 +32,7 @@ const Info = () => {
     return (
         <div className='info'>
             <div className="info__heading">
-                <img src="/img/no-picture.webp" alt="Informations utilles - Marion Charbonnier" />
+                <img src="/img/info.webp" alt="Informations utilles - Marion Charbonnier" />
 
                 <h2 className="form__title">
                 Informations utilles
