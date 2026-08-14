@@ -8,25 +8,25 @@ const TabContact = () => {
         {
             id:'01',
             title:'Quel mode de travail je privilégie ?',
-            img: 'no-picture',
+            img: 'screen',
             details:'Je préfère travailler en présentiel, même si un mélange présentiel/télétravail ne me dérange pas.'
         },
         {
             id:'02',
             title:'Comment peut-on échanger ?',
-            img: 'no-picture',
+            img: 'bulle',
             details:'Vous pouvez m’envoyer un premier message via le formulaire, puis nous pourrons convenir d’un rendez-vous en face à face, par téléphone ou en visio.'
         },
         {
             id:'03',
             title:'Quelles missions puis-je remplir ?',
-            img: 'no-picture',
+            img: 'note',
             details:'Vous pouvez m’envoyer un premier message via le formulaire, puis nous pourrons convenir d’un rendez-vous en face à face, par téléphone ou en visio.'
         },
         {
             id:'04',
             title:'Suis-je freelance ?',
-            img: 'no-picture',
+            img: 'valise',
             details:'Je recherche vraiment un contrat en CDI mais je peux aussi répondre à des missions occasionnelles comme auto entrepreneur.'
         }
     ]

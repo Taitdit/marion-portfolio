@@ -4,13 +4,13 @@ const BlocMiseEnSituation = ({miseEnSituation, title}) => {
     const arrayPictures = miseEnSituation?.pictures || []
     return (
         <section className="projet__situation">
-            <h2><img src="/img/no-picture.webp" alt="Déroulé du projet picto - Marion Charbonnier" />Mise en situation</h2>
+            <h2><img src="/img/fusee.webp" alt="Déroulé du projet picto - Marion Charbonnier" />Mise en application</h2>
 
                 <div className='projet__situation--container'>
                         <div className={`projet__situation--grid grid grid--${arrayPictures.length >= 4 ? '4' : arrayPictures.length}`}>
                             {arrayPictures.map((visu, index) =>
                             <div className='img'>
-                                <img src={`/img/${visu}.webp`} alt={`image mise en situation numéros ${index +1} du ${title} de Marion Charbonnier`} />
+                                <img src={`/img/${visu}.webp`} alt={`image Mise en application numéros ${index +1} du ${title} de Marion Charbonnier`} />
                             </div>)}
                         </div>
                         {miseEnSituation.urlVideo.length ? 

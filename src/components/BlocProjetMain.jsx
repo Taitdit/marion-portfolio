@@ -15,7 +15,7 @@ const BlocProjetMain = ({projet}) => {
             <div className='projet__colLeft'>
                 <p>{projet.smallDescription}</p>
                 <div className='projet__info'>
-                    <img src='/img/no-picture.webp' alt='picto information - Marion Charbonnier' />
+                    <img src='/img/infoProjet.webp' alt='picto information - Marion Charbonnier' />
                     <div className='projet__info--txt'>
                         <h2>Informations</h2>
                         <ul>

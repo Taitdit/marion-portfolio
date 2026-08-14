@@ -22,7 +22,7 @@ const BlocProjetDeroule = ({derouleProjet, title}) => {
     
     return (
         <section className="projet__deroule">
-            <h2><img src="/img/no-picture.webp" alt="Déroulé du projet picto - Marion Charbonnier" />Déroulé du projet</h2>
+            <h2><img src="/img/drapeau.webp" alt="Déroulé du projet picto - Marion Charbonnier" />Déroulé du projet</h2>
 
                 <div className='projet__deroule--container'>
                         {Object.entries(derouleProjet).map(([key, objtPart], index) => {

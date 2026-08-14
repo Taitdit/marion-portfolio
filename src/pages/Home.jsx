@@ -7,6 +7,7 @@ import GridXp from '../components/GridXp'
 import Talents from '../components/Talents'
 import { useEffect, useState } from 'react'
 import Chevron from '../components/svg/Chevron'
+import BlocNavSecondary from '../components/BlocNavSecondary'
 
 const Home = () => {
     const [valueCaroussel, setValueCaroussel] = useState(1)
@@ -129,6 +130,7 @@ const Home = () => {
         },
         {
             title: "Pragmatisme",
+            img:"engrenage",
             description: "J'aime que les idées soient réalisables, utiles et efficaces, pas seulement esthétiques."
         },
         {
@@ -146,9 +148,12 @@ const Home = () => {
     const lvl = () => {
         return (
         <div className='lvl'>
+            <div className='lvl__container'>
             <img src='/img/epee.webp' alt="Epée - Marion Charbonnier" />
             <div className='lvl__txt'><p className='lvl__title'>Lvl 30</p><p className='lvl__sstxt'>Prête pour de nouvelles aventures</p></div>
             <p className='lvl__sstxt'>Prête pour de nouvelles aventures</p>
+            </div>
+            <BlocNavSecondary smaller={true} />
         </div>
         )
     }

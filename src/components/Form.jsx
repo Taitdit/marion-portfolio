@@ -156,7 +156,7 @@ const Form = () => {
   return (
     <section className="form">
       <div className="form__heading">
-        <img src="/img/no-picture.webp" alt="picto contact - Marion Charbonnier" />
+        <img src="/img/enveloppe.webp" alt="picto contact - Marion Charbonnier" />
 
         <h2 className="form__title">
          Envoyez-moi un message
@@ -309,11 +309,9 @@ const Form = () => {
               <span>
                 {isSending ? "Envoi en cours..." : "Envoyer le message"}
               </span>
+              <img src="/img/btnArrow.webp" alt="fleche bouton" />
 
-              <span
-                className="form__submit-square"
-                aria-hidden="true"
-              />
+    
             </button>
           </div>
         </div>
