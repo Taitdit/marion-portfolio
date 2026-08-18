@@ -1,9 +1,9 @@
 import './Info.scss'
 import TabContact from '../components/TabContact'
-
+import { useDarkMode } from "../contexts/DarkModeContext";
 
 const Info = () => {
-
+    const { dark } = useDarkMode();
     const infoUtiles = [
         {
             img: 'email',
@@ -32,7 +32,7 @@ const Info = () => {
     return (
         <div className='info'>
             <div className="info__heading">
-                <img src="/img/info.webp" alt="Informations utilles - Marion Charbonnier" />
+                <img src={`/img/info${dark ? '__b' : ''}.webp`} alt="Informations utilles - Marion Charbonnier" />
 
                 <h2 className="form__title">
                 Informations utilles

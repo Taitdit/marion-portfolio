@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import './TabContact.scss'
 import Arrow from './svg/Arrow'
+import { useDarkMode } from "../contexts/DarkModeContext";
 
 const TabContact = () => {
+    const { dark } = useDarkMode();
     const [areaTab, setAreaTab] = useState([])
     const ask = [
         {
@@ -45,7 +47,7 @@ const TabContact = () => {
                 return (
                  <div key={item.id} className={`ask ${areaTab.includes(item.id) ? 'active' : ''}`}>
                     <button onClick={() => toggleArea(item.id)} role='button' className={`ask__button ${areaTab.includes(item.id) ? 'active' : ''}`}>
-                        <img src={`/img/${item.img}.webp`} alt={item.title} /><span>{item.title}</span><span className='ask__arrow'><Arrow/></span>
+                        <img src={`/img/${item.img}${dark ? '__b' : ''}.webp`} alt={item.title} /><span>{item.title}</span><span className='ask__arrow'><Arrow/></span>
                     </button>
                     <div className='ask__details--container'>
                         <div className='ask__details'>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import emailjs from '@emailjs/browser';
 import './Form.scss'
 import { Link } from "react-router-dom";
+import { useDarkMode } from "../contexts/DarkModeContext";
 
 const initialFormData = {
   lastName: "",
@@ -17,6 +18,7 @@ const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID_CONTACT;
 const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const Form = () => {
+  const { dark } = useDarkMode();
   const [formData, setFormData] = useState(initialFormData);
   const [errors, setErrors] = useState({});
   const [submitStatus, setSubmitStatus] = useState({
@@ -156,7 +158,7 @@ const Form = () => {
   return (
     <section className="form">
       <div className="form__heading">
-        <img src="/img/enveloppe.webp" alt="picto contact - Marion Charbonnier" />
+        <img src={`/img/enveloppe${dark ? '__b' : ''}.webp`} alt="picto contact - Marion Charbonnier" />
 
         <h2 className="form__title">
          Envoyez-moi un message
