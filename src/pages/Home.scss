@@ -186,6 +186,10 @@
                     }
                 }
             }
+            &__G-container {
+                display: flex;
+                flex-direction: column;
+            }
             @include smallTablette {
                 &__D {
                     display: none;
@@ -198,7 +202,6 @@
                 }
                 &__G-container {
                     order: 4;
-                    display: flex;
                     flex-direction: row;
                     .bloc__G {
                         width: 50%;
