@@ -48,53 +48,46 @@
     {
         "id":"2",
         "title":"Ville de Paimpont",
-        "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
+        "smallDescription": "Refonte de l’identité visuelle et conception de la maquette web du site de la commune de Paimpont.",
         "type": ["Identité visuelle", "Webdesign"],
         "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
         "date": "Février 2022",
         "cadre": "Projet étudiant",
-        "longDescription": "Paimpont est un village breton, dans la forêt de Brocéliande. C'est un endroit touristique de par sa localisation. Autour de lui, de nombreux endroits remplis de magie et d'histoire sont à visiter, comme : l'arbre d'or, le château de Comper, le rocher de Merlin ou les forges de Paimpont.",
+        "longDescription": "Paimpont est une commune bretonne située au cœur de la forêt de Brocéliande, connue pour son patrimoine naturel et les légendes arthuriennes qui l’entourent. Son histoire et sa localisation en font une destination touristique où se mêlent nature, patrimoine et imaginaire.",
         "derouleProjet": {
             "part01": {
                 "reverseMob":"",
-                "imgLeft": "rectangle",
+                "imgLeft": "projet-paimpont-mockup2",
                 "txtLeft": "",
-                "txtRight": "",
-                "imgRight": ""
+                "txtRight": "<h3>Création de l’identité visuelle</h3><br><p>Dans le cadre de mon Bachelor Webdesign, l’objectif était de moderniser l’identité visuelle* de Paimpont et de repenser entièrement son site internet, afin de proposer une interface plus actuelle, claire et adaptée aux différents contenus de la commune.<p><br></p>Le projet étant principalement axé sur le webdesign, j’ai créé une <strong>identité visuelle</strong> simple servant de base au futur site : un nouveau logo <strong>inspiré de la forêt de Brocéliande</strong>, une palette de couleurs naturelles et des choix typographiques adaptés.</p>",
+                "imgRight": "projet-paimpont-logos"
             },
             "part02": {
                 "reverseMob":"",
-                "imgLeft": "rectangle",
-                "txtLeft": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
-                "txtRight":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
-                "imgRight": "rectangle"
+                "imgLeft": "projet-paimpont-designsystem2",
+                "txtLeft": "<h3>Construction de l’interface</h3><br><p>J’ai ensuite construit le design system* sur Figma en m’appuyant sur la <strong>méthode de l’Atomic Design*</strong>. Le principe est de partir d’éléments simples — couleurs, typographies, boutons ou icônes — puis de les assembler progressivement pour <strong>créer des composants* plus complexes.</strong><p><br></p>J’ai ainsi décliné les différents éléments de l’interface et leurs états* : boutons, liens, toggles, barres de progression… <p><br></p>afin de <strong>conserver une cohérence graphique et fonctionnelle sur l’ensemble du site</strong>.Une fois ce système défini, j’ai réalisé le zoning* des différentes pages, avant de passer à la conception des maquettes.</p>",
+                "txtRight":"",
+                "imgRight": "projet-paimpont-mockup3"
             },
             "part03": {
                 "reverseMob":"",
-                "imgLeft": "",
+                "imgLeft": "projet-paimpont-designsystem6",
                 "txtLeft": "",
-                "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
-                "imgRight": "rectangle"
+                "txtRight": "<h3>Conception des maquettes</h3><br><p>Pour la refonte, j’ai repris les informations essentielles présentes sur l’ancien site de la commune, en les restructurant et en proposant de nouveaux contenus lorsque cela me semblait pertinent.<p><br></p>J’ai ensuite décliné l’interface sur plusieurs pages aux besoins très différents : accueil, tourisme, actualités et immobilier.<p><br></p> L’ensemble a été conçu à 100 % sur Figma, du design system aux maquettes finales, pour <strong>obtenir un site plus moderne, lisible et cohérent tout en valorisant l’identité de Paimpont</strong>.</p>",
+                "imgRight": "projet-paimpont-designsystem4"
             },
             "part04": {
                 "reverseMob":"",
-                "imgLeft": "",
-                "txtLeft": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
-                "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
-                "imgRight": ""
-            },
-            "part05": {
-                "reverseMob":"",
-                "imgLeft": "",
-                "txtLeft": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
-                "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
-                "imgRight": ""
+                "imgLeft": "projet-paimpont-designsystem5",
+                "txtLeft": "<h3>Petit Lexique</h3><br><p><strong>Identité visuelle*</strong> : ensemble des éléments graphiques qui permettent de reconnaître une marque.</p><br><p><strong>Atomic Design*</strong> : Méthode de conception qui consiste à construire une interface à partir de petits éléments réutilisables, assemblés progressivement pour former des composants puis des pages complètes.</p><br><p><strong>Design system*</strong> : Ensemble des règles graphiques et des composants réutilisables d’une interface : couleurs, typographies, boutons, icônes, champs, états, etc.</p><br><p><strong>Composant*</strong> : sÉlément d’interface conçu pour être réutilisé à plusieurs endroits du site, comme un bouton, une carte ou un champ.</p><br><p><strong>État*</strong>: Variation d’un composant selon l’interaction de l’utilisateur : par défaut, au survol, au focus, désactivé…</p><br><p><strong>Zoning*</strong> : schéma permettant d’organiser les grandes zones d’une page avant sa conception graphique.</p><br><p><strong>UI (User Interface)*</strong>: conception graphique d’une interface.</p>",
+                "txtRight": "",
+                "imgRight": "projet-paimpont-designsystem1"
             }
         
         },
         "miseEnSituation": {
             "urlVideo": "xZs8lq3z2kw",
-            "pictures": ["no-picture", "no-picture", "no-picture"]
+            "pictures": ["projet-paimpont-page-home", "projet-paimpont-page-actualités", "projet-paimpont-page-immobilier", "projet-paimpont-page-contact"]
         }
     },
     {
