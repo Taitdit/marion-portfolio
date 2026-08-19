@@ -93,39 +93,46 @@
     {
         "id":"3",
         "title":"Stallion",
-        "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
-        "type": ["Identité visuelle", "Webdesign"],
-        "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
+        "smallDescription": "Création de l’identité visuelle et du brandbook d’une entreprise technologique dédiée au bien-être et à la sécurité des chevaux.",
+        "type": ["Identité visuelle", "Infographie"],
+        "technoOutils": ["Adobe Illustrator", "photoshop", "Canva"],
         "date": "Février 2022",
         "cadre": "Projet étudiant",
-        "longDescription": "Paimpont est un village breton, dans la forêt de Brocéliande. C'est un endroit touristique de par sa localisation. Autour de lui, de nombreux endroits remplis de magie et d'histoire sont à visiter, comme : l'arbre d'or, le château de Comper, le rocher de Merlin ou les forges de Paimpont.",
+        "longDescription": "Stallion est une entreprise technologique imaginée pour les cavaliers propriétaires. Son objectif est de développer des solutions connectées permettant de garder un œil sur son cheval à distance, afin d’améliorer sa sécurité, son bien-être et la tranquillité d’esprit de son propriétaire.",
         "derouleProjet": {
             "part01": {
                 "reverseMob":"",
-                "imgLeft": "rectangle",
+                "imgLeft": "projet-stallion-mockup2",
                 "txtLeft": "",
-                "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
-                "imgRight": "rectangle"
+                "txtRight": "<h3>Recherche et direction artistique</h3><br><p>Réalisé dans le cadre de mon <strong>Master Direction Artistique Digitale</strong>, Stallion est un projet collectif développé sur deux années avec une équipe aux compétences complémentaires. J’y occupais le rôle de directrice artistique, avec pour mission principale de <strong>construire et développer l’identité visuelle du projet</strong>.<p><br></p>Le travail a commencé par une veille concurrentielle*, réalisée avec plusieurs membres de l’équipe, afin de comprendre le marché et d’identifier les possibilités de différenciation de Stallion.À partir du positionnement, des valeurs et des objectifs définis pour la marque, j’ai ensuite réalisé une veille graphique* autour de deux univers : <strong>le milieu équestre et celui des nouvelles technologies</strong>. <p></p>Ces recherches ont donné naissance à plusieurs moodboards qui ont servi de base à la construction de l’identité visuelle.</p>",
+                "imgRight": "projet-stallion-logo3"
             },
             "part02": {
                 "reverseMob":"",
-                "imgLeft": "rectangle",
-                "txtLeft": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
+                "imgLeft": "projet-stallion-creation-logo",
+                "txtLeft": "<h3>Création du logo</h3><br><p>Après plusieurs croquis et recherches graphiques, une première piste graphique a été développée autour d’un univers plus luxueux, notamment avec l’utilisation succinte de doré. Cette direction a finalement été écartée afin de mieux représenter la dimension technologique de Stallion.<p></p>J’ai poursuivi les recherches autour d’un « S », une piste appréciée par l’ensemble de l’équipe, jusqu’à arriver à la base du logo actuel. Celui-ci a ensuite été retravaillé afin de rendre la silhouette du cheval plus identifiable et d’apporter <strong>davantage de finesse et de mouvement</strong> à l’ensemble.<p><br></p>Le symbole final associe plusieurs éléments : <strong>le S de Stallion, deux silhouettes de chevaux et une construction circulaire rappelant le yin et le yang</strong>. Il traduit ainsi différentes notions importantes pour la marque : <strong>le mouvement, l’innovation, le bien-être et la complémentarité entre Stallion, le cavalier et son cheval</strong>.</p>",
                 "txtRight":"",
-                "imgRight": "rectangle"
+                "imgRight": "projet-stallion-logo1"
             },
             "part05": {
                 "reverseMob":"",
-                "imgLeft": "",
-                "txtLeft": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
-                "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
-                "imgRight": ""
+                "imgLeft": "projet-stallion-couleurs",
+                "txtLeft": "<h3>Création du brandbook</h3><br><p>L’ensemble de ces choix a ensuite été formalisé dans un brandbook permettant <strong>d’encadrer l’utilisation de l’identité de Stallion</strong>.<p></p>Il rassemble les différentes versions du logo, ses déclinaisons sur fonds clairs et foncés, les règles d’utilisation, les interdictions, la palette colorimétrique et les typographies. <p></p>L’objectif était de créer une identité suffisamment structurée pour rester cohérente sur l’ensemble des futurs supports de la marque.</p>",
+                "txtRight": "<h3>Construction de l’univers graphique</h3><br><p>Une fois le logo validé, j’ai développé l’ensemble de l’identité visuelle autour de celui-ci, en travaillant notamment les couleurs et les typographies.La palette associe principalement des verts, des tons beige et argile, ainsi que du blanc.<p></p> Le vert permet d’évoquer à la fois la nature, le bien-être, la confiance et la qualité, tandis que les teintes plus naturelles rappellent l’univers équestre et apportent davantage de chaleur à l’identité. L’objectif était de créer un <strong>équilibre entre tradition et innovation</strong>, tout en conservant une image moderne et qualitative.<p><br></p>Pour les typographies, le choix s’est porté sur des <strong>Google Fonts</strong>, afin de faciliter leur utilisation sur les différents supports, de garantir un usage gratuit et de favoriser les performances et le référencement du site web. La famille Iwona a notamment été retenue pour le logo et les titres, pour son aspect moderne et sa lisibilité.</p>",
+                "imgRight": "projet-stallion-utilisation-logo"
+            },
+            "part06": {
+                "reverseMob":"",
+                "imgLeft": "projet-stallion-bannière-linkedin",
+                "txtLeft": "<h3>Petit Lexique</h3><br><p><strong>Branding*</strong> : Ensemble des éléments qui construisent l’image et l’identité d’une marque : positionnement, univers graphique, ton, valeurs et manière de communiquer.</p><br><p><strong>Brandbook*</strong> : Document regroupant les règles permettant d’utiliser correctement une identité visuelle : logo, couleurs, typographies, déclinaisons et interdictions.</p><br><p><strong>Veille concurrentielle*</strong> : Analyse des acteurs présents sur un même marché afin de comprendre leurs positionnements, leurs codes et d’identifier des possibilités de différenciation.</p><br><p><strong>Veille graphique*</strong> : Recherche et analyse de références visuelles permettant d’explorer un univers graphique et d’orienter la direction artistique d’un projet.</p><br><p><strong>Moodboard*</strong>: Planche regroupant différentes inspirations visuelles — couleurs, typographies, photographies, textures ou références — permettant de définir une direction artistique.</p><br><p><strong>Direction artistique*</strong> : Travail consistant à définir et maintenir l’univers visuel d’un projet afin d’assurer sa cohérence sur l’ensemble de ses supports.</p><br><p><strong>Logotype*</strong>: Représentation graphique permettant d’identifier une marque. Il peut être composé d’un symbole, du nom de la marque ou d’une combinaison des deux.</p>",
+                "txtRight": "<h3>Mise en application</h3><br><p>En parallèle du développement de l’identité, j’ai travaillé avec les autres membres de l’équipe <strong>afin que la direction artistique puisse être correctement déclinée</strong> sur les différents éléments du projet.</p><p>J’ai notamment collaboré avec le responsable UX/UI, ce qui a permis de <strong>faire le lien entre l’identité de marque et la conception des interfaces numériques</strong>, et d’<strong>assurer une cohérence visuelle</strong> entre le branding et les différents supports du projet.</p>",
+                "imgRight": "projet-stallion-mockup3"
             }
             
         },
         "miseEnSituation": {
             "urlVideo": "",
-            "pictures": ["no-picture", "no-picture"]
+            "pictures": ["projet-stallion-publication-linkedin", "projet-stallion-mockup4"]
         }
     },
     {
