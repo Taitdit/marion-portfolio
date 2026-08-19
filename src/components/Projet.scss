@@ -3,9 +3,16 @@
 
 .dark {
     .projet {
-        &__colLeft, &__deroule, &__pagination--btn { 
+        &__colLeft, &__deroule, &__situation , &__pagination--btn { 
             background-color: $secondaryDark;
             box-shadow: $shadowDark;
+        }
+        &__pagination {
+            &--btn {
+                &:before {
+                    background-color: $metionColor;
+                }
+            }
         }
     }
 }
@@ -139,6 +146,10 @@
             display: flex;
             flex-direction: column;
             width: 100%;
+            iframe {
+                width: 100%;
+                aspect-ratio: 16 / 9;
+            }
             img {
                 width: 100%;
             }

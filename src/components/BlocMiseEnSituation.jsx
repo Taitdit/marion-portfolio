@@ -9,7 +9,7 @@ const BlocMiseEnSituation = ({miseEnSituation, title}) => {
                 <div className='projet__situation--container'>
                         <div className={`projet__situation--grid grid grid--${arrayPictures.length >= 4 ? '4' : arrayPictures.length}`}>
                             {arrayPictures.map((visu, index) =>
-                            <div className='img'>
+                            <div key={`image-${index +1}`} className='img'>
                                 <img src={`/img/${visu}.webp`} alt={`image Mise en application numéros ${index +1} du ${title} de Marion Charbonnier`} />
                             </div>)}
                         </div>

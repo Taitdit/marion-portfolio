@@ -1,15 +1,14 @@
 import BLocLvl from '../components/BlocLvl'
 import './BlocTitle.scss'
-import { Link } from 'react-router-dom'
 import Breadcrumb from './Breadcrumb'
 
 const Bloctitle = ({title, intro, infoSup, breadcrumb}) => {
     
     return (
         <div className="title__container">
-            <Link to='/' className="title__right">
+            <div className="title__right">
                 <BLocLvl />
-            </Link>
+            </div>
             <div className="title__left">
                 {breadcrumb ? <Breadcrumb title={breadcrumb} /> : ''}
                 <h1>{title}</h1>
