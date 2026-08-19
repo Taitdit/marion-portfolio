@@ -1,6 +1,14 @@
 @use "../variables" as *;
 @use "../mixin" as *;
 
+.dark {
+    .lvlNotHome {
+        &__container {
+            color: $textDark;
+        }
+    }
+}
+
 .lvlNotHome {
     display: flex;
     flex-direction: column;
@@ -8,6 +16,8 @@
     &__container {
         display: flex;
         justify-content: space-between;
+        color: $text;
+        text-decoration: none;
     }
     &__img  {
         display: none;

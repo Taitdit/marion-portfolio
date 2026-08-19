@@ -3,18 +3,46 @@ import './Projet.scss'
 const BlocProjetDeroule = ({derouleProjet, title}) => {
     const contenuePart = (img, txt, side, index) => {
         const trueIndex = index + 1
+
+        const div = () => <div className='projet__deroule--txt' dangerouslySetInnerHTML={{ __html: txt }} /> 
+        const media = (m) => {
+            if(m.startsWith("moovie-")) {
+                const urlYoutube = m.split("moovie-")
+                return (
+                    <iframe
+                        src={`https://www.youtube-nocookie.com/embed/${urlYoutube[1]}`}
+                        title={`Vidéo du ${title} de Marion Charbonnier`}
+                        loading="lazy"
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        referrerPolicy="strict-origin-when-cross-origin"
+                    />
+                )      
+            } else {
+                return <img src={`/img/${m}.webp`} alt={`image de droite de la partie ${trueIndex} du déroulé du ${title} - Marion Charbonnier`} /> 
+            }
+        } 
         if(side === 'left') {
             return (
                 <>
-                {img.length ? <img src={`/img/${img}.webp`} alt={`image de gauche de la partie ${trueIndex} du déroulé du ${title} - Marion Charbonnier`} /> : ''}
-                {txt.length ? <div className='projet__deroule--txt' dangerouslySetInnerHTML={{ __html: txt }} /> : ''}
+                {img.length ? 
+                    media(img)
+                : ''}
+                {txt.length ? 
+                        div()
+                    : ''}
                 </>
             ) 
         } else {
             return (
                 <>
-                {txt.length ? <div className='projet__deroule--txt' dangerouslySetInnerHTML={{ __html: txt }} /> : ''}
-                {img.length ? <img src={`/img/${img}.webp`} alt={`image de droite de la partie ${trueIndex} du déroulé du ${title} - Marion Charbonnier`} /> : ''}
+                {txt.length ? 
+                    div()            
+                : ''}
+                
+                {img.length ? 
+                    media(img)
+                : ''}
                 </>
             ) 
         }
