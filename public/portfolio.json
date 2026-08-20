@@ -138,23 +138,37 @@
     {
         "id":"4",
         "title":"Nextgen EdTech",
-        "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
+        "smallDescription": "Conception du site web, création des supports graphiques et réalisation d’une vidéo de présentation en motion design pour NextGen EdTech.",
         "type": ["Webdesign", "Infographie", "Motion design"],
-        "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
+        "technoOutils": ["Figma", "Adobe Illustrator", "Photoshop"],
         "date": "Février 2022",
         "cadre": "Projet étudiant",
-        "longDescription": "Paimpont est un village breton, dans la forêt de Brocéliande. C'est un endroit touristique de par sa localisation. Autour de lui, de nombreux endroits remplis de magie et d'histoire sont à visiter, comme : l'arbre d'or, le château de Comper, le rocher de Merlin ou les forges de Paimpont.",
+        "longDescription": "NextGen EdTech est une entreprise spécialisée dans la formation aux outils numériques, qui propose notamment des formations, masterclass et workshops à destination des établissements d’enseignement et centres de formation, autour du NoCode et de la création d’applications.",
         "derouleProjet": {
             "part01": {
                 "reverseMob":"",
-                "imgLeft": "moovie-xZs8lq3z2kw",
+                "imgLeft": "projet-nextgen-mockup1",
                 "txtLeft": "",
-                "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.<br/>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>",
-                "imgRight": "rectangle"
+                "txtRight": "<h3>Conception du site web</h3><br><p>Réalisé en autonomie durant mon alternance chez Akatek, ce projet répondait à une demande réelle de la cliente : créer un site permettant de présenter son activité, ses formations et ses différents services. L’entreprise disposait déjà de son logo.</p><p>J’ai donc commencé par développer l’univers visuel qui allait l’accompagner, notamment à travers la création de différentes illustrations et infographies adaptées aux contenus du futur site. Après plusieurs échanges avec la cliente pour définir les informations à intégrer et leur organisation, j’ai réalisé un zoning du site.</p><p> Une fois celui-ci validé, je suis passée à la <strong>création de la maquette*</strong>, que j’ai présentée à la cliente avant d’y apporter les derniers ajustements.</p>",
+                "imgRight": "projet-nextgen-illustration-masterclass"
             },
             "part02": {
                 "reverseMob":"",
-                "imgLeft": "moovie-xZs8lq3z2kw",
+                "imgLeft": "projet-nextgen-bannière-instagram",
+                "txtLeft": "<h3>Développement sous WordPress</h3><br><p>Après validation de la maquette, j’ai pris en charge la <strong>création du site</strong> sous WordPress, en intégrant les différents contenus textuels fournis par la cliente ainsi que les visuels réalisés pour le projet.</p><p> L’objectif était de <strong>construire un site clair et cohérent permettant de présenter les différentes facettes de NextGen EdTech</strong>, tout en utilisant les illustrations pour structurer les pages et mettre en valeur les contenus.</p><p>Le site a ainsi été décliné sur plusieurs pages consacrées notamment à la présentation de l’entreprise, aux contenus pédagogiques et au recrutement des étudiants.</p>",
+                "txtRight": "<h3>Création des supports graphiques</h3><br><p>En parallèle du site, j’ai adapté et créé plusieurs illustrations et infographies en reprenant les couleurs et l’univers graphique de NextGen EdTech.</p><p>Ces visuels ont été pensés pour illustrer les différentes thématiques abordées par l’entreprise et <strong>créer une continuité visuelle</strong> entre ses supports.</p><p>J’ai également réalisé différentes bannières pour les réseaux sociaux, notamment pour LinkedIn et Facebook, afin de <strong>décliner cette identité sur les différents canaux de communication</strong> de l’entreprise.</p>",
+                "imgRight": "projet-nextgen-illustration-appmobile"
+            },
+            "part03": {
+                "reverseMob":"",
+                "imgLeft": "moovie-oxf2aJ-deqE",
+                "txtLeft": "",
+                "txtRight": "<h3>Vidéo de présentation & motion design</h3><br><p>La cliente souhaitait également disposer d’une <strong>vidéo de présentation</strong> destinée principalement aux centres de formation auxquels elle souhaitait proposer ses workshops. À partir des textes qui m’ont été fournis, j’ai imaginé l’univers visuel de la vidéo. J'ai ensuite préparé les différentes visuels pour l’animation avant de <strong>construire les différentes séquences</strong> sur Adobe After Effects.</p><p>Le travail de motion design avait pour objectif de rythmer une vidéo de présentation assez longue et de mettre en valeur les informations grâce aux illustrations et aux animations, tout en conservant une cohérence graphique avec le site et les autres supports de NextGen EdTech.</p><br><h3>Petit Lexique</h3><br><p><strong>Zoning*</strong>: Schéma simplifié permettant d’organiser les grandes zones et les contenus d’une page avant de travailler son design.</p><br><p><strong>Maquette*</strong> : Représentation graphique détaillée d’un futur site permettant de définir son apparence avant son développement.</p><br><p><strong>WordPress*</strong> :Système de gestion de contenu permettant de créer, administrer et mettre à jour un site internet.</p><br><p><strong>Infographie*</strong> : Représentation visuelle permettant d’illustrer ou de rendre une information plus claire et plus facilement compréhensible.</p><br><p><strong>Motion design*</strong>: Mise en mouvement d’éléments graphiques, de textes ou d’illustrations afin de créer un contenu vidéo animé.</p><br><p><strong>NoCode*</strong> : Approche permettant de créer des applications, sites ou outils numériques sans avoir à programmer directement leur code.</p></p>",
+                "imgRight": ""
+            },
+            "part05": {
+                "reverseMob":"",
+                "imgLeft": "",
                 "txtLeft": "",
                 "txtRight": "",
                 "imgRight": ""
@@ -162,8 +176,8 @@
             
         },
         "miseEnSituation": {
-            "urlVideo": "",
-            "pictures": ["no-picture"]
+            "urlVideo": "qt4HwXgEBDE",
+            "pictures": ["projet-nextgen-page-home", "projet-nextgen-page-apropos", "projet-nextgen-page-methodes", "projet-nextgen-page-recrutement"]
         }
     },
     {
@@ -171,7 +185,7 @@
         "title":"The Light Side Band",
         "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
         "type": ["Webdesign", "Infographie"],
-        "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
+        "technoOutils": ["Figma", "Adobe Illustrator", "Photoshop"],
         "date": "Février 2022",
         "cadre": "Projet étudiant",
         "longDescription": "Paimpont est un village breton, dans la forêt de Brocéliande. C'est un endroit touristique de par sa localisation. Autour de lui, de nombreux endroits remplis de magie et d'histoire sont à visiter, comme : l'arbre d'or, le château de Comper, le rocher de Merlin ou les forges de Paimpont.",
