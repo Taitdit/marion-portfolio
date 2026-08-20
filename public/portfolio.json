@@ -11,37 +11,37 @@
         "derouleProjet": {
             "part01": {
                 "reverseMob":"",
-                "imgLeft": "projet-brieuc-device",
+                "imgLeft": ["projet-brieuc-device"],
                 "txtLeft": "",
                 "txtRight":  "<h3>Le projet</h3><br><p>Dans le cadre de mon Bachelor Webdesign, j’ai eu l’occasion de travailler en équipe sur un projet réel : accompagner Brieuc,professionnel du secteur funéraire, dans la <strong>création de sa propre entreprise de pompes funèbres</strong> à Crac’h, dans le Morbihan.</p><p>Le projet partait d’une page blanche : identité visuelle, site web, stratégie de communication et marketing, supports pour les réseaux sociaux… </p><p>De mon côté, j’ai principalement pris en charge la <strong>création de l’identité visuelle et la conception de la maquette du site web</strong>.</p><p>Les nombreux échanges avec le client nous ont permis de découvrir un secteur particulier, parfois délicat, mais qui s’est révélé particulièrement intéressant à traiter.</p>",
-                "imgRight": "projet-brieuc-logos"
+                "imgRight": ["projet-brieuc-logos", ["legende 01", "legende 02"]]
             },
             "part02": {
                 "reverseMob":"true",
-                "imgLeft": "",
+                "imgLeft": [],
                 "txtLeft": "<h3>Poser les bases de l’identité</h3><br><p>Le projet s’est déroulé sur plusieurs semaines, avec un premier travail d’échange permettant de <strong>comprendre l’activité, le positionnement et les attentes du client</strong>.</p><p>L’objectif était de <strong>moderniser les codes traditionnels du secteur funéraire</strong>, tout en conservant le sérieux et la sobriété indispensables à ce domaine. J’ai donc commencé par définir une identité visuelle* qui servirait de fil conducteur à l’ensemble du projet.</p>",
                 "txtRight":"",
-                "imgRight": ""
+                "imgRight": []
             },
             "part03": {
                 "reverseMob":"true",
-                "imgLeft": "projet-brieuc-page-mockup-et-oodboard",
+                "imgLeft": ["projet-brieuc-page-mockup-et-oodboard"],
                 "txtLeft": "<h3>De l’identité au site web</h3><br><p>Une fois l’univers graphique défini, j’ai commencé la conception du site par le zoning* afin d’organiser les contenus et leur hiérarchie, avant de réaliser les maquettes UI* complètes.</p><p>L’identité visuelle a ensuite été déclinée à travers les <strong>couleurs, typographies, formes et composants de l’interface</strong>. </p><p>L’objectif était de proposer une navigation simple, claire et rassurante, avec un accès rapide aux informations essentielles.</p><p>Le client ne disposant pas encore de photographies ni de contenus définitifs, j’ai recherché et créé des contenus fictifs* afin de <strong>construire une maquette réaliste et de pouvoir tester les différentes mises en page</strong>.</p>",
                 "txtRight":"<h3>Création du logotype</h3><p>Pour le logotype*, j’ai recherché un <strong>équilibre entre modernité et tradition</strong>. Le nom « Brieuc » est directement associé à la baseline « Pompes Funèbres », afin d’identifier immédiatement l’activité.</p><p>Le logo a d’abord été travaillé en niveaux de gris avant de définir les couleurs. Plusieurs déclinaisons* ont ensuite été créées pour assurer son <strong>utilisation sur fonds clairs, foncés ou photographiques, en web comme en print</strong>, ainsi que dans de petits formats comme le favicon.</p><br><br><h3>Une palette inspirée du territoire</h3><p>La palette s’inspire notamment de l’implantation de l’entreprise dans le Morbihan. </p><p>Les différentes nuances de bleu évoquent la mer et le ciel tout en apportant <strong>sobriété et confiance</strong>.</p><p>Le jaune orangé, associé au sable et au soleil, apporte quant à lui de la <strong>chaleur</strong> et permet de s’éloigner de l’image pastel traditionnellement associée au secteur funéraire.</p>",
-                "imgRight": "projet-brieuc-mockup"
+                "imgRight": ["projet-brieuc-mockup"]
             },
             "part04": {
                 "reverseMob":"",
-                "imgLeft": "projet-brieuc-designsystem4",
+                "imgLeft": ["projet-brieuc-designsystem4"],
                 "txtLeft": "<h3>Les rendus finaux</h3><br><p>Le projet a abouti à une <strong>identité visuelle complète et déclinable</strong>, composée du logotype, de ses variantes, d’une palette colorimétrique et de différents éléments graphiques ensuite transposés au site web.</p><p>La maquette finale reprend cet univers à travers une interface sobre et claire, ponctuée de formes arrondies et de touches de couleur apportant davantage de chaleur.</p><p>Ce projet m’a permis de travailler sur une problématique particulièrement intéressante : <strong>trouver l’équilibre entre les codes d’un secteur sensible, les attentes d’un client réel et la volonté de proposer une identité plus moderne et différenciante</strong>.</p><br><br><h3>Petit Lexique</h3><br><p><strong>Identité visuelle*</strong> : ensemble des éléments graphiques qui permettent de reconnaître une marque.<p><strong>Logotype*</strong> : représentation graphique du nom ou du symbole d’une entreprise.</p><p><strong>Déclinaison*</strong> : adaptation d’un élément graphique à différents formats et usages.</p><p><strong>Zoning*</strong> : schéma permettant d’organiser les grandes zones d’une page avant sa conception graphique.</p><p><strong>UI (User Interface)*</strong>: conception graphique d’une interface.</p><p><strong>Responsive*</strong> : conception permettant à un site de s’adapter aux différentes tailles d’écran.</p>",
                 "txtRight": "",
-                "imgRight": "projet-brieuc-designsystem"
+                "imgRight": ["projet-brieuc-designsystem"]
             }
             
         },
         "miseEnSituation": {
             "urlVideo": "",
-            "pictures": ["projet-brieuc-page-home", "projet-brieuc-page-a-propos", "projet-brieuc-page-contact"]
+            "pictures": [["projet-brieuc-page-home", "legende 01"], ["projet-brieuc-page-a-propos", "legende 01", "legende 02"], ["projet-brieuc-page-contact"]]
         }
 
     },
@@ -57,37 +57,37 @@
         "derouleProjet": {
             "part01": {
                 "reverseMob":"",
-                "imgLeft": "projet-paimpont-mockup2",
+                "imgLeft": ["projet-paimpont-mockup2"],
                 "txtLeft": "",
                 "txtRight": "<h3>Création de l’identité visuelle</h3><br><p>Dans le cadre de mon Bachelor Webdesign, l’objectif était de moderniser l’identité visuelle* de Paimpont et de repenser entièrement son site internet, afin de proposer une interface plus actuelle, claire et adaptée aux différents contenus de la commune.<p><br></p>Le projet étant principalement axé sur le webdesign, j’ai créé une <strong>identité visuelle</strong> simple servant de base au futur site : un nouveau logo <strong>inspiré de la forêt de Brocéliande</strong>, une palette de couleurs naturelles et des choix typographiques adaptés.</p>",
-                "imgRight": "projet-paimpont-logos"
+                "imgRight": ["projet-paimpont-logos"]
             },
             "part02": {
                 "reverseMob":"",
-                "imgLeft": "projet-paimpont-designsystem2",
+                "imgLeft": ["projet-paimpont-designsystem2"],
                 "txtLeft": "<h3>Construction de l’interface</h3><br><p>J’ai ensuite construit le design system* sur Figma en m’appuyant sur la <strong>méthode de l’Atomic Design*</strong>. Le principe est de partir d’éléments simples — couleurs, typographies, boutons ou icônes — puis de les assembler progressivement pour <strong>créer des composants* plus complexes.</strong><p><br></p>J’ai ainsi décliné les différents éléments de l’interface et leurs états* : boutons, liens, toggles, barres de progression… <p><br></p>afin de <strong>conserver une cohérence graphique et fonctionnelle sur l’ensemble du site</strong>.Une fois ce système défini, j’ai réalisé le zoning* des différentes pages, avant de passer à la conception des maquettes.</p>",
                 "txtRight":"",
-                "imgRight": "projet-paimpont-mockup3"
+                "imgRight": ["projet-paimpont-mockup3"]
             },
             "part03": {
                 "reverseMob":"",
-                "imgLeft": "projet-paimpont-designsystem6",
+                "imgLeft": ["projet-paimpont-designsystem6"],
                 "txtLeft": "",
                 "txtRight": "<h3>Conception des maquettes</h3><br><p>Pour la refonte, j’ai repris les informations essentielles présentes sur l’ancien site de la commune, en les restructurant et en proposant de nouveaux contenus lorsque cela me semblait pertinent.<p><br></p>J’ai ensuite décliné l’interface sur plusieurs pages aux besoins très différents : accueil, tourisme, actualités et immobilier.<p><br></p> L’ensemble a été conçu à 100 % sur Figma, du design system aux maquettes finales, pour <strong>obtenir un site plus moderne, lisible et cohérent tout en valorisant l’identité de Paimpont</strong>.</p>",
-                "imgRight": "projet-paimpont-designsystem4"
+                "imgRight": ["projet-paimpont-designsystem4"]
             },
             "part04": {
                 "reverseMob":"",
-                "imgLeft": "projet-paimpont-designsystem5",
+                "imgLeft": ["projet-paimpont-designsystem5"],
                 "txtLeft": "<h3>Petit Lexique</h3><br><p><strong>Identité visuelle*</strong> : ensemble des éléments graphiques qui permettent de reconnaître une marque.</p><br><p><strong>Atomic Design*</strong> : Méthode de conception qui consiste à construire une interface à partir de petits éléments réutilisables, assemblés progressivement pour former des composants puis des pages complètes.</p><br><p><strong>Design system*</strong> : Ensemble des règles graphiques et des composants réutilisables d’une interface : couleurs, typographies, boutons, icônes, champs, états, etc.</p><br><p><strong>Composant*</strong> : sÉlément d’interface conçu pour être réutilisé à plusieurs endroits du site, comme un bouton, une carte ou un champ.</p><br><p><strong>État*</strong>: Variation d’un composant selon l’interaction de l’utilisateur : par défaut, au survol, au focus, désactivé…</p><br><p><strong>Zoning*</strong> : schéma permettant d’organiser les grandes zones d’une page avant sa conception graphique.</p><br><p><strong>UI (User Interface)*</strong>: conception graphique d’une interface.</p>",
                 "txtRight": "",
-                "imgRight": "projet-paimpont-designsystem1"
+                "imgRight": ["projet-paimpont-designsystem1"]
             }
         
         },
         "miseEnSituation": {
             "urlVideo": "xZs8lq3z2kw",
-            "pictures": ["projet-paimpont-page-home", "projet-paimpont-page-actualités", "projet-paimpont-page-immobilier", "projet-paimpont-page-contact"]
+            "pictures": [["projet-paimpont-page-home"], ["projet-paimpont-page-actualités"], ["projet-paimpont-page-immobilier"], ["projet-paimpont-page-contact"]]
         }
     },
     {
@@ -102,37 +102,37 @@
         "derouleProjet": {
             "part01": {
                 "reverseMob":"",
-                "imgLeft": "projet-stallion-mockup2",
+                "imgLeft": ["projet-stallion-mockup2"],
                 "txtLeft": "",
                 "txtRight": "<h3>Recherche et direction artistique</h3><br><p>Réalisé dans le cadre de mon <strong>Master Direction Artistique Digitale</strong>, Stallion est un projet collectif développé sur deux années avec une équipe aux compétences complémentaires. J’y occupais le rôle de directrice artistique, avec pour mission principale de <strong>construire et développer l’identité visuelle du projet</strong>.<p><br></p>Le travail a commencé par une veille concurrentielle*, réalisée avec plusieurs membres de l’équipe, afin de comprendre le marché et d’identifier les possibilités de différenciation de Stallion.À partir du positionnement, des valeurs et des objectifs définis pour la marque, j’ai ensuite réalisé une veille graphique* autour de deux univers : <strong>le milieu équestre et celui des nouvelles technologies</strong>. <p></p>Ces recherches ont donné naissance à plusieurs moodboards qui ont servi de base à la construction de l’identité visuelle.</p>",
-                "imgRight": "projet-stallion-logo3"
+                "imgRight": ["projet-stallion-logo3"]
             },
             "part02": {
                 "reverseMob":"",
-                "imgLeft": "projet-stallion-creation-logo",
+                "imgLeft": ["projet-stallion-creation-logo"],
                 "txtLeft": "<h3>Création du logo</h3><br><p>Après plusieurs croquis et recherches graphiques, une première piste graphique a été développée autour d’un univers plus luxueux, notamment avec l’utilisation succinte de doré. Cette direction a finalement été écartée afin de mieux représenter la dimension technologique de Stallion.<p></p>J’ai poursuivi les recherches autour d’un « S », une piste appréciée par l’ensemble de l’équipe, jusqu’à arriver à la base du logo actuel. Celui-ci a ensuite été retravaillé afin de rendre la silhouette du cheval plus identifiable et d’apporter <strong>davantage de finesse et de mouvement</strong> à l’ensemble.<p><br></p>Le symbole final associe plusieurs éléments : <strong>le S de Stallion, deux silhouettes de chevaux et une construction circulaire rappelant le yin et le yang</strong>. Il traduit ainsi différentes notions importantes pour la marque : <strong>le mouvement, l’innovation, le bien-être et la complémentarité entre Stallion, le cavalier et son cheval</strong>.</p>",
                 "txtRight":"",
-                "imgRight": "projet-stallion-logo1"
+                "imgRight": ["projet-stallion-logo1"]
             },
             "part05": {
                 "reverseMob":"",
-                "imgLeft": "projet-stallion-couleurs",
+                "imgLeft": ["projet-stallion-couleurs"],
                 "txtLeft": "<h3>Création du brandbook</h3><br><p>L’ensemble de ces choix a ensuite été formalisé dans un brandbook permettant <strong>d’encadrer l’utilisation de l’identité de Stallion</strong>.<p></p>Il rassemble les différentes versions du logo, ses déclinaisons sur fonds clairs et foncés, les règles d’utilisation, les interdictions, la palette colorimétrique et les typographies. <p></p>L’objectif était de créer une identité suffisamment structurée pour rester cohérente sur l’ensemble des futurs supports de la marque.</p>",
                 "txtRight": "<h3>Construction de l’univers graphique</h3><br><p>Une fois le logo validé, j’ai développé l’ensemble de l’identité visuelle autour de celui-ci, en travaillant notamment les couleurs et les typographies.La palette associe principalement des verts, des tons beige et argile, ainsi que du blanc.<p></p> Le vert permet d’évoquer à la fois la nature, le bien-être, la confiance et la qualité, tandis que les teintes plus naturelles rappellent l’univers équestre et apportent davantage de chaleur à l’identité. L’objectif était de créer un <strong>équilibre entre tradition et innovation</strong>, tout en conservant une image moderne et qualitative.<p><br></p>Pour les typographies, le choix s’est porté sur des <strong>Google Fonts</strong>, afin de faciliter leur utilisation sur les différents supports, de garantir un usage gratuit et de favoriser les performances et le référencement du site web. La famille Iwona a notamment été retenue pour le logo et les titres, pour son aspect moderne et sa lisibilité.</p>",
-                "imgRight": "projet-stallion-utilisation-logo"
+                "imgRight": ["projet-stallion-utilisation-logo"]
             },
             "part06": {
                 "reverseMob":"",
-                "imgLeft": "projet-stallion-bannière-linkedin",
+                "imgLeft": ["projet-stallion-bannière-linkedin"],
                 "txtLeft": "<h3>Petit Lexique</h3><br><p><strong>Branding*</strong> : Ensemble des éléments qui construisent l’image et l’identité d’une marque : positionnement, univers graphique, ton, valeurs et manière de communiquer.</p><br><p><strong>Brandbook*</strong> : Document regroupant les règles permettant d’utiliser correctement une identité visuelle : logo, couleurs, typographies, déclinaisons et interdictions.</p><br><p><strong>Veille concurrentielle*</strong> : Analyse des acteurs présents sur un même marché afin de comprendre leurs positionnements, leurs codes et d’identifier des possibilités de différenciation.</p><br><p><strong>Veille graphique*</strong> : Recherche et analyse de références visuelles permettant d’explorer un univers graphique et d’orienter la direction artistique d’un projet.</p><br><p><strong>Moodboard*</strong>: Planche regroupant différentes inspirations visuelles — couleurs, typographies, photographies, textures ou références — permettant de définir une direction artistique.</p><br><p><strong>Direction artistique*</strong> : Travail consistant à définir et maintenir l’univers visuel d’un projet afin d’assurer sa cohérence sur l’ensemble de ses supports.</p><br><p><strong>Logotype*</strong>: Représentation graphique permettant d’identifier une marque. Il peut être composé d’un symbole, du nom de la marque ou d’une combinaison des deux.</p>",
                 "txtRight": "<h3>Mise en application</h3><br><p>En parallèle du développement de l’identité, j’ai travaillé avec les autres membres de l’équipe <strong>afin que la direction artistique puisse être correctement déclinée</strong> sur les différents éléments du projet.</p><p>J’ai notamment collaboré avec le responsable UX/UI, ce qui a permis de <strong>faire le lien entre l’identité de marque et la conception des interfaces numériques</strong>, et d’<strong>assurer une cohérence visuelle</strong> entre le branding et les différents supports du projet.</p>",
-                "imgRight": "projet-stallion-mockup3"
+                "imgRight": ["projet-stallion-mockup3"]
             }
             
         },
         "miseEnSituation": {
             "urlVideo": "",
-            "pictures": ["projet-stallion-publication-linkedin", "projet-stallion-mockup4"]
+            "pictures": [["projet-stallion-publication-linkedin"], ["projet-stallion-mockup4"]]
         }
     },
     {
@@ -147,37 +147,37 @@
         "derouleProjet": {
             "part01": {
                 "reverseMob":"",
-                "imgLeft": "projet-nextgen-mockup1",
+                "imgLeft": ["projet-nextgen-mockup1"],
                 "txtLeft": "",
                 "txtRight": "<h3>Conception du site web</h3><br><p>Réalisé en autonomie durant mon alternance chez Akatek, ce projet répondait à une demande réelle de la cliente : créer un site permettant de présenter son activité, ses formations et ses différents services. L’entreprise disposait déjà de son logo.</p><p>J’ai donc commencé par développer l’univers visuel qui allait l’accompagner, notamment à travers la création de différentes illustrations et infographies adaptées aux contenus du futur site. Après plusieurs échanges avec la cliente pour définir les informations à intégrer et leur organisation, j’ai réalisé un zoning du site.</p><p> Une fois celui-ci validé, je suis passée à la <strong>création de la maquette*</strong>, que j’ai présentée à la cliente avant d’y apporter les derniers ajustements.</p>",
-                "imgRight": "projet-nextgen-illustration-masterclass"
+                "imgRight": ["projet-nextgen-illustration-masterclass"]
             },
             "part02": {
                 "reverseMob":"",
-                "imgLeft": "projet-nextgen-bannière-instagram",
+                "imgLeft": ["projet-nextgen-bannière-instagram"],
                 "txtLeft": "<h3>Développement sous WordPress</h3><br><p>Après validation de la maquette, j’ai pris en charge la <strong>création du site</strong> sous WordPress, en intégrant les différents contenus textuels fournis par la cliente ainsi que les visuels réalisés pour le projet.</p><p> L’objectif était de <strong>construire un site clair et cohérent permettant de présenter les différentes facettes de NextGen EdTech</strong>, tout en utilisant les illustrations pour structurer les pages et mettre en valeur les contenus.</p><p>Le site a ainsi été décliné sur plusieurs pages consacrées notamment à la présentation de l’entreprise, aux contenus pédagogiques et au recrutement des étudiants.</p>",
                 "txtRight": "<h3>Création des supports graphiques</h3><br><p>En parallèle du site, j’ai adapté et créé plusieurs illustrations et infographies en reprenant les couleurs et l’univers graphique de NextGen EdTech.</p><p>Ces visuels ont été pensés pour illustrer les différentes thématiques abordées par l’entreprise et <strong>créer une continuité visuelle</strong> entre ses supports.</p><p>J’ai également réalisé différentes bannières pour les réseaux sociaux, notamment pour LinkedIn et Facebook, afin de <strong>décliner cette identité sur les différents canaux de communication</strong> de l’entreprise.</p>",
-                "imgRight": "projet-nextgen-illustration-appmobile"
+                "imgRight": ["projet-nextgen-illustration-appmobile", ["legende 01"]]
             },
             "part03": {
                 "reverseMob":"",
-                "imgLeft": "moovie-oxf2aJ-deqE",
+                "imgLeft": ["moovie-oxf2aJ-deqE", ["legende 01", "legende 02"]],
                 "txtLeft": "",
                 "txtRight": "<h3>Vidéo de présentation & motion design</h3><br><p>La cliente souhaitait également disposer d’une <strong>vidéo de présentation</strong> destinée principalement aux centres de formation auxquels elle souhaitait proposer ses workshops. À partir des textes qui m’ont été fournis, j’ai imaginé l’univers visuel de la vidéo. J'ai ensuite préparé les différentes visuels pour l’animation avant de <strong>construire les différentes séquences</strong> sur Adobe After Effects.</p><p>Le travail de motion design avait pour objectif de rythmer une vidéo de présentation assez longue et de mettre en valeur les informations grâce aux illustrations et aux animations, tout en conservant une cohérence graphique avec le site et les autres supports de NextGen EdTech.</p><br><h3>Petit Lexique</h3><br><p><strong>Zoning*</strong>: Schéma simplifié permettant d’organiser les grandes zones et les contenus d’une page avant de travailler son design.</p><br><p><strong>Maquette*</strong> : Représentation graphique détaillée d’un futur site permettant de définir son apparence avant son développement.</p><br><p><strong>WordPress*</strong> :Système de gestion de contenu permettant de créer, administrer et mettre à jour un site internet.</p><br><p><strong>Infographie*</strong> : Représentation visuelle permettant d’illustrer ou de rendre une information plus claire et plus facilement compréhensible.</p><br><p><strong>Motion design*</strong>: Mise en mouvement d’éléments graphiques, de textes ou d’illustrations afin de créer un contenu vidéo animé.</p><br><p><strong>NoCode*</strong> : Approche permettant de créer des applications, sites ou outils numériques sans avoir à programmer directement leur code.</p></p>",
-                "imgRight": ""
+                "imgRight": []
             },
             "part05": {
                 "reverseMob":"",
-                "imgLeft": "",
+                "imgLeft": [],
                 "txtLeft": "",
                 "txtRight": "",
-                "imgRight": ""
+                "imgRight": []
             }
             
         },
         "miseEnSituation": {
             "urlVideo": "qt4HwXgEBDE",
-            "pictures": ["projet-nextgen-page-home", "projet-nextgen-page-apropos", "projet-nextgen-page-methodes", "projet-nextgen-page-recrutement"]
+            "pictures": [["projet-nextgen-page-home"], ["projet-nextgen-page-apropos"], ["projet-nextgen-page-methodes"], ["projet-nextgen-page-recrutement"]]
         }
     },
     {

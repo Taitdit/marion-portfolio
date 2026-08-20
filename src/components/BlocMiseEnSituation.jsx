@@ -10,7 +10,21 @@ const BlocMiseEnSituation = ({miseEnSituation, title}) => {
                         <div className={`projet__situation--grid grid grid--${arrayPictures.length >= 4 ? '4' : arrayPictures.length}`}>
                             {arrayPictures.map((visu, index) =>
                             <div key={`image-${index +1}`} className='img'>
-                                <img src={`/img/${visu}.webp`} alt={`image Mise en application numéros ${index +1} du ${title} de Marion Charbonnier`} />
+                                <img src={`/img/${visu[0]}.webp`} alt={`image Mise en application numéros ${index +1} du ${title} de Marion Charbonnier`} />
+                                {
+                                    visu?.length > 1 ? 
+                                        <div className='mediaLegend'>
+                                            <p>
+                                            {visu?.map((i, index) => {
+                                                if(index !== 0) {
+                                                    if(index === 1) return <span>{i}</span>
+                                                    else return <span>, {i}</span>
+                                                }
+                                            })}
+                                            </p>
+                                        </div>
+                                     : ''
+                                }
                             </div>)}
                         </div>
                         {miseEnSituation.urlVideo.length ? 

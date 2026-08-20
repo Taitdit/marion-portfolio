@@ -185,8 +185,10 @@
             .img {
                 width: 100%;
                 display: flex;
-                justify-content: center;
-                align-items: flex-start;
+                justify-content: flex-start;
+                align-items: flex-end;
+                flex-direction: column;
+                gap: 1rem;
                 img {
                     width: 100%;
                     height: auto;
@@ -314,5 +316,19 @@
                 }
             }
         }
+    }
+}
+.mediaContainer {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 1rem;
+}
+.mediaLegend {
+    text-align: right;
+    p span {
+        font-size: 14px;
+        font-style: italic;
     }
 }

@@ -26,7 +26,23 @@ const BlocProjetDeroule = ({derouleProjet, title}) => {
             return (
                 <>
                 {img.length ? 
-                    media(img)
+                    <div className='mediaContainer'>
+                        {img.length > 1 ? 
+                            <>
+                                {media(img[0])}
+                                <div className='mediaLegend'>
+                                    <p>
+                                    {img[1].map((i, index) => {
+                                       if(index === 0) return <span key={i}>{i}</span>
+                                       else return <span key={i}>, {i}</span>
+                                    })}
+                                    </p>
+                                </div>
+                            </>
+                        :
+                            media(img[0])
+                        }
+                    </div>
                 : ''}
                 {txt.length ? 
                         div()
@@ -41,7 +57,23 @@ const BlocProjetDeroule = ({derouleProjet, title}) => {
                 : ''}
                 
                 {img.length ? 
-                    media(img)
+                     <div className='mediaContainer'>
+                        {img.length > 1 ? 
+                            <>
+                                {media(img[0])}
+                                <div className='mediaLegend'>
+                                    <p>
+                                    {img[1].map((i, index) => {
+                                       if(index === 0) return <span key={i}>{i}</span>
+                                       else return <span key={i}>, {i}</span>
+                                    })}
+                                    </p>
+                                </div>
+                            </>
+                        :
+                            media(img[0])
+                        }
+                    </div>
                 : ''}
                 </>
             ) 
