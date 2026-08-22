@@ -5,7 +5,7 @@
         "smallDescription": "Création de l’identité visuelle et conception de la maquette web pour le lancement d’une entreprise de pompes funèbres.",
         "type": ["Identité visuelle", "Webdesign"],
         "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
-        "date": "Février 2022",
+        "date": "2023",
         "cadre": "Projet étudiant réel",
         "longDescription": "Brieuc Cazouret, professionnel du secteur funéraire, souhaitait ouvrir sa propre entreprise de pompes funèbres à Crac’h, dans le Morbihan. Pour lancer son activité, il avait besoin de construire son image de A à Z : identité visuelle, site web et supports de communication.",
         "derouleProjet": {
@@ -51,7 +51,7 @@
         "smallDescription": "Refonte de l’identité visuelle et conception de la maquette web du site de la commune de Paimpont.",
         "type": ["Identité visuelle", "Webdesign"],
         "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
-        "date": "Février 2022",
+        "date": "2022",
         "cadre": "Projet étudiant",
         "longDescription": "Paimpont est une commune bretonne située au cœur de la forêt de Brocéliande, connue pour son patrimoine naturel et les légendes arthuriennes qui l’entourent. Son histoire et sa localisation en font une destination touristique où se mêlent nature, patrimoine et imaginaire.",
         "derouleProjet": {
@@ -96,7 +96,7 @@
         "smallDescription": "Création de l’identité visuelle et du brandbook d’une entreprise technologique dédiée au bien-être et à la sécurité des chevaux.",
         "type": ["Identité visuelle", "Infographie"],
         "technoOutils": ["Adobe Illustrator", "photoshop", "Canva"],
-        "date": "Février 2022",
+        "date": "2022-2023",
         "cadre": "Projet étudiant réel",
         "longDescription": "Stallion est une entreprise technologique imaginée pour les cavaliers propriétaires. Son objectif est de développer des solutions connectées permettant de garder un œil sur son cheval à distance, afin d’améliorer sa sécurité, son bien-être et la tranquillité d’esprit de son propriétaire.",
         "derouleProjet": {
@@ -141,7 +141,7 @@
         "smallDescription": "Conception du site web, création des supports graphiques et réalisation d’une vidéo de présentation en motion design pour NextGen EdTech.",
         "type": ["Webdesign", "Infographie", "Motion design"],
         "technoOutils": ["Figma", "Adobe Illustrator", "Photoshop"],
-        "date": "Février 2022",
+        "date": "2022",
         "cadre": "Projet réel",
         "longDescription": "NextGen EdTech est une entreprise spécialisée dans la formation aux outils numériques, qui propose notamment des formations, masterclass et workshops à destination des établissements d’enseignement et centres de formation, autour du NoCode et de la création d’applications.",
         "derouleProjet": {
@@ -178,8 +178,8 @@
         "title":"The Light Side Band",
         "smallDescription": "Création de l’identité visuelle et conception du site internet d’un groupe de folk rock progressif breton.Description du projet",
         "type": ["Webdesign", "Infographie"],
-        "technoOutils": ["Adobe Illustrator", "Photoshop", "Wordpress"],
-        "date": "Février 2022",
+        "technoOutils": ["Adobe Illustrator", "Photoshop", "Wordpress", "HTML", "CSS"],
+        "date": "2020",
         "cadre": "Projet étudiant réel",
         "longDescription": "The Light Side, anciennement The Light Side Band, est un groupe breton de folk rock progressif. Son univers mêle différentes influences musicales et s’est construit autour d’une identité inspirée notamment par le thème de l’éclipse. Le groupe est toujours actif aujourd’hui et continue de faire évoluer son univers, sa communication et son site internet.",
         "derouleProjet": {
@@ -222,31 +222,84 @@
     {
         "id":"6",
         "title":"Chez Lolotte",
-        "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
+        "smallDescription": "Création de l’identité visuelle et conception d’un site WordPress pour un diner américain fictif inspiré de l’univers rétro des années 50.",
         "type": ["Identité visuelle", "Webdesign", "Infographie"],
-        "technoOutils": ["Figma", "Adobe Illustrator", "photoshop"],
-        "date": "Février 2022",
+        "technoOutils": ["Adobe Illustrator", "Wordpress"],
+        "date": "2022",
         "cadre": "Projet étudiant fictif",
-        "longDescription": "Paimpont est un village breton, dans la forêt de Brocéliande. C'est un endroit touristique de par sa localisation. Autour de lui, de nombreux endroits remplis de magie et d'histoire sont à visiter, comme : l'arbre d'or, le château de Comper, le rocher de Merlin ou les forges de Paimpont.",
-        "derouleProjet": {},
+        "longDescription": "Chez Lolotte est un concept fictif de diner américain imaginé autour de l’esthétique des années 50. L’univers associe les codes emblématiques des diners américains à une identité colorée et féminine, principalement construite autour du bleu turquoise, du rose et des motifs à carreaux.",
+        "derouleProjet": {
+            "part01": {
+                "reverseMob":"",
+                "imgLeft": ["projet-lolotte-mockup1"],
+                "txtLeft": "<h3>Conception du site WordPress</h3><br><p>J’ai ensuite décliné cette identité sur un site <strong>réalisé avec WordPress</strong>, en conservant les mêmes codes graphiques afin de créer un <strong>univers cohérent</strong> entre le logo et l’interface.</p><p> Le site a été pensé comme celui d’un véritable restaurant, avec notamment une page d’accueil, la carte complète et une page de contact. </p><br><p>La carte regroupe les différentes catégories du restaurant — burgers, plats à partager, boissons, milkshakes, desserts ou petits-déjeuners.</p>",
+                "txtRight": "<h3>Création de l’univers graphique</h3><br><p>Réalisé dans le cadre de mon Bachelor Webedesigner, ce projet avait pour objectif d’imaginer de toutes pièces l’identité et le site internet d’un restaurant fictif, le tout dans un temps très court.</p><p> Je suis partie sur l’univers des <strong>diners américains des années 50</strong>, avec une direction artistique très identifiable : <strong>couleurs pastel, carreaux, illustrations rétro et références à la culture américaine</strong>.</p><br><p>Le logo a été réalisé rapidement afin de poser les bases de cet univers et de pouvoir me concentrer sur la conception du site. Avec davantage de temps, il aurait mérité d’être plus travaillé et approfondi, notamment dans ses détails et sa construction.J’ai repris la <strong>forme ronde des enseignes et badges vintage</strong>, avec au centre une pin-up illustrée. Le turquoise et le rose viennent renforcer cet univers rétro et se retrouvent ensuite sur l’ensemble des supports.</p>",
+                "imgRight": ["projet-lolotte-mockup2"]
+            }
+            ,
+            "part02": {
+                "reverseMob":"",
+                "imgLeft": ["projet-lolotte-carreaux2"],
+                "txtLeft": "<br><br>",
+                "txtRight": "",
+                "imgRight": ""
+            },
+            "part03": {
+                "reverseMob":"",
+                "imgLeft": ["projet-lolotte-milkshake"],
+                "txtLeft": "",
+                "txtRight": "<h3>Création des contenus visuels</h3><br><p>Pour donner davantage de personnalité au site, j’ai également réalisé différents photomontages et éléments graphiques en reprenant les codes de l’identité.</p><p>J’ai notamment imaginé une offre anniversaire autour d’un milkshake offert, traitée dans un style inspiré du <strong>pop art et de la bande dessinée</strong>, avec une illustration, des trames, une bulle de dialogue et les couleurs de Chez Lolotte.</p><br><p>Ces éléments viennent enrichir l’univers du restaurant tout en permettant d’imaginer comment son identité pourrait être utilisée pour des offres promotionnelles et différents supports de communication.</p>",
+                "imgRight": ""
+            },
+            "part04": {
+                "reverseMob":"",
+                "imgLeft": "",
+                "txtLeft": "<h3>Mise en situation</h3><br><p>L’identité a également été mise en situation sur différents supports afin de montrer son fonctionnement au-delà du site internet, notamment sur des gobelets et emballages à emporter.</p><p> L’objectif était de conserver un <strong>univers immédiatement reconnaissable</strong> quel que soit le support, grâce au logo, aux couleurs et aux différents codes graphiques développés pour le projet.</p><br><br><br><br><h3>Petit Lexique</h3><br><strong>WordPress*</strong>: Système de gestion de contenu permettant de créer, administrer et mettre à jour un site internet.</p><br><p><strong>Identité visuelle*</strong>: Ensemble des éléments graphiques qui permettent d’identifier une marque : logo, couleurs, typographies, illustrations et autres codes visuels.</p><br><p><strong>Photomontage*</strong>: Assemblage et retouche de plusieurs éléments visuels afin de créer une nouvelle composition.</p><br><p><strong>Pop art*</strong>: Mouvement artistique utilisant les codes de la culture populaire, de la publicité et de la bande dessinée, souvent avec des couleurs franches et des compositions très graphiques.</p>",
+                "txtRight": "",
+                "imgRight": ["projet-lolotte-burger"]
+            }
+        },
         "miseEnSituation": {
             "urlVideo": "yTyaHVS8lmQ",
-            "pictures": []
+            "pictures": [["projet-lolotte-page-home", ["Homepage (page d'acceuil)"]], ["projet-lolotte-page-carte", ["Page de présentation de la carte"]], ["projet-lolotte-page-contact", ["Page de contact"]]]
         }
     },
     {
         "id":"7",
         "title":"Travelture",
-        "smallDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue finibus nunc.",
+        "smallDescription": "Conception et intégration d’un site de réservation de séjours, de la création des maquettes jusqu’au développement en HTML, CSS et JavaScript.",
         "type": ["Identité visuelle", "Webdesign"],
-        "technoOutils": ["Figma", "Adobe Illustrator"],
-        "date": "Février 2022",
+        "technoOutils": ["Adobe Illustrator", "HTML", "CSS", "JavaScript"],
+        "date": "2021",
         "cadre": "Projet étudiant fictif",
-        "longDescription": "Paimpont est un village breton, dans la forêt de Brocéliande. C'est un endroit touristique de par sa localisation. Autour de lui, de nombreux endroits remplis de magie et d'histoire sont à visiter, comme : l'arbre d'or, le château de Comper, le rocher de Merlin ou les forges de Paimpont.",
-        "derouleProjet": {},
+        "longDescription": "Travelture est un site fictif de réservation de voyages permettant de rechercher et découvrir des séjours selon différentes destinations et envies. Le projet comprend la création d’une identité visuelle simple, la conception des différentes pages et leur intégration responsive.",
+        "derouleProjet": {
+            "part01": {
+                "reverseMob":"",
+                "imgLeft": ["projet-travelture-logo"],
+                "txtLeft": "<br><br><h3>Création de l’identité et des maquettes</h3><br><p>Même si la création d’une identité visuelle n’était pas demandée, j’ai souhaité donner une véritable cohérence au projet en créant le nom Travelture, contraction de travel et adventure, ainsi qu’un logo associant un avion et un repère de localisation.</p><br><p>J’ai ensuite réalisé le <strong>zoning* puis les maquettes</strong> des différentes pages avant de passer au développement.L’interface repose largement sur les photographies de destinations, accompagnées d’une palette de verts et de bleus. J’ai cherché à garder une <strong>mise en page simple</strong> pour laisser une place importante aux visuels et faciliter (pour la suite) la recherche des différents séjours.</p><br><br><br><h3>Intégration du site</h3><br><p>Une fois les maquettes définies, j’ai développé le site en <strong>HTML, CSS et JavaScript</strong>.</p><p>Le projet comprend plusieurs pages et fonctionnalités : une page d’accueil présentant les séjours et destinations, un système de recherche et de filtres (non fonctionnel), une page regroupant les différents séjours, une présentation de l’entreprise et de son équipe ainsi qu’une page de contact.</p><br><p>J’ai également travaillé les <strong>effets au survol</strong>, différents composants de l’interface et l’adaptation du site aux différentes tailles d’écran.</p>",
+                "txtRight": "<h3>Un projet d’intégration web</h3><br><p>Travelture a été réalisé dans le cadre de mon Bachelor Webdesigner, pour un cours consacré à l’intégration web. Le thème était libre, mais le projet devait obligatoirement intégrer plusieurs éléments imposés, comme des menus déroulants, des média queries et d’autres composants travaillés en cours.</p><p> J’ai choisi de créer un site de réservation de séjours afin de construire un projet <strong>suffisamment complet pour mettre en pratique ces différentes notions </strong>.",
+                "imgRight": ["projet-travelture-homepage1", ["Partie supérieur de la homepage"]]
+            },
+            "part02": {
+                "reverseMob":"",
+                "imgLeft": ["projet-travelture-apropos", ["Page à propos"]],
+                "txtLeft": "",
+                "txtRight": "<h3>Travail du responsive</h3><br><p>Le responsive faisait partie intégrante du projet. J’ai donc utilisé des media queries* afin d’adapter la disposition des contenus et la navigation aux écrans plus petits.Ayant anticipé cette étape dès la conception des maquettes, j’ai pu consacrer davantage de temps aux ajustements et aux détails lors de l’intégration.</p><br><br><h3>Résultat</h3><br><p>Le résultat est un <strong>site multipage responsive</strong>, pensé comme une plateforme de réservation de voyages avec une identité et une interface cohérentes sur l’ensemble des pages.</p><p>Ce projet m’a surtout permis de mettre en pratique différentes notions d’<strong>intégration front-end</strong>, de travailler le passage d’une maquette à un site fonctionnel et de mieux anticiper le responsive dès la phase de conception.</p>",
+                "imgRight": ["projet-travelture-partie-basse", ["Partie centrale de la homepage"]]
+            },
+            "part03": {
+                "reverseMob":"",
+                "imgLeft": ["projet-travelture-zoom-sejours", ["Cartes de présentation de voyages, avec effet au survol"]],
+                "txtLeft": "",
+                "txtRight": "<h3>Petit Lexique</h3><br><p><strong>Zoning*</strong>: Découpage simplifié d’une page permettant de définir l’emplacement et la hiérarchie des différents contenus avant la création de la maquette.</p><br><p><strong>Intégration Web*</strong>: Étape qui consiste à transformer une maquette graphique en pages web à l’aide de langages comme HTML, CSS et JavaScript par exemple.</p><br><p><strong>Responsive design*</strong>:Conception permettant à un site de s’adapter aux différentes tailles d’écran : ordinateur, tablette ou smartphone.</p><br><p><strong>Media query*</strong>: Règle CSS permettant de modifier l'affichage d'un site en fonction notamment de la taille de l'écran.</p><br><p><strong>HTML / CSS / JavaScript*</strong>: Langages utilisés pour structurer les contenus d’une page, gérer leur apparence et ajouter des comportements interactifs.</p><br>",
+                "imgRight": ""
+            }
+
+        },
         "miseEnSituation": {
             "urlVideo": "szepunynyLc",
-            "pictures": []
+            "pictures": [["projet-travelture-homepage", ["Homepage (page d'acceuil)"]], ["projet-travelture-sejours", ["Page de présentation des séjours"]], ["projet-travelture-apropos", ["Page à propos"]], ["projet-travelture-contact", ["Page de contact"]]]
         }
         
     }
