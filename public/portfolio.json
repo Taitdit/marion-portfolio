@@ -94,7 +94,7 @@
         "id":"3",
         "title":"Stallion",
         "smallDescription": "Création de l’identité visuelle et du brandbook d’une entreprise technologique dédiée au bien-être et à la sécurité des chevaux.",
-        "type": ["Identité visuelle", "Infographie"],
+        "type": ["Identité visuelle", "Infographie & photomontage"],
         "technoOutils": ["Adobe Illustrator", "photoshop", "Canva"],
         "date": "2022-2023",
         "cadre": "Projet étudiant réel",
@@ -139,7 +139,7 @@
         "id":"4",
         "title":"Nextgen EdTech",
         "smallDescription": "Conception du site web, création des supports graphiques et réalisation d’une vidéo de présentation en motion design pour NextGen EdTech.",
-        "type": ["Webdesign", "Infographie", "Motion design"],
+        "type": ["Webdesign", "Infographie & photomontage", "Montage vidéo & Animation"],
         "technoOutils": ["Figma", "Adobe Illustrator", "Photoshop"],
         "date": "2022",
         "cadre": "Projet réel",
@@ -177,7 +177,7 @@
         "id":"5",
         "title":"The Light Side Band",
         "smallDescription": "Création de l’identité visuelle et conception du site internet d’un groupe de folk rock progressif breton.Description du projet",
-        "type": ["Webdesign", "Infographie"],
+        "type": ["Webdesign", "Infographie & photomontage"],
         "technoOutils": ["Adobe Illustrator", "Photoshop", "Wordpress", "HTML", "CSS"],
         "date": "2020",
         "cadre": "Projet étudiant réel",
@@ -223,7 +223,7 @@
         "id":"6",
         "title":"Chez Lolotte",
         "smallDescription": "Création de l’identité visuelle et conception d’un site WordPress pour un diner américain fictif inspiré de l’univers rétro des années 50.",
-        "type": ["Identité visuelle", "Webdesign", "Infographie"],
+        "type": ["Identité visuelle", "Webdesign", "Infographie & photomontage"],
         "technoOutils": ["Adobe Illustrator", "Wordpress"],
         "date": "2022",
         "cadre": "Projet étudiant fictif",
@@ -300,6 +300,65 @@
         "miseEnSituation": {
             "urlVideo": "szepunynyLc",
             "pictures": [["projet-travelture-homepage", ["Homepage (page d'acceuil)"]], ["projet-travelture-sejours", ["Page de présentation des séjours"]], ["projet-travelture-apropos", ["Page à propos"]], ["projet-travelture-contact", ["Page de contact"]]]
+        }
+        
+    },
+    {
+        "id":"8",
+        "title":"Dike déco",
+        "smallDescription": "Création de photomontages de projets décoratifs, conception et gestion du site web et réalisation de supports de communication pour Dike Déco.",
+        "type": ["Webdesign", "Infographie & photomontage", "Montage vidéo & Animation"],
+        "technoOutils": ["Figma", "Photoshop", "Illustrator", "After effect"],
+        "date": "2023 à 2026",
+        "cadre": "Projet réel",
+        "longDescription": "Depuis trois ans, je travaille comme infographiste chez Dike Déco, entreprise spécialisée dans la décoration événementielle partout en France. Je réalise principalement des photomontages permettant aux clients de visualiser leurs futurs décors, tout en assurant la création, l'administration et l'évolution du site internet de l'entreprise.",
+        "derouleProjet": {
+            "part01": {
+                "reverseMob":"",
+                "imgLeft": ["projet-dikedeco-moodboard1", ["Exemple de moodboard proposé aux clients"]],
+                "txtLeft": "<p>Je sélectionne et associe les différents éléments de décoration, puis travaille leur implantation, leurs proportions, la perspective et leur intégration dans l'environnement. Ces mises en situation permettent aux clients de <strong>se projeter dans le résultat final</strong> et de valider leur projet avant sa mise en place par les équipes. </p>",
+                "txtRight": "<h3>Imaginer les futurs décors</h3><br><p>Dike Déco accompagne des centres commerciaux, grandes surfaces et entreprises dans la<strong> décoration de leurs espaces</strong> à l'occasion de Noël et de nombreux temps forts de l'année.</p><br><p>Mon rôle est principalement de <strong>concevoir les propositions visuelles</strong> présentées aux clients. À partir de photographies de leurs espaces et de leurs besoins, je réalise des <strong>photomontages permettant de visualiser les futurs décors</strong> avant leur installation.</p>",
+                "imgRight": ["projet-dikedeco-chateau-décoration", ["Mise en situation de décors LED devant un chateau pour Noël"]]
+            },
+            "part02": {
+                "reverseMob":"",
+                "imgLeft": ["projet-dikedeco-noel3", ["Mise en situation de scènes dans des centres commerciaux"]],
+                "txtLeft": "<p>Une fois les décors installés, les équipes de pose réalisent des <strong>photos et vidéos des installations finales</strong>. J'utilise ensuite ces contenus pour créer des <strong>montages vidéo mettant en valeur les projets réalisés</strong>, destinés notamment au site et à la communication de l'entreprise. L'une de ces vidéos est présentée plus bas sur cette page.</p><p> En parallèle, j'ai entièrement conçu le <strong>site internet de Dike Déco sous WordPress</strong>, que j'administre et enrichis régulièrement avec de nouveaux contenus, réalisations et univers saisonniers.</p>",
+                "txtRight": "",
+                "imgRight": ["projet-dikedeco-noel1", ["Mise en situation de décors sol et plafonds"]]
+            },
+            "part03": {
+                "reverseMob":"",
+                "imgLeft": ["projet-dikedeco-vitrine-ete"],
+                "txtLeft": "",
+                "txtRight": "<h3>Des univers pour toute l'année</h3><br><p>L'activité de Dike Déco ne se limite pas à Noël. Je réalise également des photomontages pour accompagner les différents <strong>temps forts commerciaux et événements de l'année</strong> : Foire aux vins, été, Pâques, Saint-Valentin, rentrée scolaire, événements sportifs ou opérations plus ponctuelles.</p><br><p> Les demandes sont très variées : <strong>décoration de vitrines, mises en scène de produits, espaces saisonniers, décors suspendus ou aménagements plus importants</strong> dans des magasins et centres commerciaux.</p><br><p> Chaque thématique demande de construire un <strong>univers visuel différent</strong>, en sélectionnant et en associant les éléments les plus <strong>adaptés au lieu et à l'événement</strong>. Une ambiance estivale colorée, une mise en scène autour du vin ou une décoration de Saint-Valentin ne répondent pas aux mêmes codes ni aux mêmes contraintes.</p><p>Cette diversité m'amène à <strong>adapter constamment mes compositions et ma manière de travailler</strong>, tout en conservant le même objectif : proposer au client une représentation claire et attractive de ce que son espace pourra devenir une fois le décor installé.</p>",
+                "imgRight": ["projet-dikedeco-visuel-site", ["Exemple de visuel publiés sur le site"]]
+            },
+            "part04": {
+                "reverseMob":"",
+                "imgLeft": ["projet-dikedeco-octobre-rose-ete", ["Mises en situation en grande surface et vitrine pour divers evenements"]],
+                "txtLeft": "",
+                "txtRight": "",
+                "imgRight": ""
+            },
+            "part05": {
+                "reverseMob":"",
+                "imgLeft": ["projet-dikedeco-publication-linkedin", ["Exemple de visuel pour publication Linkedin"]],
+                "txtLeft": "",
+                "txtRight": "<h3>Concevoir le site internet</h3><p>J'ai réalisé le site internet de Dike Déco de A à Z, <strong>de sa conception graphique jusqu'à son intégration</strong>.</p><p> Il a été pensé comme une <strong> vitrine permettant de présenter l'entreprise</strong>, ses différents univers, ses produits et les nombreuses réalisations installées partout en France.</p><p> J'ai conçu la structure des pages, leur mise en forme et les différents contenus graphiques qui composent le site.</p><br><br><h3>Un site qui évolue toute l'année</h3><br><p>Depuis sa création, j'assure également <strong>l'administration et l'évolution du site</strong>.</p><p> Je crée régulièrement de nouveaux articles et de nouveaux contenus en fonction des temps forts de l'année : Noël, Foire aux vins, été, rentrée scolaire ou encore événements ponctuels.</p><p>Les visuels utilisés sont soit créés par mes soins, soit issus des photographies des installations réalisées par l'équipe de pose.",
+                "imgRight": ["projet-dikedeco-stvalentin"]
+            },
+            "part06": {
+                "reverseMob":"",
+                "imgLeft": "",
+                "txtLeft": "<h3>Petit Lexique</h3><br><p><strong>Mise en situation*</strong>: Représentation d’un produit ou d’un décor dans son futur environnement afin de permettre au client de visualiser le résultat final.</p><br><p><strong>WordPress*</strong>: Système de gestion de contenu permettant de concevoir, administrer et faire évoluer un site internet sans avoir à intervenir directement dans le code pour chaque modification.</p><br><p><strong>Administration web*</strong>:Gestion régulière d’un site après sa mise en ligne : ajout et modification de contenus, création de nouvelles pages, actualisation des visuels et maintenance des informations.</p><br><p><strong>Montage vidéo*</strong>: Assemblage de vidéos, photographies, textes et autres éléments graphiques permettant de créer un contenu dynamique pour présenter et valoriser les réalisations de l’entreprise.</p>",
+                "txtRight": "",
+                "imgRight": ["projet-dikedeco-noel-printemps"]
+            }
+        },
+        "miseEnSituation": {
+            "urlVideo": "4STOAgLRWW4",
+            "pictures": [["projet-dikedeco-homepage", ["Homepage (page d'acceuil)"]], ["projet-dikedeco-page-pieces-led", ["Présentation d'un article"]], ["projet-dikedeco-page-réalisations", ["Page de réalisations"]], ["projet-dikedeco-page-catalogue", ["Page de présentation d'un catalogue"]]]
         }
         
     }
