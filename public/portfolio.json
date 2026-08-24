@@ -94,7 +94,7 @@
         "id":"3",
         "title":"Stallion",
         "smallDescription": "Création de l’identité visuelle et du brandbook d’une entreprise technologique dédiée au bien-être et à la sécurité des chevaux.",
-        "type": ["Identité visuelle", "Infographie & photomontage"],
+        "type": ["Identité visuelle", "Infographie", "Photomontage"],
         "technoOutils": ["Adobe Illustrator", "photoshop", "Canva"],
         "date": "2022-2023",
         "cadre": "Projet étudiant réel",
@@ -139,7 +139,7 @@
         "id":"4",
         "title":"Nextgen EdTech",
         "smallDescription": "Conception du site web, création des supports graphiques et réalisation d’une vidéo de présentation en motion design pour NextGen EdTech.",
-        "type": ["Webdesign", "Infographie & photomontage", "Montage vidéo & Animation"],
+        "type": ["Webdesign", "Infographie", "Animation", "Montage vidéo" ],
         "technoOutils": ["Figma", "Adobe Illustrator", "Photoshop"],
         "date": "2022",
         "cadre": "Projet réel",
@@ -177,7 +177,7 @@
         "id":"5",
         "title":"The Light Side Band",
         "smallDescription": "Création de l’identité visuelle et conception du site internet d’un groupe de folk rock progressif breton.Description du projet",
-        "type": ["Webdesign", "Infographie & photomontage"],
+        "type": ["Webdesign", "Infographie", "Photomontage"],
         "technoOutils": ["Adobe Illustrator", "Photoshop", "Wordpress", "HTML", "CSS"],
         "date": "2020",
         "cadre": "Projet étudiant réel",
@@ -223,7 +223,7 @@
         "id":"6",
         "title":"Chez Lolotte",
         "smallDescription": "Création de l’identité visuelle et conception d’un site WordPress pour un diner américain fictif inspiré de l’univers rétro des années 50.",
-        "type": ["Identité visuelle", "Webdesign", "Infographie & photomontage"],
+        "type": ["Identité visuelle", "Webdesign", "Infographie"],
         "technoOutils": ["Adobe Illustrator", "Wordpress"],
         "date": "2022",
         "cadre": "Projet étudiant fictif",
@@ -235,8 +235,7 @@
                 "txtLeft": "<h3>Conception du site WordPress</h3><br><p>J’ai ensuite décliné cette identité sur un site <strong>réalisé avec WordPress</strong>, en conservant les mêmes codes graphiques afin de créer un <strong>univers cohérent</strong> entre le logo et l’interface.</p><p> Le site a été pensé comme celui d’un véritable restaurant, avec notamment une page d’accueil, la carte complète et une page de contact. </p><br><p>La carte regroupe les différentes catégories du restaurant — burgers, plats à partager, boissons, milkshakes, desserts ou petits-déjeuners.</p>",
                 "txtRight": "<h3>Création de l’univers graphique</h3><br><p>Réalisé dans le cadre de mon Bachelor Webedesigner, ce projet avait pour objectif d’imaginer de toutes pièces l’identité et le site internet d’un restaurant fictif, le tout dans un temps très court.</p><p> Je suis partie sur l’univers des <strong>diners américains des années 50</strong>, avec une direction artistique très identifiable : <strong>couleurs pastel, carreaux, illustrations rétro et références à la culture américaine</strong>.</p><br><p>Le logo a été réalisé rapidement afin de poser les bases de cet univers et de pouvoir me concentrer sur la conception du site. Avec davantage de temps, il aurait mérité d’être plus travaillé et approfondi, notamment dans ses détails et sa construction.J’ai repris la <strong>forme ronde des enseignes et badges vintage</strong>, avec au centre une pin-up illustrée. Le turquoise et le rose viennent renforcer cet univers rétro et se retrouvent ensuite sur l’ensemble des supports.</p>",
                 "imgRight": ["projet-lolotte-mockup2"]
-            }
-            ,
+            },
             "part02": {
                 "reverseMob":"",
                 "imgLeft": ["projet-lolotte-carreaux2"],
@@ -307,7 +306,7 @@
         "id":"8",
         "title":"Dike déco",
         "smallDescription": "Création de photomontages de projets décoratifs, conception et gestion du site web et réalisation de supports de communication pour Dike Déco.",
-        "type": ["Webdesign", "Infographie & photomontage", "Montage vidéo & Animation"],
+        "type": ["Webdesign", "Infographie", "Photomontage", "Montage vidéo", "Animation"],
         "technoOutils": ["Figma", "Photoshop", "Illustrator", "After effect"],
         "date": "2023 à 2026",
         "cadre": "Projet réel",
@@ -359,6 +358,46 @@
         "miseEnSituation": {
             "urlVideo": "4STOAgLRWW4",
             "pictures": [["projet-dikedeco-homepage", ["Homepage (page d'acceuil)"]], ["projet-dikedeco-page-pieces-led", ["Présentation d'un article"]], ["projet-dikedeco-page-réalisations", ["Page de réalisations"]], ["projet-dikedeco-page-catalogue", ["Page de présentation d'un catalogue"]]]
+        }
+        
+    },
+    {
+        "id":"9",
+        "title":"Eurekare",
+        "smallDescription": "Conception et réalisation du site WordPress d’eureKARE, entreprise spécialisée dans l’investissement et le développement de projets en biotechnologie.",
+        "type": ["Webdesign"],
+        "technoOutils": ["Figma", "Wordpress"],
+        "date": "2023",
+        "cadre": "Projet réel",
+        "longDescription": "EureKARE est une entreprise spécialisée dans les biotechnologies, pour laquelle j’ai conçu et réalisé un site WordPress sobre et professionnel, en accord avec son univers scientifique et institutionnel.",
+        "derouleProjet": {
+            "part01": {
+                "reverseMob":"",
+                "imgLeft": ["projet-eurekare-mockup"],
+                "txtLeft": "",
+                "txtRight": "<h3>Description du projet</h3><br><p>eureKARE est une entreprise spécialisée dans l’investissement et le développement de projets innovants en biotechnologie, notamment dans les domaines de la biologie synthétique et du microbiome. Dans le cadre de mon apprentissage chez Akatek, j’ai conçu et réalisé le site internet d’eureKARE sous WordPress. </p><br><p>L’identité visuelle étant déjà définie, l’objectif était de la décliner dans un univers web <strong>sobre, professionnel et institutionnel</strong>, en accord avec le positionnement scientifique et corporate de l’entreprise.</p>.",
+                "imgRight": ["projet-eurekare-team", ["cards d'equipe avec effet au survol"]]
+            },
+            "part02": {
+                "reverseMob":"",
+                "imgLeft": "",
+                "txtLeft": "<p>Le design repose ainsi sur des <strong>mises en page épurées</strong>, une palette principalement blanche et bleue et une <strong>organisation claire des contenus</strong>. L’enjeu était notamment de rendre accessibles des informations parfois denses et techniques, tout en conservant une image sérieuse et structurée.</p><br><br><h3>Conception du site web</h3><br><p>L’identité visuelle d’eureKARE était déjà définie avant le début du projet. Mon travail a donc consisté à la décliner sur le web et à construire les différentes pages du site sous WordPress.</p><br><p> J’ai conçu et intégré les différents contenus en veillant à <strong>conserver une interface cohérente et homogène</strong> sur l’ensemble du site : présentation de l’entreprise et de sa stratégie, équipes, studios, entreprises accompagnées ainsi que plusieurs pages dédiées à leurs événements. Le site repose donc sur une mise en page adaptée à l’univers scientifique et professionnel d’eureKARE.</p>",
+                "txtRight": "",
+                "imgRight": ["projet-eurekare-health"]
+            },
+            "part03": {
+                "reverseMob":"",
+                "imgLeft": ["projet-eurekare-ligne"],
+                "txtLeft": "",
+                "txtRight": "",
+                "imgRight": ""
+            }
+            
+
+        },
+        "miseEnSituation": {
+            "urlVideo": "",
+            "pictures": [["projet-eurekare-page-home", ["Homepage (page d'acceuil)"]], ["projet-eurekare-page-people", ["Page de présentation de l'équipe"]], ["projet-eurekare-page-strategy", ["Page strategie"]], ["projet-eurekare-page-studios", ["Page studios"]]]
         }
         
     }
