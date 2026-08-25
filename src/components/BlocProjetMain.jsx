@@ -1,6 +1,6 @@
 import './Projet.scss'
 
-const BlocProjetMain = ({projet}) => {
+const BlocProjetMain = ({projet, alternativeIntro}) => {
     const normalizeLabel = (label) => {
         return label
         .normalize("NFD")
@@ -13,11 +13,12 @@ const BlocProjetMain = ({projet}) => {
     return (
         <section className="projet__main">
             <div className='projet__colLeft'>
-                <p>{projet.smallDescription}</p>
+                {!alternativeIntro ? <p>{projet.smallDescription}</p> : ''}
                 <div className='projet__info'>
                     <img src='/img/infoProjet.webp' alt='picto information - Marion Charbonnier' />
                     <div className='projet__info--txt'>
                         <h2>Informations</h2>
+                        {!alternativeIntro ? 
                         <ul>
                             <li>
                                 <span className='intitule'>Technologies et outils :</span>
@@ -40,9 +41,16 @@ const BlocProjetMain = ({projet}) => {
                                 <span className='txt'>{projet.cadre}</span>
                             </li>
                         </ul>
+                        : 
+                        <>
+                        <p>{projet.smallDescription}</p>
+                        <p>{projet.longDescription}</p>
+                        <p>{projet.longDescription02}</p>
+                        </>
+                        }
                     </div>
                 </div>
-                <p>{projet.longDescription}</p>
+                {!alternativeIntro ?  <p>{projet.longDescription}</p> : ''}
             </div>
             <div className='projet__colRight'>
                 <img src={`/img/${normalizeLabel(projet.title)}.webp`} alt={`${projet.title} - Marion Charbonnier`} />

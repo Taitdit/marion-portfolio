@@ -1,6 +1,6 @@
 import './Projet.scss'
 
-const BlocProjetDeroule = ({derouleProjet, title}) => {
+const BlocDetailProject = ({detail, title}) => {
     const contenuePart = (img, txt, side, index) => {
         const trueIndex = index + 1
 
@@ -79,13 +79,23 @@ const BlocProjetDeroule = ({derouleProjet, title}) => {
             ) 
         }
     }
-    
+    Object.entries(detail).map(([key, objtPart], index) => {
+        console.log(Object.entries(objtPart))
+    })
     return (
         <section className="projet__deroule">
-            <h2><img src="/img/drapeau.webp" alt="Déroulé du projet picto - Marion Charbonnier" />Déroulé du projet</h2>
+            <h2>
+                
+                <img src={`/img/${detail.picto ? detail.picto : 'drapeau'}.webp`} alt="Déroulé du projet picto - Marion Charbonnier" />
+                {detail.title}
+            </h2>
 
                 <div className='projet__deroule--container'>
-                        {Object.entries(derouleProjet).map(([key, objtPart], index) => {
+                        {Object.entries(detail).map(([key, objtPart], index) => {
+                        
+                        if(key === 'title') return false
+                        if(key === 'picto') return false
+                        
                         const allEmpty = objtPart.imgLeft.length == 0 && objtPart.txtLeft.length == 0 && objtPart.imgRight.length == 0 && objtPart.txtRight.length == 0
                         const fullDivRight = objtPart.imgLeft.length == 0 && objtPart.txtLeft.length == 0
                         const fullDivLeft = objtPart.imgRight.length == 0 && objtPart.txtRight.length == 0
@@ -122,4 +132,4 @@ const BlocProjetDeroule = ({derouleProjet, title}) => {
     )
 }
 
-export default BlocProjetDeroule
+export default BlocDetailProject
