@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom"
 import Bloctitle from "../components/BlocTitle";
 import { useEffect, useState } from "react";
 import BlocProjetMain from "../components/BlocProjetMain";
-import BlocProjetDeroule from "../components/BlocProjetDeroule";
+import BlocDetailProject from "../components/BlocDetailProject";
 import BlocMiseEnSituation from "../components/BlocMiseEnSituation";
 import BlocPagination from "../components/BlocPagination";
 
@@ -68,7 +68,7 @@ const Projet = () => {
         } else {
             setIdNext(parseInt(projets.id) + 1)
         }
-        if(parseInt(parseInt(projets.id)) <= 1) {
+        if (parseInt(projets.id) <= 1) {
             setIdPrev(sizeAllProject)
         } else {
             setIdPrev(parseInt(projets.id) - 1)
@@ -109,18 +109,34 @@ const Projet = () => {
         <section className="projet">
         <Bloctitle title={title} intro='' breadcrumb={projets.title} infoSup={projets.type} />
         <div className='projet__container'>
-            <BlocProjetMain projet={projets}/>
-            {Object.keys(projets?.derouleProjet ?? {}).length 
+            {!projets.projectSpecial ?
+            <BlocProjetMain projet={projets}/> : 
+            <BlocProjetMain projet={projets} alternativeIntro={true} />
+            }
+            {Object.keys(projets?.allDetailProject ?? {}).length 
                 ? 
-                <BlocProjetDeroule title={title} derouleProjet={projets.derouleProjet} />
+                <>
+                {Object.entries(projets.allDetailProject).map(([key, detail]) => {
+                    return (
+                    <BlocDetailProject
+                        key={key}
+                        title={title}
+                        detail={detail}
+                    />
+                    )
+                })
+                }
+                </>
                 : ''
             }
+            {!projets.projectSpecial ? 
+            <>
             {Object.keys(projets?.miseEnSituation ?? {}).length ?
             projets?.miseEnSituation?.urlVideo.length || projets?.miseEnSituation?.pictures.length ?
             <BlocMiseEnSituation title={title} miseEnSituation={projets.miseEnSituation} />
             :''
             : ''
-            }
+            }</> : ''}
             <BlocPagination next={urlNext} prev={urlPrev} />
         </div>
         </section>
