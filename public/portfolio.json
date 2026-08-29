@@ -458,26 +458,27 @@
         "projectSpecial": true,
         "title":"Mes autres créations",
         "smallDescription": "Mon portfolio présente une sélection de projets réalisés au cours de mes expériences professionnelles et de ma formation, mais ce n’est qu’une partie de ce que j’ai pu créer au fil des années.",
-        "type": ["Identité visuelle", "Webdesign", "Infographie"],
+        "type": ["Autres créations"],
         "longDescription": "Pour des clients, pour mes proches, pour des associations ou simplement pour moi, j’ai toujours aimé imaginer, fabriquer et expérimenter. Créations graphiques, dessins, bijoux, bricolages et objets en tout genre : je passe facilement du numérique au manuel, de la 2D à la 3D, selon les idées et les envies.",
         "longDescription02":
         "Certaines créations répondent à un besoin précis, d’autres sont simplement nées de l’envie de tester quelque chose de nouveau. Et c’est une habitude que je continue à entretenir aujourd’hui, parce que créer, chercher comment faire et donner vie à une idée, c’est tout simplement quelque chose que j’adore.",
         "allDetailProject": {
             "detailProject01": {
-                "title": "Créations graphique",
+                "title": "Création graphique",
+                "picto": "creation-graphique",
                 "part01": {
                     "reverseMob":"",
-                    "imgLeft": ["rectangle"],
+                    "imgLeft": ["creation-graphique-haut"],
                     "txtLeft": "",
                     "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
-                    "imgRight": ["rectangle"]
+                    "imgRight": ["creation-graphique-long"]
                 },
                 "part02": {
                     "reverseMob":"",
-                    "imgLeft": ["rectangle"],
-                    "txtLeft": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
+                    "imgLeft": ["creation-graphique-solo"],
+                    "txtLeft": "",
                     "txtRight": "",
-                    "imgRight": ["rectangle"]
+                    "imgRight": ""
                 }
             },
             "detailProject02": {
@@ -485,17 +486,10 @@
                 "picto": "dessin",
                 "part01": {
                     "reverseMob":"",
-                    "imgLeft": ["rectangle"],
+                    "imgLeft": ["dessin-haut"],
                     "txtLeft": "",
                     "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
-                    "imgRight": ["rectangle"]
-                },
-                "part02": {
-                    "reverseMob":"",
-                    "imgLeft": ["rectangle"],
-                    "txtLeft": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
-                    "txtRight": "",
-                    "imgRight": ["rectangle"]
+                    "imgRight": ["dessin-long"]
                 }
             },
             "detailProject03": {
@@ -503,51 +497,46 @@
                 "picto": "bricolage",
                 "part01": {
                     "reverseMob":"",
-                    "imgLeft": ["rectangle"],
+                    "imgLeft": ["bricolage-vitrine"],
                     "txtLeft": "",
                     "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
-                    "imgRight": ["rectangle"]
+                    "imgRight": ["bricolage-long"]
                 },
                 "part02": {
                     "reverseMob":"",
-                    "imgLeft": ["rectangle"],
-                    "txtLeft": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
+                    "imgLeft": ["bricolage-solo"],
+                    "txtLeft": "",
                     "txtRight": "",
-                    "imgRight": ["rectangle"]
+                    "imgRight": ""
                 }
             },
             "detailProject04": {
-                "title": "Bijoux",
+                "title": "Composition florale",
+                "picto": "compositions-florales",
                 "part01": {
                     "reverseMob":"",
-                    "imgLeft": ["rectangle"],
+                    "imgLeft": ["fleurs-bouquets-carré"],
                     "txtLeft": "",
                     "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
-                    "imgRight": ["rectangle"]
+                    "imgRight": ["fleurs-bouquets-rond"]
                 },
                 "part02": {
                     "reverseMob":"",
-                    "imgLeft": ["rectangle"],
-                    "txtLeft": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
+                    "imgLeft": ["fleurs-coussins"],
+                    "txtLeft": "",
                     "txtRight": "",
-                    "imgRight": ["rectangle"]
+                    "imgRight": ""
                 }
             },
             "detailProject05": {
-                "title": "Compositions florales",
+                "title": "Bijoux",
+                "picto": "boucles-oreilles",
                 "part01": {
                     "reverseMob":"",
-                    "imgLeft": ["rectangle"],
+                    "imgLeft": ["bijoux-haut"],
                     "txtLeft": "",
                     "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
-                    "imgRight": ["rectangle"]
-                },
-                "part02": {
-                    "reverseMob":"",
-                    "imgLeft": ["rectangle"],
-                    "txtLeft": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
-                    "txtRight": "",
-                    "imgRight": ["rectangle"]
+                    "imgRight": ["bijjoux-long"]
                 }
             }
         }
