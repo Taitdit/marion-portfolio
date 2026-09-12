@@ -4,9 +4,9 @@ const Mentions =  () => {
             <h1>Mentions légales</h1>
             <section className="mention__part">
                 <h2>Éditeur du site</h2>
-                <p>Le présent site est édité par :<br/><strong>Marion Charbonnier</strong><br/><strong>Graphiste & Webdesigner Freelance</strong></p>
+                <p>Le présent site est édité par :<br/><strong>Marion Charbonnier</strong><br/><strong>Graphiste & Webdesigner</strong></p>
                 <p>E-mail : <a href="mailto:charbonnier.marion@outlook.fr">charbonnier.marion@outlook.fr</a></p>
-                <p>Portfolio : [URL du site]</p>
+                <p>Portfolio : [https://marioncharbonnier.fr]</p>
             </section>
             <section className="mention__part">
                 <h2>Responsable de la publication</h2>
