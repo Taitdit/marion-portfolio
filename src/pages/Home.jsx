@@ -83,8 +83,8 @@ const Home = () => {
         },
         {
             date: "2015 - 2019",
-            intitule: "Vendeuse conseil",
-            title: "NANTES / LORIENT - CDI/CDD",
+            intitule: "Vendeuse conseil / Fleuriste",
+            title: "NANTES / LORIENT - CDD",
             status: "Présentiel",
             description: "Vente, conseil client et préparation de commandes en fleuristerie et en boulangerie."
         },
@@ -167,7 +167,7 @@ const Home = () => {
             <div className='bloc__intitule'>
                 <div className='intitule'>
                     <h2><img src='/img/potions.webp' alt='graphiste - webdesigner'/> Graphiste - Webdesigner</h2>
-                    <p>Vannes et alentours - Mobile (permis B) - Disponible sous 1 mois</p>
+                    <p>Vannes et alentours - Mobile (permis B) - Disponible sous 2 mois</p>
                 </div>
             </div>
             </div>
@@ -179,9 +179,9 @@ const Home = () => {
     const contenuAprime = () => {
         return ( 
         <>
-            <p>J’aime mon métier et ce qu’il me permet de créer au quotidien. Curieuse et motivée, je cherche constamment à développer mes compétences, explorer de nouvelles méthodes et optimiser ma façon de travailler.</p>
+            <p>J’aime mon métier et ce qu’il me permet de créer au quotidien. Curieuse et motivée, je cherche constamment à <strong>développer mes compétences, explorer de nouvelles méthodes et optimiser ma façon de travailler</strong>.</p>
 
-            <p>Chaque projet est pour moi l’occasion de comprendre un besoin et d’apporter une réponse créative, cohérente et adaptée. J’aime explorer différentes pistes afin de concevoir des réalisations qui répondent pleinement aux attentes.</p>
+            <p>Chaque projet est pour moi l’occasion de <strong>comprendre un besoin</strong> et d’<strong>apporter une réponse créative, cohérente et adaptée</strong>. J’aime explorer différentes pistes afin de concevoir des réalisations qui répondent pleinement aux attentes.</p>
         </>
         )
     }
