@@ -23,7 +23,7 @@ const TabContact = () => {
             id:'03',
             title:'Quelles missions puis-je remplir ?',
             img: 'note',
-            details:'Vous pouvez m’envoyer un premier message via le formulaire, puis nous pourrons convenir d’un rendez-vous en face à face, par téléphone ou en visio.'
+            details:"<p>En tant que graphiste webdesigner , je peux intervenir sur des missions variées : <strong>création de visuels, photomontages supports de communication </strong> web et print mais aussi  <strong>création, modification et gestion de sites web </strong>. Et ce n'est qu'un appercu! Ma polyvalence me permet de m'adapter à différents projets et univers.</p>"
         },
         {
             id:'04',
@@ -46,7 +46,7 @@ const TabContact = () => {
             {ask.length ? ask.map((item) => {
                 return (
                  <div key={item.id} className={`ask ${areaTab.includes(item.id) ? 'active' : ''}`}>
-                    <button onClick={() => toggleArea(item.id)} role='button' className={`ask__button ${areaTab.includes(item.id) ? 'active' : ''}`}>
+                      <button onClick={() => toggleArea(item.id)} role='button' className={`ask__button ${areaTab.includes(item.id) ? 'active' : ''}`}>
                         <img src={`/img/${item.img}${dark ? '__b' : ''}.webp`} alt={item.title} /><span>{item.title}</span><span className='ask__arrow'><Arrow/></span>
                     </button>
                     <div className='ask__details--container'>
