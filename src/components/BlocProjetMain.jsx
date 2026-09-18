@@ -13,7 +13,7 @@ const BlocProjetMain = ({projet, alternativeIntro}) => {
     return (
         <section className="projet__main">
             <div className='projet__colLeft'>
-                {!alternativeIntro ? <p>{projet.smallDescription}</p> : ''}
+                {!alternativeIntro ? <p dangerouslySetInnerHTML={{__html: projet.smallDescription}}></p> : ''}
                 <div className='projet__info'>
                     <img src='/img/infoProjet.webp' alt='picto information - Marion Charbonnier' />
                     <div className='projet__info--txt'>
@@ -43,14 +43,14 @@ const BlocProjetMain = ({projet, alternativeIntro}) => {
                         </ul>
                         : 
                         <>
-                        <p>{projet.smallDescription}</p>
-                        <p>{projet.longDescription}</p>
-                        <p>{projet.longDescription02}</p>
+                        <p dangerouslySetInnerHTML={{__html: projet.smallDescription}}></p>
+                        <p dangerouslySetInnerHTML={{__html: projet.longDescription}}></p>
+                        <p dangerouslySetInnerHTML={{__html: projet.longDescription02}}></p>
                         </>
                         }
                     </div>
                 </div>
-                {!alternativeIntro ?  <p>{projet.longDescription}</p> : ''}
+                {!alternativeIntro ?  <p dangerouslySetInnerHTML={{__html: projet.longDescription}}></p> : ''}
             </div>
             <div className='projet__colRight'>
                 <img src={`/img/${normalizeLabel(projet.title)}.webp`} alt={`${projet.title} - Marion Charbonnier`} />

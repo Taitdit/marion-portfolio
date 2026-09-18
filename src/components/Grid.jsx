@@ -91,7 +91,7 @@ const Grid = () => {
                         <span>Tous les projets</span>
                     </button>
                     {arrayFilter.map((filterName, index) => {
-                        const imageNumber = (index % 4) + 1;
+                        const imageNumber = (index % 7) + 1;
                         const labelShort = normalizeLabel(filterName);
                         
                         return ( 

@@ -74,6 +74,11 @@
                 gap: 0.5rem;
                 span {
                     font-size: 14px;
+                    &.txt {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 4px;
+                    }
                     &.intitule {
                         font-weight: bold;
                     }
