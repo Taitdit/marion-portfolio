@@ -128,7 +128,7 @@ const Grid = () => {
                             <div className="project__infos">
                                 <div className="project__infos--txt">
                                     <h2>{item.title}</h2>
-                                    <p>{item.smallDescription}</p>
+                                    <p dangerouslySetInnerHTML={{__html: item.smallDescription}}></p>
                                 </div>
                                 <div className="cta__primary specialCard"><span>Voir le projet</span><img src="/img/btnArrow.webp" alt="fleche bouton" /></div>
                             </div>
