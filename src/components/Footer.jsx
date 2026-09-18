@@ -62,7 +62,7 @@ const Footer = () => {
 
     };
     return (
-        <div className={`footer ${dark ? 'dark' : ''}`}>
+        <footer className={`footer ${dark ? 'dark' : ''}`}>
             <div className='footer__container'>
                 <div className='footer__intro--container'>
                  <h2>Un projet en tête ?</h2>
@@ -78,10 +78,13 @@ const Footer = () => {
 
                     <input
                         id="footer-email"
+                        name="email"
                         type="email"
+                        autoComplete="email"
                         placeholder="exemple@email.com"
                         value={email}
                         aria-invalid={Boolean(error)}
+                        aria-describedby={error ? "footer-email-error" : undefined}
                         onChange={(e) => setEmail(e.target.value)}
                     />
 
@@ -94,11 +97,11 @@ const Footer = () => {
                     </button>
                 </form>
                 {error && (
-                        <p className="footer__msgAlert footer__error">{error}</p>
+                        <p id="footer-email-error" className="footer__msgAlert footer__error" role="alert">{error}</p>
                     )}
 
                     {success && (
-                        <p className="footer__msgAlert footer__success">{success}</p>
+                        <p className="footer__msgAlert footer__success" role="status">{success}</p>
                     )}
 
                 </div>
@@ -136,7 +139,7 @@ const Footer = () => {
                 </nav>
                 
             </div>
-        </div>
+        </footer>
     )
 }
 export default Footer

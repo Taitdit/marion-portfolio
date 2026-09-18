@@ -1,12 +1,13 @@
 import './Home.scss'
+import { Helmet } from 'react-helmet-async'
 import Bloc from '../components/Bloc'
 import WrongCta from '../components/WrongCta'
-import Cta from '../components/Cta'
 import GridCompetences from '../components/GridCompetences'
 import GridXp from '../components/GridXp'
 import Talents from '../components/Talents'
 import { useEffect, useState } from 'react'
 import Chevron from '../components/svg/Chevron'
+import Canonical from '../components/Canonical'
 import BlocNavSecondary from '../components/BlocNavSecondary'
 
 const Home = () => {
@@ -25,7 +26,9 @@ const Home = () => {
             <div className='bloc__B picture'>
                 <div className='caroussel'>
                     <button
+                        type='button'
                         className='arrow'
+                        aria-label="Faire tourner la photo vers la gauche"
                         onClick={() =>
                             setValueCaroussel((currentValue) =>
                                 currentValue === 1 ? 4 : currentValue - 1
@@ -42,7 +45,9 @@ const Home = () => {
                     />
 
                     <button
+                        type='button'
                         className='arrow right'
+                        aria-label="Faire tourner la photo vers la droite"
                         onClick={() =>
                             setValueCaroussel((currentValue) =>
                                 currentValue === 4 ? 1 : currentValue + 1
@@ -149,7 +154,7 @@ const Home = () => {
         return (
         <div className='lvl'>
             <div className='lvl__container'>
-            <img src='/img/epee.webp' alt="Epée - Marion Charbonnier" />
+            <img src='/img/epee.webp' alt="" />
             <div className='lvl__txt'><p className='lvl__title'>Lvl 30</p><p className='lvl__sstxt'>Prête pour de nouvelles aventures</p></div>
             <p className='lvl__sstxt'>Prête pour de nouvelles aventures</p>
             </div>
@@ -166,7 +171,7 @@ const Home = () => {
             <h1>Marion Charbonnier</h1>
             <div className='bloc__intitule'>
                 <div className='intitule'>
-                    <h2><img src='/img/potions.webp' alt='graphiste - webdesigner'/> Graphiste - Webdesigner</h2>
+                    <h2><img src='/img/potions.webp' alt='' /> Graphiste - Webdesigner</h2>
                     <p>Vannes et alentours - Mobile (permis B) - Disponible sous 2 mois</p>
                 </div>
             </div>
@@ -218,76 +223,85 @@ const Home = () => {
     }
 
     return (
-        
-        <div className="home">
-            <div className='home__info'>
-                <div className="home__info-pricipales">
-                    <Bloc wichBloc='A' 
-                    type="tertiary"
-                    contenu={contenuA()} />
-                    <Bloc wichBloc='Aprime' 
-                    picto='cible'
-                    titleContenu='Mes motivations'
-                    contenu={contenuAprime()} />
-                    {blocB()}
-                    <Bloc wichBloc='C' 
-                    contenu={contenuC()} />
-                </div>
-                <div className='home__info-special'>
-                    <div className='col__A col'>
-                        <Bloc wichBloc='C' 
-                        contenu={contenuC()} />
-                        {blocB()}
-                    </div>
-                    <div className='col__B col'>
+        <>
+            <Helmet>
+                <title>Marion Charbonnier | Graphiste & Webdesigner à Vannes</title>
+                <meta
+                    name="description"
+                    content="Portfolio de Marion Charbonnier, graphiste et webdesigner à Vannes. Découvrez mes compétences, mon parcours et mes réalisations en design graphique et web."
+                />
+            </Helmet>
+            <Canonical />
+            <div className="home">
+                <div className='home__info'>
+                    <div className="home__info-pricipales">
+                        <Bloc wichBloc='A' 
+                        type="tertiary"
+                        contenu={contenuA()} />
                         <Bloc wichBloc='Aprime' 
                         picto='cible'
                         titleContenu='Mes motivations'
                         contenu={contenuAprime()} />
-                        <Bloc wichBloc='A' 
-                        type="tertiary"
-                        contenu={contenuA()} />
+                        {blocB()}
+                        <Bloc wichBloc='C' 
+                        contenu={contenuC()} />
                     </div>
-                </div>
-                <div className="home__info-secondaire">
-                    <Bloc wichBloc='D'
-                    picto='coffre'
-                    titleContenu='Compétences'
-                    contenu={contenuDorH('d')} />
-                    <Bloc wichBloc='E' 
-                    titleContenu='Journal de bord'
-                    contenu={contenuEOrF('e')} classSuplementaire='bigFont' picto='journal' type="secondary" />
-                    <div className='bloc__F-container'>
-                        <Bloc wichBloc='A' 
-                        type="tertiary"
-                        contenu={contenuA()} />
-                        <Bloc wichBloc='E' 
-                         titleContenu='Journal de bord'
-                        contenu={contenuEOrF('e')} classSuplementaire='bigFont' picto='journal' type="secondary" />
+                    <div className='home__info-special'>
+                        <div className='col__A col'>
+                            <Bloc wichBloc='C' 
+                            contenu={contenuC()} />
+                            {blocB()}
+                        </div>
+                        <div className='col__B col'>
+                            <Bloc wichBloc='Aprime' 
+                            picto='cible'
+                            titleContenu='Mes motivations'
+                            contenu={contenuAprime()} />
+                            <Bloc wichBloc='A' 
+                            type="tertiary"
+                            contenu={contenuA()} />
+                        </div>
+                    </div>
+                    <div className="home__info-secondaire">
                         <Bloc wichBloc='D'
                         picto='coffre'
                         titleContenu='Compétences'
                         contenu={contenuDorH('d')} />
-                        <Bloc wichBloc='F' 
-                         titleContenu='Quêtes validées'
-                        contenu={contenuEOrF('f')} classSuplementaire='bigFont' picto='badge' />
-                    </div>
-                    <Bloc wichBloc='Aprime'
-                    picto='cible'
-                    titleContenu='Mes motivations'
-                    contenu={contenuAprime()} />
-                    <div className='bloc__G-container'>
-                        <Bloc wichBloc="G" titleContenu="Talents passifs" picto='empty' contenu={contenuG()} />
-                        <div className='bloc__H-container'>
-                            <Bloc wichBloc='H' 
-                            titleContenu='Extras'
-                            picto='empty'
-                            contenu={contenuDorH('h')} />
+                        <Bloc wichBloc='E' 
+                        titleContenu='Journal de bord'
+                        contenu={contenuEOrF('e')} classSuplementaire='bigFont' picto='journal' type="secondary" />
+                        <div className='bloc__F-container'>
+                            <Bloc wichBloc='A' 
+                            type="tertiary"
+                            contenu={contenuA()} />
+                            <Bloc wichBloc='E' 
+                            titleContenu='Journal de bord'
+                            contenu={contenuEOrF('e')} classSuplementaire='bigFont' picto='journal' type="secondary" />
+                            <Bloc wichBloc='D'
+                            picto='coffre'
+                            titleContenu='Compétences'
+                            contenu={contenuDorH('d')} />
+                            <Bloc wichBloc='F' 
+                            titleContenu='Quêtes validées'
+                            contenu={contenuEOrF('f')} classSuplementaire='bigFont' picto='badge' />
+                        </div>
+                        <Bloc wichBloc='Aprime'
+                        picto='cible'
+                        titleContenu='Mes motivations'
+                        contenu={contenuAprime()} />
+                        <div className='bloc__G-container'>
+                            <Bloc wichBloc="G" titleContenu="Talents passifs" picto='empty' contenu={contenuG()} />
+                            <div className='bloc__H-container'>
+                                <Bloc wichBloc='H' 
+                                titleContenu='Extras'
+                                picto='empty'
+                                contenu={contenuDorH('h')} />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 export default Home

@@ -18,7 +18,7 @@ body {
       background-color: $whiteDark;
     }
 }
-main {
+.mainLayout  {
   padding: 1rem;
 }
 
@@ -95,7 +95,7 @@ h2 {
 .no-scroll {
     overflow: hidden;
 }
-main {
+.mainLayout  {
   display: flex;
   align-items: stretch;
   gap: 0;
@@ -103,7 +103,7 @@ main {
     gap: 2rem;
   }
 }
-section.container  {
+main.container  {
   width: 100%;
   &.ml {
     padding-top: 5.5rem;

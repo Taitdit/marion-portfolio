@@ -15,7 +15,7 @@ const BlocProjetMain = ({projet, alternativeIntro}) => {
             <div className='projet__colLeft'>
                 {!alternativeIntro ? <p dangerouslySetInnerHTML={{__html: projet.smallDescription}}></p> : ''}
                 <div className='projet__info'>
-                    <img src='/img/infoProjet.webp' alt='picto information - Marion Charbonnier' />
+                    <img src='/img/infoProjet.webp' alt='' />
                     <div className='projet__info--txt'>
                         <h2>Informations</h2>
                         {!alternativeIntro ? 

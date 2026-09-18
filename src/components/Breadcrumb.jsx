@@ -15,7 +15,7 @@ const Breadcrumb = ({title}) => {
   const current = pathnames[pathnames.length - 1];
 
   return (
-    <nav className="breadcrumb">
+    <nav className="breadcrumb" aria-label="Fil d’Ariane">
       <Link to="/">Accueil</Link>
       {pathnames.map((value, index) => {
           const rawTo = "/" + rawPathnames.slice(0, index + 1).join("/");
@@ -26,8 +26,10 @@ const Breadcrumb = ({title}) => {
           <span key={to}>
           <Arrow />
           {decodeURIComponent(value) === current ? (
-            breadcrumbNameMap[to] ||
-            (to.startsWith("/portfolio/") ? title : value)
+            <span aria-current="page">
+              {breadcrumbNameMap[to] ||
+              (to.startsWith("/portfolio/") ? title : value)}
+            </span>
           ) : (
             <Link to={to}>
               {breadcrumbNameMap[to] ||

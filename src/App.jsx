@@ -13,6 +13,7 @@ import Mentions from "./pages/Mentions"
 import Politique from "./pages/Politique"
 import Header from "./components/Header";
 import Footer from './components/Footer';
+import NotFound from "./pages/NotFound";
 import { DarkModeProvider } from "./contexts/DarkModeContext";
 import {MenuHeaderProvider } from "./contexts/MenuHeaderContext";
 import ScrollToTop from "./components/ScrollToTop";
@@ -27,12 +28,22 @@ const MainLayout = () => {
     <MenuHeaderProvider>
     <DarkModeProvider>
     <ScrollToTop />
-    <main> 
-      <Header />
-        <section className={`container ${location.pathname === '/mentions' || location.pathname === '/politique' ? 'ml' : ''}`}>
-          <Outlet />
-        </section>
-    </main>
+    <div className="mainLayout">
+        <Header />
+
+        <main className={`container ${
+                    location.pathname === '/mentions' ||
+                    location.pathname === '/politique'
+                        ? 'ml'
+                        : ''
+                }`}
+            >
+                <Outlet />
+        </main>
+    </div>
+
+
+    
     <Footer />
     </DarkModeProvider>
     </MenuHeaderProvider>
@@ -53,6 +64,7 @@ const App = () => {
               <Route path="/portfolio/:url" element={<Projet />} />
               <Route path="/mentions" element={<Mentions />} />
               <Route path="/politique" element={<Politique />} />
+              <Route path="*" element={<NotFound />} />
             </Route>
 
           </Routes>

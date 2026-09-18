@@ -17,7 +17,7 @@ const BLocLvl = () => {
                             <p>Graphiste - Webdesigner</p>
                     </div>
                     <div className="lvlNotHome__lvl">
-                        <img src='/img/epee.webp' alt="picto épée - Marion Charbonnier" />
+                        <img src='/img/epee.webp' alt="" />
                         <div className='lvl__txt'><p className='lvl__title'>Lvl 30</p><p className=' '>Prête pour de nouvelles aventures</p></div>
                     </div>
                 </div>
