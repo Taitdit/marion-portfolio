@@ -24,7 +24,7 @@ const Info = () => {
         {
             img: 'disponibilite',
             title: 'Disponibilité',
-            detail: 'Sous  1 mois'
+            detail: 'Sous 2 mois'
         }
     ]
 
