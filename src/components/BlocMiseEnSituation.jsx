@@ -4,7 +4,7 @@ const BlocMiseEnSituation = ({miseEnSituation, title}) => {
     const arrayPictures = miseEnSituation?.pictures || []
     return (
         <section className="projet__situation">
-            <h2><img src="/img/fusee.webp" alt="Déroulé du projet picto - Marion Charbonnier" />Mise en application</h2>
+            <h2><img src="/img/fusee.webp" alt="" />Mise en application</h2>
 
                 <div className='projet__situation--container'>
                         <div className={`projet__situation--grid grid grid--${arrayPictures.length >= 4 ? '4' : arrayPictures.length}`}>

@@ -79,7 +79,7 @@ const Grid = () => {
                     <GridIcon />
                     <span>Tous les projets</span>
                 </button>
-                <button className={`cta__burgerFilter ${burgerFilterState ? 'active' : ''}`} onClick={() => setBurgerFilterState(!burgerFilterState)} role="button">
+                <button className={`cta__burgerFilter ${burgerFilterState ? 'active' : ''}`} onClick={() => setBurgerFilterState(!burgerFilterState)}  type="button" aria-label={burgerFilterState ? "Masquer les filtres" : "Afficher les filtres"} aria-expanded={burgerFilterState}>
                        <FilterIcon /> 
                 </button>
                 <div className={`grid__filter--withoutall--container ${burgerFilterState ? 'active' : ''}`}>
@@ -100,8 +100,9 @@ const Grid = () => {
                             key={filterName}
                             className={`cta__filter ${filterActif.includes(labelShort) ? 'active' : ''}`} 
                             onClick={() => filter(labelShort)}  
-                            type="button">
-                                <img src={`/img/potion-${imageNumber}.webp`} alt={filterName} /> 
+                            type="button"
+                            aria-pressed={filterActif.includes(labelShort)}>
+                                <img src={`/img/potion-${imageNumber}.webp`} alt="" /> 
                                 <span>{filterName}</span>
                             </button>
                         )
@@ -130,7 +131,7 @@ const Grid = () => {
                                     <h2>{item.title}</h2>
                                     <p dangerouslySetInnerHTML={{__html: item.smallDescription}}></p>
                                 </div>
-                                <div className="cta__primary specialCard"><span>Voir le projet</span><img src="/img/btnArrow.webp" alt="fleche bouton" /></div>
+                                <div className="cta__primary specialCard"><span>Voir le projet</span><img src="/img/btnArrow.webp" alt="" /></div>
                             </div>
                         </Link>
                     )
@@ -138,7 +139,7 @@ const Grid = () => {
             </div> : 
             <div className="noproject">
                 <h2>Aucun projet ne correspond à cette combinaison de filtres... pour le moment ! 😉</h2>
-                <p>N'hésitez pas à <button onClick={() => filter('all')} role="button">réinitialiser les filtres</button> pour découvrir l'ensemble de mes réalisations ou à me <Link to='/contact'>contacter</Link> si votre projet sort des sentiers battus.</p>
+                <p>N'hésitez pas à <button onClick={() => filter('all')} type="button">réinitialiser les filtres</button> pour découvrir l'ensemble de mes réalisations ou à me <Link to='/contact'>contacter</Link> si votre projet sort des sentiers battus.</p>
             </div> }
         </div>
   )

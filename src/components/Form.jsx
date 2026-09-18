@@ -158,7 +158,7 @@ const Form = () => {
   return (
     <section className="form">
       <div className="form__heading">
-        <img src={`/img/enveloppe${dark ? '__b' : ''}.webp`} alt="picto contact - Marion Charbonnier" />
+        <img src={`/img/enveloppe${dark ? '__b' : ''}.webp`} alt="" />
 
         <h2 className="form__title">
          Envoyez-moi un message
@@ -311,7 +311,7 @@ const Form = () => {
               <span>
                 {isSending ? "Envoi en cours..." : "Envoyer le message"}
               </span>
-              <img src="/img/btnArrow.webp" alt="fleche bouton" />
+              <img src="/img/btnArrow.webp" alt="" />
 
     
             </button>

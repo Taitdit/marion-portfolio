@@ -21,16 +21,16 @@ const Header = () => {
 
     return (
         <>
-        <section className="header">
+        <header className="header">
             <div className={`header__container ${open ? 'active' : ''}`}>
                 <div className='header__nav'>
                     <div className='nav__img'>
                     {location.pathname !== '/' ? 
-                         <Link role='link' to="/">
-                            <img src='/img/marion-profile.webp' alt='photo profile de Marion Charbonnier' />
+                         <Link aria-label="Accueil" to="/">
+                            <img src='/img/marion-profile.webp' alt="Retour à l'accueil - Marion Charbonnier" />
                         </Link>
                         : 
-                        <img src='/img/marion-profile.webp' alt='photo profile de Marion Charbonnier' />
+                        <img src='/img/marion-profile.webp' alt="Marion Charbonnier" />
                     }
                     <button className={`header__darkmode ${dark ? 'active' : ''}`}  role='button' aria-label='dark mode' onClick={() => toggleDarkMode()}>
                         <SunIcon className='picto' width='49' height='49' />
@@ -39,31 +39,40 @@ const Header = () => {
                     <nav  aria-label="Navigation principale" className='nav__container'>
                         <ul>
                             <li className={`${location.pathname === '/' ? 'active' : ''}`}>
-                                <Link role='button' onClick={(e) => {if (location.pathname === '/') e.preventDefault() }} className={`nav__item ${location.pathname === '/' ? 'active' : ''}`} aria-disabled={location.pathname === '/'} to='/'><HomePicto width='43' height='43' className='picto' /></Link>
+                                <Link aria-label="Accueil" aria-current={location.pathname === '/' ? 'page' : undefined} className={`nav__item ${location.pathname === '/' ? 'active' : ''}`} to='/'><HomePicto width='43' height='43' className='picto' /></Link>
                             </li>
                             <li className={`${location.pathname === '/portfolio' ? 'active' : ''}`}>
-                                <Link role='button' onClick={(e) => {if (location.pathname === '/portfolio') e.preventDefault() }} className={`nav__item ${location.pathname === '/portfolio' ? 'active' : ''}`} aria-disabled={location.pathname === '/portfolio'} to='/portfolio'><PortfolioPicto width='43' height='43' className='picto' /></Link>
+                                <Link aria-label="Portfolio" aria-current={location.pathname === '/portfolio' ? 'page' : undefined} className={`nav__item ${location.pathname === '/portfolio' ? 'active' : ''}`} to='/portfolio'><PortfolioPicto width='43' height='43' className='picto' /></Link>
                             </li>
                             <li className={`${location.pathname === '/contact' ? 'active' : ''}`}>
-                                <Link role='button' onClick={(e) => {if (location.pathname === '/contact') e.preventDefault() }} className={`nav__item ${location.pathname === '/contact' ? 'active' : ''}`} aria-disabled={location.pathname === '/contact'} to='/contact'><ContactPicto width='43' height='43' className='picto'  /></Link>
+                                <Link aria-label="Contact" aria-current={location.pathname === '/contact' ? 'page' : undefined} className={`nav__item ${location.pathname === '/contact' ? 'active' : ''}`} to='/contact'><ContactPicto width='43' height='43' className='picto'  /></Link>
                             </li>
                         </ul>
                     </nav>
                 </div>
 
 
-                    <button className={`header__darkmode ${dark ? 'active' : ''}`}  role='button' aria-label='dark mode' onClick={() => toggleDarkMode()}>
+                    <button type='button' className={`header__darkmode ${dark ? 'active' : ''}`}  aria-label={
+                        dark
+                            ? "Activer le mode clair"
+                            : "Activer le mode sombre"
+                    } onClick={() => toggleDarkMode()}>
                         <SunIcon className='picto' width='49' height='49' />
                     </button>
 
             </div>
                 <div className='header__burger'>
-                    <button className="burger__button" onClick={() => toggleMenu()}>
+                    <button type='button' className="burger__button" aria-label={
+                            open
+                                ? "Fermer le menu"
+                                : "Ouvrir le menu"
+                        }
+                        aria-expanded={open} onClick={() => toggleMenu()}>
                         <BurgerPicto state={open ? 'open' : 'close'} />
                     </button>
                 </div>
 
-        </section>
+        </header>
         {open ? <div onClick={() => toggleMenu()} className='background__header'></div> : ''}
         </>
     )

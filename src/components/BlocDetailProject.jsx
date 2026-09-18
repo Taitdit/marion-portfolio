@@ -79,14 +79,12 @@ const BlocDetailProject = ({detail, title}) => {
             ) 
         }
     }
-    Object.entries(detail).map(([key, objtPart], index) => {
-        console.log(Object.entries(objtPart))
-    })
+
     return (
         <section className="projet__deroule">
             <h2>
                 
-                <img src={`/img/${detail.picto ? detail.picto : 'drapeau'}.webp`} alt="Déroulé du projet picto - Marion Charbonnier" />
+                <img src={`/img/${detail.picto ? detail.picto : 'drapeau'}.webp`} alt="Déroulé du projet - Marion Charbonnier" />
                 {detail.title}
             </h2>
 

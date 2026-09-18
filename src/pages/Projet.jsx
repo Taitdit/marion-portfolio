@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async'
 import { useParams } from "react-router-dom"
 import Bloctitle from "../components/BlocTitle";
 import { useEffect, useState } from "react";
@@ -5,6 +6,8 @@ import BlocProjetMain from "../components/BlocProjetMain";
 import BlocDetailProject from "../components/BlocDetailProject";
 import BlocMiseEnSituation from "../components/BlocMiseEnSituation";
 import BlocPagination from "../components/BlocPagination";
+import Canonical from '../components/Canonical';
+import NotFound from './NotFound';
 
 const Projet = () => {
     const { url } = useParams();
@@ -47,7 +50,8 @@ const Projet = () => {
             );
 
             if (!projetTrouve) {
-            throw new Error("Projet introuvable");
+                setError("not-found");
+                return;
             }
 
             setProjets(projetTrouve);
@@ -100,46 +104,64 @@ const Projet = () => {
         return <p>Chargement...</p>;
     }
 
+    if (error === "not-found") {
+        return <NotFound />;
+    }
+
     if (error) {
         return <p>{error}</p>;
     }
 
     const title = `Projet : ${projets.title}`
     return (
-        <section className="projet">
-        <Bloctitle title={title} intro='' breadcrumb={projets.title} infoSup={projets.type} />
-        <div className='projet__container'>
-            {!projets.projectSpecial ?
-            <BlocProjetMain projet={projets}/> : 
-            <BlocProjetMain projet={projets} alternativeIntro={true} />
-            }
-            {Object.keys(projets?.allDetailProject ?? {}).length 
-                ? 
-                <>
-                {Object.entries(projets.allDetailProject).map(([key, detail]) => {
-                    return (
-                    <BlocDetailProject
-                        key={key}
-                        title={title}
-                        detail={detail}
-                    />
-                    )
-                })
+        <>
+            <Helmet>
+                <title>{`${projets.title} | Portfolio de Marion Charbonnier`}</title>
+             <meta
+                name="description"
+                content={
+                    projets.projectSpecial
+                        ? "Découvrez les autres créations de Marion Charbonnier : une sélection de réalisations en graphisme, webdesign, print et communication visuelle."
+                        : `Découvrez le projet ${projets.title}, une réalisation présentée dans le portfolio de Marion Charbonnier, graphiste et webdesigner.`
                 }
-                </>
+            />
+            </Helmet>
+            <Canonical url={`/portfolio/projet-${normalizeLabel(projets.title)}`} />
+            <section className="projet">
+            <Bloctitle title={title} intro='' breadcrumb={projets.title} infoSup={projets.type} />
+            <div className='projet__container'>
+                {!projets.projectSpecial ?
+                <BlocProjetMain projet={projets}/> : 
+                <BlocProjetMain projet={projets} alternativeIntro={true} />
+                }
+                {Object.keys(projets?.allDetailProject ?? {}).length 
+                    ? 
+                    <>
+                    {Object.entries(projets.allDetailProject).map(([key, detail]) => {
+                        return (
+                        <BlocDetailProject
+                            key={key}
+                            title={title}
+                            detail={detail}
+                        />
+                        )
+                    })
+                    }
+                    </>
+                    : ''
+                }
+                {!projets.projectSpecial ? 
+                <>
+                {Object.keys(projets?.miseEnSituation ?? {}).length ?
+                projets?.miseEnSituation?.urlVideo.length || projets?.miseEnSituation?.pictures.length ?
+                <BlocMiseEnSituation title={title} miseEnSituation={projets.miseEnSituation} />
+                :''
                 : ''
-            }
-            {!projets.projectSpecial ? 
-            <>
-            {Object.keys(projets?.miseEnSituation ?? {}).length ?
-            projets?.miseEnSituation?.urlVideo.length || projets?.miseEnSituation?.pictures.length ?
-            <BlocMiseEnSituation title={title} miseEnSituation={projets.miseEnSituation} />
-            :''
-            : ''
-            }</> : ''}
-            <BlocPagination next={urlNext} prev={urlPrev} />
-        </div>
-        </section>
+                }</> : ''}
+                <BlocPagination next={urlNext} prev={urlPrev} />
+            </div>
+            </section>
+        </>
     )
 }
 

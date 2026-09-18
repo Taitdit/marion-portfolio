@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 
 const Cta = ({label, picto, withPicto, url, targetBlank, type}) => {
-    const wichPicto = !picto && `no-picture`
+    const wichPicto = picto || "no-picture";
     return (
         <>
         {!targetBlank ? 
         <Link to={url} className={`cta__${type}`}>
-            {withPicto ? <img src={`/img/${wichPicto}.webp`} alt={`Picto de ${label} - Marion Charbonnier`} />: ''}<span>{label}</span>
+            {withPicto ? <img src={`/img/${wichPicto}.webp`} alt="" />: ''}<span>{label}</span>
         </Link>
         :
             <a href={url} title={label} className={`cta__${type}`}>{label}</a>
