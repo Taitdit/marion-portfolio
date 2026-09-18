@@ -11,13 +11,13 @@ const TabContact = () => {
             id:'01',
             title:'Quel mode de travail je privilégie ?',
             img: 'screen',
-            details:'Je préfère travailler en présentiel, même si un mélange présentiel/télétravail ne me dérange pas.'
+            details:'<p>Je préfère travailler en présentiel, même si un mélange présentiel/télétravail ne me dérange pas.</p>'
         },
         {
             id:'02',
             title:'Comment peut-on échanger ?',
             img: 'bulle',
-            details:'Vous pouvez m’envoyer un premier message via le formulaire, puis nous pourrons convenir d’un rendez-vous en face à face, par téléphone ou en visio.'
+            details:'<p>Vous pouvez m’envoyer un premier message via le formulaire, puis nous pourrons convenir d’un rendez-vous en face à face, par téléphone ou en visio.</p>'
         },
         {
             id:'03',
@@ -29,7 +29,7 @@ const TabContact = () => {
             id:'04',
             title:'Suis-je freelance ?',
             img: 'valise',
-            details:'Je recherche vraiment un contrat en CDI mais je peux aussi répondre à des missions occasionnelles comme auto entrepreneur.'
+            details:'<p>Je recherche vraiment un contrat en CDI mais je peux aussi répondre à des missions occasionnelles comme auto entrepreneur.</p>'
         }
     ]
 
@@ -50,8 +50,7 @@ const TabContact = () => {
                         <img src={`/img/${item.img}${dark ? '__b' : ''}.webp`} alt={item.title} /><span>{item.title}</span><span className='ask__arrow'><Arrow/></span>
                     </button>
                     <div className='ask__details--container'>
-                        <div className='ask__details'>
-                            <p>{item.details}</p>
+                        <div className='ask__details' dangerouslySetInnerHTML={{ __html: item.details }}>
                         </div>
                     </div>
                  </div>   
