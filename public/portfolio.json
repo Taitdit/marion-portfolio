@@ -20,7 +20,7 @@
                     "imgRight": ["projet-brieuc-logos", ["Quelques déclinaisons du logo"]]
                 },
                 "part02": {
-                    "reverseMob":"true",
+                    "reverseMob":"",
                     "imgLeft": [],
                     "txtLeft": "<h3>Poser les bases de l’identité</h3><br><p>Le projet s’est déroulé sur plusieurs semaines, avec un premier travail d’échange permettant de <strong>comprendre l’activité, le positionnement et les attentes du client</strong>.</p><p>L’objectif était de <strong>moderniser les codes traditionnels du secteur funéraire</strong>, tout en conservant le sérieux et la sobriété indispensables à ce domaine. J’ai donc commencé par définir une identité visuelle* qui servirait de fil conducteur à l’ensemble du projet.</p>",
                     "txtRight":"",
@@ -34,7 +34,7 @@
                     "imgRight": ["projet-brieuc-mockup"]
                 },
                 "part04": {
-                    "reverseMob":"",
+                    "reverseMob":"true",
                     "imgLeft": ["projet-brieuc-designsystem4", ["Header du site web (Entête)"]],
                     "txtLeft": "<h3>Les rendus finaux</h3><br><p>Le projet a abouti à une <strong>identité visuelle complète et déclinable</strong>, composée du logotype, de ses variantes, d’une palette colorimétrique et de différents éléments graphiques ensuite transposés au site web.</p><p>La maquette finale reprend cet univers à travers une interface sobre et claire, ponctuée de formes arrondies et de touches de couleur apportant davantage de chaleur.</p><p>Ce projet m’a permis de travailler sur une problématique particulièrement intéressante : <strong>trouver l’équilibre entre les codes d’un secteur sensible, les attentes d’un client réel et la volonté de proposer une identité plus moderne et différenciante</strong>.</p><br><br><h3>Petit Lexique</h3><br><p><strong>Identité visuelle*</strong> : ensemble des éléments graphiques qui permettent de reconnaître une marque.</p><br><p><strong>Logotype*</strong> : représentation graphique du nom ou du symbole d’une entreprise.</p><br><p><strong>Déclinaison*</strong> : adaptation d’un élément graphique à différents formats et usages.</p><br><p><strong>Zoning*</strong> : schéma permettant d’organiser les grandes zones d’une page avant sa conception graphique.</p><br><p><strong>UI (User Interface)*</strong>: conception graphique d’une interface.</p><br><p><strong>Responsive*</strong> : conception permettant à un site de s’adapter aux différentes tailles d’écran.</p>",
                     "txtRight": "",
@@ -157,7 +157,7 @@
         "title":"Nextgen EdTech",
         "smallDescription": "Conception du site web, création des supports graphiques et réalisation d’une vidéo de présentation en motion design pour NextGen EdTech.",
         "type": ["Webdesign", "Infographie", "Animation", "Montage vidéo" ],
-        "technoOutils": ["Figma", "Adobe Illustrator", "Photoshop"],
+        "technoOutils": ["Figma", "Adobe Illustrator", "After effect", "Première Pro", "Lottiefiles"],
         "date": "2022",
         "cadre": "Projet réel",
         "longDescription": "NextGen EdTech est une entreprise spécialisée dans la formation aux outils numériques, qui propose notamment des formations, masterclass et workshops à destination des établissements d’enseignement et centres de formation, autour du NoCode et de la création d’applications.",
@@ -176,7 +176,7 @@
             "part02": {
                 "reverseMob":"",
                 "imgLeft": ["projet-nextgen-bannière-instagram", ["Bannière Instagram"]],
-                "txtLeft": "<h3>Développement sous WordPress</h3><br><p>Après validation de la maquette, j’ai pris en charge la <strong>création du site</strong> sous WordPress, en intégrant les différents contenus textuels fournis par la cliente ainsi que les visuels réalisés pour le projet.</p><p> L’objectif était de <strong>construire un site clair et cohérent permettant de présenter les différentes facettes de NextGen EdTech</strong>, tout en utilisant les illustrations pour structurer les pages et mettre en valeur les contenus.</p><p>Le site a ainsi été décliné sur plusieurs pages consacrées notamment à la présentation de l’entreprise, aux contenus pédagogiques et au recrutement des étudiants.</p>",
+                "txtLeft": "<h3>Développement sous WordPress</h3><br><p>Après validation de la maquette, j’ai pris en charge la <strong>création du site</strong> sous WordPress, en intégrant les différents contenus textuels fournis par la cliente ainsi que les visuels réalisés pour le projet.</p><p> L’objectif était de <strong>construire un site clair et cohérent permettant de présenter les différentes facettes de NextGen EdTech</strong>, tout en utilisant les illustrations pour structurer les pages et mettre en valeur les contenus.</p><p>Le site a ainsi été décliné sur plusieurs pages consacrées notamment à la présentation de l’entreprise, aux contenus pédagogiques et au recrutement des étudiants.</p><br>",
                 "txtRight": "<h3>Création des supports graphiques</h3><br><p>En parallèle du site, j’ai adapté et créé plusieurs illustrations et infographies en reprenant les couleurs et l’univers graphique de NextGen EdTech.</p><p>Ces visuels ont été pensés pour illustrer les différentes thématiques abordées par l’entreprise et <strong>créer une continuité visuelle</strong> entre ses supports.</p><p>J’ai également réalisé différentes bannières pour les réseaux sociaux, notamment pour LinkedIn et Facebook, afin de <strong>décliner cette identité sur les différents canaux de communication</strong> de l’entreprise.</p>",
                 "imgRight": ["projet-nextgen-illustration-appmobile"]
             },
@@ -253,7 +253,7 @@
         "title":"Chez Lolotte",
         "smallDescription": "Création de l’identité visuelle et conception d’un site WordPress pour un diner américain fictif inspiré de l’univers rétro des années 50.",
         "type": ["Identité visuelle", "Webdesign", "Infographie"],
-        "technoOutils": ["Adobe Illustrator", "Wordpress"],
+        "technoOutils": ["Adobe Illustrator", "Photoshop", "Wordpress"],
         "date": "2022",
         "cadre": "Projet étudiant fictif",
         "longDescription": "Chez Lolotte est un concept fictif de diner américain imaginé autour de l’esthétique des années 50. L’univers associe les codes emblématiques des diners américains à une identité colorée et féminine, principalement construite autour du bleu turquoise, du rose et des motifs à carreaux.",
@@ -313,7 +313,7 @@
         "detailProject01": {
             "title": "Déroulé du projet",
             "part01": {
-                "reverseMob":"",
+                "reverseMob":"true",
                 "imgLeft": ["projet-travelture-logo"],
                 "txtLeft": "<br><br><h3>Création de l’identité et des maquettes</h3><br><p>Même si la création d’une identité visuelle n’était pas demandée, j’ai souhaité donner une véritable cohérence au projet en créant le nom Travelture, contraction de travel et adventure, ainsi qu’un logo associant un avion et un repère de localisation.</p><br><p>J’ai ensuite réalisé le <strong>zoning* puis les maquettes</strong> des différentes pages avant de passer au développement.L’interface repose largement sur les photographies de destinations, accompagnées d’une palette de verts et de bleus. J’ai cherché à garder une <strong>mise en page simple</strong> pour laisser une place importante aux visuels et faciliter (pour la suite) la recherche des différents séjours.</p><br><br><br><h3>Intégration du site</h3><br><p>Une fois les maquettes définies, j’ai développé le site en <strong>HTML, CSS et JavaScript</strong>.</p><p>Le projet comprend plusieurs pages et fonctionnalités : une page d’accueil présentant les séjours et destinations, un système de recherche et de filtres (non fonctionnel), une page regroupant les différents séjours, une présentation de l’entreprise et de son équipe ainsi qu’une page de contact.</p><br><p>J’ai également travaillé les <strong>effets au survol</strong>, différents composants de l’interface et l’adaptation du site aux différentes tailles d’écran.</p>",
                 "txtRight": "<h3>Un projet d’intégration web</h3><br><p>Travelture a été réalisé dans le cadre de mon Bachelor Webdesigner, pour un cours consacré à l’intégration web. Le thème était libre, mais le projet devait obligatoirement intégrer plusieurs éléments imposés, comme des menus déroulants, des média queries et d’autres composants travaillés en cours.</p><p> J’ai choisi de créer un site de réservation de séjours afin de construire un projet <strong>suffisamment complet pour mettre en pratique ces différentes notions </strong>.",
@@ -327,7 +327,7 @@
                 "imgRight": ["projet-travelture-partie-basse", ["Partie centrale de la homepage"]]
             },
             "part03": {
-                "reverseMob":"",
+                "reverseMob":"true",
                 "imgLeft": ["projet-travelture-zoom-sejours", ["Cartes de présentation de voyages, avec effet au survol"]],
                 "txtLeft": "",
                 "txtRight": "<h3>Petit Lexique</h3><br><p><strong>Zoning*</strong>: Découpage simplifié d’une page permettant de définir l’emplacement et la hiérarchie des différents contenus avant la création de la maquette.</p><br><p><strong>Intégration Web*</strong>: Étape qui consiste à transformer une maquette graphique en pages web à l’aide de langages comme HTML, CSS et JavaScript par exemple.</p><br><p><strong>Responsive design*</strong>:Conception permettant à un site de s’adapter aux différentes tailles d’écran : ordinateur, tablette ou smartphone.</p><br><p><strong>Media query*</strong>: Règle CSS permettant de modifier l'affichage d'un site en fonction notamment de la taille de l'écran.</p><br><p><strong>HTML / CSS / JavaScript*</strong>: Langages utilisés pour structurer les contenus d’une page, gérer leur apparence et ajouter des comportements interactifs.</p><br>",
@@ -376,7 +376,7 @@
                 "imgLeft": ["projet-dikedeco-vitrine-ete"],
                 "txtLeft": "",
                 "txtRight": "<h3>Des univers pour toute l'année</h3><br><p>L'activité de Dike Déco ne se limite pas à Noël. Je réalise également des photomontages pour accompagner les différents <strong>temps forts commerciaux et événements de l'année</strong> : Foire aux vins, été, Pâques, Saint-Valentin, rentrée scolaire, événements sportifs ou opérations plus ponctuelles.</p><br><p> Les demandes sont très variées : <strong>décoration de vitrines, mises en scène de produits, espaces saisonniers, décors suspendus ou aménagements plus importants</strong> dans des magasins et centres commerciaux.</p><br><p> Chaque thématique demande de construire un <strong>univers visuel différent</strong>, en sélectionnant et en associant les éléments les plus <strong>adaptés au lieu et à l'événement</strong>. Une ambiance estivale colorée, une mise en scène autour du vin ou une décoration de Saint-Valentin ne répondent pas aux mêmes codes ni aux mêmes contraintes.</p><p>Cette diversité m'amène à <strong>adapter constamment mes compositions et ma manière de travailler</strong>, tout en conservant le même objectif : proposer au client une représentation claire et attractive de ce que son espace pourra devenir une fois le décor installé.</p>",
-                "imgRight": ["projet-dikedeco-visuel-site", ["Exemple de visuel publiés sur le site"]]
+                "imgRight": ["projet-dikedeco-visuel-site", ["Exemple de visuel publié sur le site"]]
             },
             "part04": {
                 "reverseMob":"",
@@ -459,9 +459,9 @@
         "title":"Mes autres créations",
         "smallDescription": "Mon portfolio présente une sélection de projets réalisés au cours de mes expériences professionnelles et de ma formation, mais ce n’est qu’une partie de ce que j’ai pu créer au fil des années.",
         "type": ["Autres créations"],
-        "longDescription": "Pour des clients, pour mes proches, pour des associations ou simplement pour moi, j’ai toujours aimé imaginer, fabriquer et expérimenter. Créations graphiques, dessins, bijoux, bricolages et objets en tout genre : je passe facilement du numérique au manuel, de la 2D à la 3D, selon les idées et les envies.",
+        "longDescription": "<p>Pour des clients, pour mes proches, pour des associations ou simplement pour moi, j’ai toujours aimé <strong>imaginer, fabriquer et expérimenter</strong>. Créations graphiques, dessins, bijoux, bricolages et objets en tout genre : <strong>je passe facilement du numérique au manuel, de la 2D à la 3D</strong>, selon les idées et les envies.</p>",
         "longDescription02":
-        "Certaines créations répondent à un besoin précis, d’autres sont simplement nées de l’envie de tester quelque chose de nouveau. Et c’est une habitude que je continue à entretenir aujourd’hui, parce que créer, chercher comment faire et donner vie à une idée, c’est tout simplement quelque chose que j’adore.",
+        "<p>Certaines créations répondent à un besoin précis, d’autres sont simplement nées de l’envie de tester quelque chose de nouveau. Et c’est une habitude que je continue à entretenir aujourd’hui, parce que créer, et </strong>donner vie à une idée<strong>, c’est tout simplement quelque chose que j’adore.</p>",
         "allDetailProject": {
             "detailProject01": {
                 "title": "Création graphique",
@@ -470,7 +470,7 @@
                     "reverseMob":"",
                     "imgLeft": ["creation-graphique-haut"],
                     "txtLeft": "",
-                    "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
+                    "txtRight": "<p>J’aime créer et expérimenter, que ce soit pour moi, pour des amis ou dans le cadre de projets étudiants. <strong>Affiches, photomontages, illustrations, visuels pour vêtements</strong>… c’est souvent l’occasion de tester de nouvelles choses, de jouer avec différents styles et surtout de mélanger des univers qui n’ont parfois pas grand-chose à voir entre eux.<p><br></p>J’ai par exemple revisité le Monopoly dans un style Art déco des années 20-30, puis imaginé une autre version autour du surréalisme. J’ai aussi réalisé un autoportrait réunissant plusieurs facettes de ma personnalité, une <strong>campagne d’affiches</strong> sur la dépression et les handicaps invisibles, ou encore <strong>réimaginé un album de Seal</strong> dans un univers pop et psychédélique des années 60-70.<p><br></p>Au final, <strong>j’aime surtout ne pas me limiter à un seul univers</strong>. Je peux passer d’un univers très coloré à quelque chose de beaucoup plus sobre, partir d’une idée un peu improbable et voir jusqu’où je peux la pousser.</p>.",
                     "imgRight": ["creation-graphique-long"]
                 },
                 "part02": {
@@ -488,7 +488,7 @@
                     "reverseMob":"",
                     "imgLeft": ["dessin-haut"],
                     "txtLeft": "",
-                    "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
+                    "txtRight": "<p>J’ai toujours aimé dessiner, surtout ce qui m’entoure et ce qui attire mon regard. Une fleur, un animal, un objet du quotidien… parfois même une simple banane peut devenir un bon sujet !</p><br><p> J’utilise beaucoup les crayons aquarellables, que j’aime pour leur côté à mi-chemin entre le dessin et la peinture, et je commence aussi à expérimenter davantage avec l’aquarelle. Je m’exerce notamment avec des natures mortes, qui me permettent de travailler les formes, les couleurs, les ombres et les petits détails.</p><br><p>Je dessine avant tout pour le plaisir, pour <strong>essayer, observer, progresser et découvrir</strong> petit à petit de nouvelles façons de faire.</p>.",
                     "imgRight": ["dessin-long"]
                 }
             },
@@ -498,8 +498,8 @@
                 "part01": {
                     "reverseMob":"",
                     "imgLeft": ["bricolage-vitrine"],
-                    "txtLeft": "",
-                    "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
+                    "txtLeft": "<p>J’aime beaucoup chercher <strong>comment détourner un objet ou un matériau</strong> pour lui donner une seconde vie, quitte à tester, découper, coller et recommencer jusqu’à ce que ça fonctionne. Bon… ce sont aussi des projets qui prennent vite beaucoup de place, alors ce n’est clairement pas le genre de chantier que je commence tous les quatre matins !</p>",
+                    "txtRight": "<p>J’aime <strong>bricoler, bidouiller</strong> et surtout <strong>essayer de fabriquer quelque chose à partir de presque rien</strong>. Pour mon mariage, par exemple, j’ai réalisé environ 75 % de la décoration moi-même, en utilisant beaucoup de matériaux de récupération et quelques objets parfois assez improbables : bouteilles de bière, carton, capsules, pots, bâtonnets de glace, cure-dents, cotons-tiges (non utilisés, bien sûr 😄), et même de vieilles bottes d’enfants.</p><br><p>C’est comme ça qu’une botte s’est transformée en maison de korrigan, que des brindilles, de la mousse du jardin et des morceaux d'ecorces sont devenus une petite boîte aux lettres, que des cotons tiges sont devenus des roseaux, ou encore que des bouteilles ont servi de pieds à des champignons géants. Même les toutes petites choses y passent : une capsule de bière peut très bien devenir le moule d’une tarte aux myrtilles miniature !</p><br>",
                     "imgRight": ["bricolage-long"]
                 },
                 "part02": {
@@ -514,10 +514,10 @@
                 "title": "Composition florale",
                 "picto": "compositions-florales",
                 "part01": {
-                    "reverseMob":"",
+                    "reverseMob":"true",
                     "imgLeft": ["fleurs-bouquets-carré"],
-                    "txtLeft": "",
-                    "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
+                    "txtLeft": "<p>Côté création, j’ai eu l’occasion de faire un peu de tout : <strong>des bouquets, des compositions</strong>, mais aussi de plus grosses pièces comme <strong>des gerbes ou des coussins de fleurs</strong>. J’ai heureusement gardé quelques photos de cette période… et surtout quelques bons réflexes !</p><br><p> Même si je ne travaille plus dans ce domaine aujourd’hui, je n’ai pas complètement laissé les fleurs de côté. Dès qu’il faut décorer une table pour un événement, préparer une composition ou simplement offrir des fleurs à mes proches, c’est toujours avec plaisir que je m’y remets. <p><br></p>J’ai d’ailleurs adoré tout cet univers : l’ambiance du marché, les échanges avec les autres stands, les habitués, les journées où l’on n’a pas vraiment le temps de s’arrêter et où l’on court d’un client à l’autre… C’était <strong>vivant, parfois intense, mais c’est aussi ce qui rendait le travail vraiment sympa</strong>.</p>",
+                    "txtRight": "<p>J’ai travaillé quelques années dans la fleuristerie, et c’est un métier dans lequel je me suis vraiment éclatée. J’adorais le mélange entre <strong>création et contact avec les clients</strong>, mais aussi le fait de jouer avec les fleurs, les couleurs, les formes et les textures pour créer quelque chose de différent à chaque fois.</p><br><p> À cette époque, je travaillais presque tout le temps en extérieur, entre le marché aux fleurs, notre point de vente installé dans une sorte de petit préfabriqué métallique ouvert, et le marché de Talensac (au coeur de Nantes).</p>.",
                     "imgRight": ["fleurs-bouquets-rond"]
                 },
                 "part02": {
@@ -535,7 +535,7 @@
                     "reverseMob":"",
                     "imgLeft": ["bijoux-haut"],
                     "txtLeft": "",
-                    "txtRight": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit lacinia venenatis.</p><p>Praesent elit nulla, hendrerit a luctus at, lobortis sit amet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non justo non odio suscipit eleifend ut dignissim lacus. In mi elit, consectetur vel augue at, finibus imperdiet velit.</p><p>Sed vel lorem lorem. Nulla tristique magna non facilisis dignissim.</p><p>Phasellus quis nunc pellentesque, malesuada lacus id, venenatis dolor. Aenean tincidunt consectetur lacus, sed pharetra massa pharetra eget. Phasellus porttitor lobortis erat, sed commodo urna scelerisque eu.</p>.",
+                    "txtRight": "<p>endant un temps, je me suis beaucoup amusée à créer des bijoux fantaisie, et principalement des boucles d’oreilles. J’en ai réalisé un sacré paquet, <strong>en jouant avec les perles, les couleurs, les formes</strong> et les petits éléments décoratifs pour essayer de créer à chaque fois de nouvelles associations.</p><br><p>C’était aussi une activité qui demandait pas mal de <strong>patience et de minutie</strong> : assembler de toutes petites pièces, manier les pinces, tester différentes combinaisons… et parfois démonter pour tout recommencer parce que le résultat ne me plaisait finalement plus !</p><br><p>J’en ai gardé une jolie collection de photos, et  encore quelques boîtes de perles qui traînent dans un placard...</p>.",
                     "imgRight": ["bijjoux-long"]
                 }
             }
