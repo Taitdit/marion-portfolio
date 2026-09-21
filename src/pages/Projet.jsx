@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 import { useParams } from "react-router-dom"
-import Bloctitle from "../components/BlocTitle";
+import BlocTitle from "../components/BlocTitle";
 import { useEffect, useState } from "react";
 import BlocProjetMain from "../components/BlocProjetMain";
 import BlocDetailProject from "../components/BlocDetailProject";
@@ -128,7 +128,7 @@ const Projet = () => {
             </Helmet>
             <Canonical url={`/portfolio/projet-${normalizeLabel(projets.title)}`} />
             <section className="projet">
-            <Bloctitle title={title} intro='' breadcrumb={projets.title} infoSup={projets.type} />
+            <BlocTitle title={title} intro='' breadcrumb={projets.title} infoSup={projets.type} />
             <div className='projet__container'>
                 {!projets.projectSpecial ?
                 <BlocProjetMain projet={projets}/> : 

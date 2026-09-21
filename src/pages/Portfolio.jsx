@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async'
-import Bloctitle from "../components/Bloctitle"
+import BlocTitle from "../components/BlocTitle"
 import Grid from "../components/Grid"
 import Canonical from '../components/Canonical'
 
@@ -21,7 +21,7 @@ const Portfolio = () => {
             />
         </Helmet>
         <Canonical url="/portfolio" />
-        <Bloctitle title="Portfolio" intro={introContenu()} />
+        <BlocTitle title="Portfolio" intro={introContenu()} />
         <div className='portfolio__container'>
             <Grid />
         </div>

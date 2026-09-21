@@ -2,12 +2,13 @@ import BLocLvl from '../components/BlocLvl'
 import './BlocTitle.scss'
 import Breadcrumb from './Breadcrumb'
 
-const Bloctitle = ({title, intro, infoSup, breadcrumb}) => {
-    
+const BlocTitle = ({title, intro, infoSup, breadcrumb, is404 = false}) => {
+    console.log('dkgdmo')
+    console.log(is404)
     return (
         <div className="title__container">
             <div className="title__right">
-                <BLocLvl />
+                <BLocLvl is404={is404} />
             </div>
             <div className="title__left">
                 {breadcrumb ? <Breadcrumb title={breadcrumb} /> : ''}
@@ -20,4 +21,4 @@ const Bloctitle = ({title, intro, infoSup, breadcrumb}) => {
         </div>
     )
 }
-export default Bloctitle
+export default BlocTitle

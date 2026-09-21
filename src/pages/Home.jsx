@@ -118,7 +118,7 @@ const Home = () => {
         },
         {
             titleFormation: "Bac - Littéraire",
-            title: "Option arts plastique / Histoire des arts",
+            title: "Option arts plastiques / Histoire des arts",
             description: "Lycée Ernest Renan - St BRIEUC"
         },
     ]

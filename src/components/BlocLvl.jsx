@@ -3,7 +3,7 @@ import Bloc from './Bloc'
 import './BLocLvl.scss'
 import BlocNavSecondary from './BlocNavSecondary'
 
-const BLocLvl = () => {
+const BLocLvl = ({is404 = false}) => {
     const lvlNotHome = () => {
         return (
         <div className='lvlNotHome'>
@@ -22,7 +22,7 @@ const BLocLvl = () => {
                     </div>
                 </div>
             </Link>
-            <BlocNavSecondary />
+            <BlocNavSecondary is404={is404} />
         </div>
         )
     }
