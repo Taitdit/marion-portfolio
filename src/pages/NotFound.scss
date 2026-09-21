@@ -41,7 +41,12 @@
     }
 }
 
-
-
-
-// primaryDark;
+.dark {
+    .notFound {
+        h1 {
+            span {
+                color: $primaryDark;
+            }
+        }
+    }
+}

@@ -7,9 +7,9 @@ const NotFound = () => {
     return (
         <>
         <Helmet>
-                <title>Page introuvable | Marion Charbonnier</title>
-                <meta name="robots" content="noindex, follow" />
-            </Helmet>
+            <title>Page introuvable | Marion Charbonnier</title>
+            <meta name="robots" content="noindex, follow" />
+        </Helmet>
         <BlocTitle is404 />
         <section className="notFound">
             <h1>“404”<span>Oups !</span></h1>
