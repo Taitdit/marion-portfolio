@@ -3,8 +3,6 @@ import './BlocTitle.scss'
 import Breadcrumb from './Breadcrumb'
 
 const BlocTitle = ({title, intro, infoSup, breadcrumb, is404 = false}) => {
-    console.log('dkgdmo')
-    console.log(is404)
     return (
         <div className="title__container">
             <div className="title__right">
