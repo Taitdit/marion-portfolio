@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async'
-import Bloctitle from '../components/Bloctitle'
+import BlocTitle from '../components/BlocTitle'
 import Form from '../components/Form'
 import Info from '../components/Info'
 import Canonical from '../components/Canonical'
@@ -17,7 +17,7 @@ const Contact = () => {
             />
         </Helmet>
         <Canonical url="/contact" />
-        <Bloctitle title="Contactez-moi" intro={introContenu()} />
+        <BlocTitle title="Contactez-moi" intro={introContenu()} />
         <div className='contact__container'>
             <div id='contact-form' className='contact__form'>
                 <Form />

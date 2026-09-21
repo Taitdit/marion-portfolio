@@ -1,0 +1,52 @@
+@use "../variables" as *;
+@use "../mixin" as *;
+
+.notFound {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        font-size: 15rem;
+        text-align: center;
+        line-height: 0.8;
+        span {
+            display: block;
+            font-family: $font-title;
+            font-size: 4rem;
+            color: $primary;
+            line-height: 0.8;
+
+        }
+    }
+    &__subtitle {
+        font-family: $font-title;
+        font-size: 1.4rem;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 2rem;
+        span {
+            font-family: $font;
+            display: block;
+
+        }
+    }
+    .cta__primary {
+        min-width: 250px;
+        &:before {
+            transform: translateX(-100%);
+        }
+        img {
+            rotate: 180deg;
+        }
+    }
+}
+
+.dark {
+    .notFound {
+        h1 {
+            span {
+                color: $primaryDark;
+            }
+        }
+    }
+}
