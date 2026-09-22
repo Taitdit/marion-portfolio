@@ -32,7 +32,7 @@ const Header = () => {
                         : 
                         <img src='/img/marion-profile.webp' alt="Marion Charbonnier" />
                     }
-                    <button className={`header__darkmode ${dark ? 'active' : ''}`}  role='button' aria-label='dark mode' onClick={() => toggleDarkMode()}>
+                    <button className={`header__darkmode ${dark ? 'active' : ''}`}  type='button' aria-label='dark mode' onClick={() => toggleDarkMode()}>
                         <SunIcon className='picto' width='49' height='49' />
                     </button>
                     </div>
