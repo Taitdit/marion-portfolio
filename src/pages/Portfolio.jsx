@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async'
 import BlocTitle from "../components/BlocTitle"
 import Grid from "../components/Grid"
 import Canonical from '../components/Canonical'
+import OpenGraph from '../components/OpenGraph'
 
 const Portfolio = () => {
     const introContenu = () => (
@@ -20,6 +21,11 @@ const Portfolio = () => {
                 content="Découvrez le portfolio de Marion Charbonnier : projets de graphisme, webdesign, identité visuelle et créations digitales."
             />
         </Helmet>
+        <OpenGraph
+            title="Portfolio | Marion Charbonnier - Graphiste & Webdesigner"
+            description="Découvrez le portfolio de Marion Charbonnier : projets de graphisme, webdesign, identité visuelle et créations digitales."
+            url="/portfolio"
+        />
         <Canonical url="/portfolio" />
         <BlocTitle title="Portfolio" intro={introContenu()} />
         <div className='portfolio__container'>

@@ -11,7 +11,7 @@ const BlocDetailProject = ({detail, title}) => {
                 return (
                     <iframe
                         src={`https://www.youtube-nocookie.com/embed/${urlYoutube[1]}`}
-                        title={`Vidéo du ${title} de Marion Charbonnier`}
+                        title={`Présentation vidéo du projet ${title} de Marion Charbonnier`}
                         loading="lazy"
                         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
