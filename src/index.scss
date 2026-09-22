@@ -10,7 +10,19 @@
 html {
     scroll-behavior: smooth;
 }
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
 
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}
 body {
     background-color: $white;
     font-size: 16px;
@@ -40,6 +52,24 @@ img {
       font-size: 1rem;
     }
 }
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    outline: 3px solid $text;
+    outline-offset: 3px;
+}
+.dark {
+    a:focus-visible,
+    button:focus-visible,
+    input:focus-visible,
+    textarea:focus-visible,
+    select:focus-visible {
+        outline-color: $textDark;
+    }
+}
+
 .mention, .mention * {
   font-size: 13px;
   color: $metionColor;
@@ -177,7 +207,7 @@ main.container  {
       background-color: $primaryDark;
       transition: all ease 0.25s;
     }
-    &:not(.specialCard):hover {
+    &:not(.specialCard):hover, &:not(.specialCard):focus-visible {
       &::before {
         transform: translateX(0);
       }
@@ -219,7 +249,7 @@ main.container  {
       background-color: $hoverCtaSecondary;
       transition: all ease 0.25s;
     }
-    &:hover {
+    &:hover, &:focus-visible {
       &::before {
         transform: translateX(0);
       }
@@ -254,7 +284,7 @@ main.container  {
           font-weight: 500;
         }
         
-        &:hover {
+        &:hover, &:focus-visible {
           box-shadow: none;
           border-color: $text;
         }
@@ -315,7 +345,7 @@ main.container  {
       background-color: $hoverCtaSecondary;
       transition: all ease 0.25s;
     }
-    &:hover {
+    &:hover, &:focus-visible {
       &::before {
         transform: translateX(0);
       }

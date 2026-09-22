@@ -1,7 +1,8 @@
 import { Helmet } from "react-helmet-async";
+import { SITE_URL } from "../config/site";
 
 const Canonical = ({ url = "" }) => {
-    const domain = "https://marioncharbonnier.fr";
+    const domain = SITE_URL;
 
     return (
         <Helmet>

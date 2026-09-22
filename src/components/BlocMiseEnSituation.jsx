@@ -32,7 +32,7 @@ const BlocMiseEnSituation = ({miseEnSituation, title}) => {
                             <div className="video">
                                 <iframe
                                     src={`https://www.youtube-nocookie.com/embed/${miseEnSituation.urlVideo}`}
-                                    title={`Vidéo du ${title} de Marion Charbonnier`}
+                                    title={`Présentation vidéo du projet ${title} de Marion Charbonnier`}
                                     loading="lazy"
                                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowFullScreen

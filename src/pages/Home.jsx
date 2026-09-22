@@ -8,6 +8,7 @@ import Talents from '../components/Talents'
 import { useEffect, useState } from 'react'
 import Chevron from '../components/svg/Chevron'
 import Canonical from '../components/Canonical'
+import OpenGraph from '../components/OpenGraph'
 import BlocNavSecondary from '../components/BlocNavSecondary'
 
 const Home = () => {
@@ -231,6 +232,7 @@ const Home = () => {
                     content="Portfolio de Marion Charbonnier, graphiste et webdesigner à Vannes. Découvrez mes compétences, mon parcours et mes réalisations en design graphique et web."
                 />
             </Helmet>
+            <OpenGraph title="Marion Charbonnier | Graphiste & Webdesigner à Vannes" description="Portfolio de Marion Charbonnier, graphiste et webdesigner à Vannes. Découvrez mes compétences, mon parcours et mes réalisations en design graphique et web."/>
             <Canonical />
             <div className="home">
                 <div className='home__info'>

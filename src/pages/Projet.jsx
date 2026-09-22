@@ -7,6 +7,7 @@ import BlocDetailProject from "../components/BlocDetailProject";
 import BlocMiseEnSituation from "../components/BlocMiseEnSituation";
 import BlocPagination from "../components/BlocPagination";
 import Canonical from '../components/Canonical';
+import OpenGraph from '../components/OpenGraph'
 import NotFound from './NotFound';
 
 const Projet = () => {
@@ -126,6 +127,16 @@ const Projet = () => {
                 }
             />
             </Helmet>
+            <OpenGraph
+                title={`${projets.title} | Portfolio de Marion Charbonnier`}
+                description={
+                    projets.projectSpecial
+                        ? "Découvrez les autres créations de Marion Charbonnier : une sélection de réalisations en graphisme, webdesign, print et communication visuelle."
+                        : `Découvrez le projet ${projets.title}, une réalisation présentée dans le portfolio de Marion Charbonnier, graphiste et webdesigner.`
+                }
+                url={`/portfolio/projet-${normalizeLabel(projets.title)}`}
+                image={`/img/${normalizeLabel(projets.title)}.webp`}
+            />            
             <Canonical url={`/portfolio/projet-${normalizeLabel(projets.title)}`} />
             <section className="projet">
             <BlocTitle title={title} intro='' breadcrumb={projets.title} infoSup={projets.type} />

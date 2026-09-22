@@ -3,6 +3,7 @@ import BlocTitle from '../components/BlocTitle'
 import Form from '../components/Form'
 import Info from '../components/Info'
 import Canonical from '../components/Canonical'
+import OpenGraph from '../components/OpenGraph'
 import './Contact.scss'
 
 const Contact = () => {
@@ -16,6 +17,11 @@ const Contact = () => {
                 content="Contactez Marion Charbonnier, graphiste et webdesigner à Vannes, pour échanger autour d'un projet, d'une collaboration ou d'une opportunité professionnelle."
             />
         </Helmet>
+        <OpenGraph
+            title="Contact | Marion Charbonnier - Graphiste & Webdesigner"
+            description="Contactez Marion Charbonnier, graphiste et webdesigner à Vannes, pour échanger autour d'un projet, d'une collaboration ou d'une opportunité professionnelle."
+            url="/contact"
+        />
         <Canonical url="/contact" />
         <BlocTitle title="Contactez-moi" intro={introContenu()} />
         <div className='contact__container'>
