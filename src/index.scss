@@ -1,6 +1,15 @@
 @use "./variables" as *;
 @use "./mixin" as *;
 
+
+:root {
+    color-scheme: light;
+}
+
+.dark {
+    color-scheme: dark;
+}
+
 .open {
   overflow: hidden;
   @include smallDesktop {
