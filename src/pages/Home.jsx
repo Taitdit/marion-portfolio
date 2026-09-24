@@ -173,7 +173,7 @@ const Home = () => {
             <div className='bloc__intitule'>
                 <div className='intitule'>
                     <h2><img src='/img/potions.webp' alt='' /> Graphiste - Webdesigner</h2>
-                    <p>Vannes et alentours - Mobile (permis B) - Disponible sous 2 mois</p>
+                    <p>Vannes et alentours - Mobile (permis B) - Disponible sous 1 mois</p>
                 </div>
             </div>
             </div>
